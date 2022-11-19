@@ -1,0 +1,3 @@
+-r:Microsoft.VisualBasic.dll
+-r:System.Deployment.dll
+-r:Microsoft.Data.Analysis.dll
