@@ -8,21 +8,10 @@ using UnityEditor;
 public class loadDataBehaviour : MonoBehaviour
 {
     [SerializeField] private TextAsset dataAsset;
+    public DataFrame Data;
     // Start is called before the first frame update
     void Start()
     {
-        
-        TextFieldParser csvParser = new TextFieldParser(AssetDatabase.GetAssetPath(dataAsset));
-        csvParser.CommentTokens = new string[] { "#" };
-        csvParser.SetDelimiters(new string[] {","});
-        csvParser.HasFieldsEnclosedInQuotes = true;
-    
-        csvParser.ReadLine();
-
-        while (!csvParser.EndOfData)
-        {
-            string[] fields = csvParser.ReadFields();
-        }
         DataFrame readData = DataFrame.LoadCsvFromString(dataAsset.ToString(), header:false);
         Debug.Log("File read!");
         bool[] arrayBool = {false,true,false,true,true,false};
@@ -32,11 +21,18 @@ public class loadDataBehaviour : MonoBehaviour
         DataFrame subData = new DataFrame(dfcArray);
         Debug.Log((readData[arrayBool]).ToString());
         Debug.Log(subData.ToString());
+        Data = readData;
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public DataFrame GetDataFrame(){
+
+        return Data;
+
     }
 }
