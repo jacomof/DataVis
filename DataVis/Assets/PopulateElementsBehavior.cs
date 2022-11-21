@@ -10,7 +10,30 @@ public class PopulateElementsBehavior : MonoBehaviour
     // Start is called before the first frame update
     float[,] _valueMatrix;  
     Vector3[] _valueVectors;
+
+    [SerializeField] GameObject VisualizationElement;
     void Start()
+    {
+        
+        /*
+        Debug.Log("Size is: " + _size[0].ToString() + ", " + _size[1].ToString());
+        for(long i = 0; i < _size[0]; ++i){
+                var _xVal = (float) _data[i,0];
+                var _yVal = (float) _data[i,1];
+                var _zVal = (float) _data[i,2];
+                _valueVectors[i] = new Vector3(_xVal,_yVal,_zVal);
+        }
+        */
+
+
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+     public void DoPopulate()
     {
         var loadData = gameObject.GetComponent<loadDataBehaviour>();
         var _data = loadData.GetDataFrame();
@@ -37,22 +60,7 @@ public class PopulateElementsBehavior : MonoBehaviour
             }
 
         }
-        /*
-        Debug.Log("Size is: " + _size[0].ToString() + ", " + _size[1].ToString());
-        for(long i = 0; i < _size[0]; ++i){
-                var _xVal = (float) _data[i,0];
-                var _yVal = (float) _data[i,1];
-                var _zVal = (float) _data[i,2];
-                _valueVectors[i] = new Vector3(_xVal,_yVal,_zVal);
-        }
-        */
 
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

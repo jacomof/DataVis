@@ -11,13 +11,9 @@ public class loadDataBehaviour : MonoBehaviour
     [SerializeField] private bool HasHeader;
     public DataFrame Data;
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
-        DataFrame readData = DataFrame.LoadCsvFromString(dataAsset.ToString(), header:true);
-        Debug.Log("File read!");
-        bool[] arrayBool = {false,true,false,true,true,false};
-        //Debug.Log(readData.ToString());
-        Data = readData;
+        
     }
 
     // Update is called once per frame
@@ -26,9 +22,19 @@ public class loadDataBehaviour : MonoBehaviour
         
     }
 
+    public void loadData()
+    {
+        DataFrame readData = DataFrame.LoadCsvFromString(dataAsset.ToString(), header:true);
+        Debug.Log("File read!");
+        bool[] arrayBool = {false,true,false,true,true,false};
+        //Debug.Log(readData.ToString());
+        Data = readData;
+    }
+
     public DataFrame GetDataFrame(){
 
         return Data;
 
     }
+
 }

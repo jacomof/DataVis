@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028328, g: 0.22571328, b: 0.3069218, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 793885209}
   - component: {fileID: 793885208}
   - component: {fileID: 793885207}
-  - component: {fileID: 793885206}
   m_Layer: 0
   m_Name: VisualizationPlane
   m_TagString: Untagged
@@ -143,18 +142,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &793885206
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 793885205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 405831c234aecbb4e8ec272950b93eb7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!64 &793885207
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -574,6 +561,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 405831c234aecbb4e8ec272950b93eb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Size: 1
+  _Enabled: 1
 --- !u!114 &2053598356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -586,6 +575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14ddf0a19bbc6104598d8bed48e44740, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  VisualizationElement: {fileID: 0}
 --- !u!114 &2053598357
 MonoBehaviour:
   m_ObjectHideFlags: 0
