@@ -2,25 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class lineFactory : MonoBehaviour
+public class LineFactory : MonoBehaviour
 {
     // Start is called before the first frame update
-    private readonly Vector2 PLANE_SIZE = new Vector2(10.0f, 10.0f);
+    private static float PLANE_SIZE = VisualizationBehavior.PLANE_SIZE;
     [SerializeField] private float unit;
     [SerializeField] private LineRenderer Lineprefab;
     private int _numRows=0;
     private int _numColumns=0;
 
-    
-    private Vector3[] planeMatrix; 
+    private Vector3 AxisScale;
+
     void Start()
     {
-        _numRows = (int) Mathf.RoundToInt(PLANE_SIZE.x/unit);
-        _numColumns = (int) Mathf.RoundToInt(PLANE_SIZE.y/unit);
-        
-        initializeXZPlaneGrid();
-        initializeXYPlaneGrid();
-        initializeYZPlaneGrid();
+        ConstructGrid();
     }
 
     // Update is called once per frame
@@ -28,7 +23,16 @@ public class lineFactory : MonoBehaviour
     {
         
     }
+    public void ConstructGrid(){
 
+        _numRows = (int) Mathf.RoundToInt(PLANE_SIZE/unit);
+        _numColumns = (int) Mathf.RoundToInt(PLANE_SIZE/unit);
+        
+        initializeXZPlaneGrid();
+        initializeXYPlaneGrid();
+        initializeYZPlaneGrid();
+
+    }
     private void initializeXZPlaneGrid(){
         Vector3 _ori = gameObject.transform.position;
         Vector3 _xdif = new Vector3(unit, 0, 0);
@@ -41,7 +45,7 @@ public class lineFactory : MonoBehaviour
                 LineRenderer localLine = Instantiate(Lineprefab, gameObject.transform);
                 localLine.transform.position = _posIter;
                 localLine.SetPosition(0, new Vector3());
-                Vector3 _upperPosition = new Vector3(0, PLANE_SIZE.y, 0);
+                Vector3 _upperPosition = new Vector3(0, PLANE_SIZE, 0);
                 localLine.SetPosition(1, _upperPosition);
                 _posIter += _xdif;
 
@@ -63,7 +67,7 @@ public class lineFactory : MonoBehaviour
                 LineRenderer localLine = Instantiate(Lineprefab, gameObject.transform);
                 localLine.transform.position = _posIter;
                 localLine.SetPosition(0, new Vector3());
-                Vector3 _upperPosition = new Vector3(0, 0, PLANE_SIZE.y);
+                Vector3 _upperPosition = new Vector3(0, 0, PLANE_SIZE);
                 localLine.SetPosition(1, _upperPosition);
                 _posIter += _xdif;
 
@@ -84,7 +88,7 @@ public class lineFactory : MonoBehaviour
                 LineRenderer localLine = Instantiate(Lineprefab, gameObject.transform);
                 localLine.transform.position = _posIter;
                 localLine.SetPosition(0, new Vector3());
-                Vector3 _upperPosition = new Vector3(PLANE_SIZE.y, 0, 0);
+                Vector3 _upperPosition = new Vector3(PLANE_SIZE, 0, 0);
                 localLine.SetPosition(1, _upperPosition);
                 _posIter += _zdif;
 

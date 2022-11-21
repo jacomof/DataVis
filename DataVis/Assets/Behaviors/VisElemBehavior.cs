@@ -8,6 +8,7 @@ public class VisElemBehavior : MonoBehaviour
     [SerializeField] private float _size;
     [SerializeField] private Color _color;
     // Start is called before the first frame update
+    
     void Start()
     {
         gameObject.transform.localScale = new Vector3(_size, _size, _size);
