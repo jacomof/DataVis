@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731704, g: 0.13414729, b: 0.121078685, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -155,7 +155,7 @@ Transform:
   m_Children:
   - {fileID: 2069942927}
   m_Father: {fileID: 884562406}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!120 &224777307
 LineRenderer:
@@ -208,8 +208,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.007587433
-        value: 0.10967827
+        time: 0.003036499
+        value: 0.2000103
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -268,9 +268,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b65f3deafab8b0248e0b0aac81680a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyAxisId: 0
-  Label: 
-  StripeText: {fileID: 0}
+  MyAxisId: 2
+  Label: Zlabel
+  StripeText: {fileID: 2391803655682089894, guid: 5e1a193b5e8e27ae4979f2c54c0012b4,
+    type: 3}
 --- !u!1 &720168504
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,9 +397,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 224777306}
-  - {fileID: 1936575905}
   - {fileID: 1375152646}
+  - {fileID: 1936575905}
+  - {fileID: 224777306}
   - {fileID: 720168505}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -413,6 +414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1375152646}
   - component: {fileID: 1375152647}
+  - component: {fileID: 1375152648}
   m_Layer: 0
   m_Name: LineX
   m_TagString: Untagged
@@ -433,7 +435,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 884562406}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!120 &1375152647
 LineRenderer:
@@ -534,6 +536,22 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 0
   m_Loop: 0
+--- !u!114 &1375152648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375152645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b65f3deafab8b0248e0b0aac81680a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MyAxisId: 0
+  Label: XLabel
+  StripeText: {fileID: 2391803655682089894, guid: 5e1a193b5e8e27ae4979f2c54c0012b4,
+    type: 3}
 --- !u!1 &1936575904
 GameObject:
   m_ObjectHideFlags: 0
@@ -544,6 +562,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1936575905}
   - component: {fileID: 1936575906}
+  - component: {fileID: 1936575907}
   m_Layer: 0
   m_Name: LineY
   m_TagString: Untagged
@@ -618,7 +637,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.11612892
+        value: 0.19999123
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -665,6 +684,22 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 0
   m_Loop: 0
+--- !u!114 &1936575907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936575904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b65f3deafab8b0248e0b0aac81680a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MyAxisId: 1
+  Label: YLabel
+  StripeText: {fileID: 2391803655682089894, guid: 5e1a193b5e8e27ae4979f2c54c0012b4,
+    type: 3}
 --- !u!1 &2045350279
 GameObject:
   m_ObjectHideFlags: 0
