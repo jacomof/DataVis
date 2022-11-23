@@ -13,7 +13,6 @@ public class VisElemBehavior : MonoBehaviour
     {
         gameObject.transform.localScale = new Vector3(_size, _size, _size);
         var _renderer = gameObject.GetComponent<Renderer>();
-        _renderer.material.SetColor("_EmissionColor", _color);
         _renderer.material.SetColor("_BaseColor", _color);
 
 

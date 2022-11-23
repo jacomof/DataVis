@@ -11,6 +11,14 @@ public class VisualizationBehavior : MonoBehaviour
     public Vector3 AxisScale; 
     public static float PLANE_SIZE = 10.0f;
 
+    public enum VisualizationTypeEnum{
+        Scatter,
+        Bar
+    }
+
+    public VisualizationTypeEnum VisualizationType;
+    
+    
     [SerializeField] GameObject _Grid;
 
     [SerializeField] private bool EnableGrid;
@@ -21,14 +29,24 @@ public class VisualizationBehavior : MonoBehaviour
         gameObject.SetActive(_Enabled);
         Debug.Log("Hello there, I'm the visualization!");
         var _loadData = gameObject.GetComponent<LoadDataBehaviour>();
-        var _populateBehavior = gameObject.GetComponent<PopulateElementsScatter>();
+        _loadData.LoadData();
+        switch (VisualizationType)
+        {
+            case VisualizationTypeEnum.Scatter:
+                var _populateBehaviorSca = gameObject.GetComponent<PopulateElementsScatter>();
+                _populateBehaviorSca.DoPopulate();
+                break;
+            case VisualizationTypeEnum.Bar:
+                var _populateBehaviorBar = gameObject.GetComponent<PopulateElementsBar>();
+                _populateBehaviorBar.DoPopulate();
+                break;
+
+            default:
+                throw new System.Exception("No Visualization Type selected!");
+
+        }
         var _lineFactory = gameObject.GetComponent<LineFactory>();
 
-        _loadData.LoadData();
-        AxisScale = _populateBehavior.DoPopulate();
-        
-    
-        
     }
 
     // Update is called once per frame
