@@ -61,7 +61,11 @@ public class PopulateElementsBar : MonoBehaviour
                 break;
 
             }else{
-                AxisScale[j] = (float) _col.Max();
+                //Since there'll be categorical data in X and Z dimensions, number of elements is taken as scale 
+                if(j == 0 || j == 2)
+                    AxisScale[j] = _size[0];
+                else
+                    AxisScale[j] = (float) _col.Max();
                 foreach(var elem in _col){
                     
                     _valueMatrix[i,j] = (float) elem;
@@ -80,14 +84,28 @@ public class PopulateElementsBar : MonoBehaviour
     private void placeElems(float[,] _valueMatrix)
     {
         var plane_size = VisualizationBehavior.PLANE_SIZE;
-        for(int i = 0; i < _valueMatrix.GetLength(0); ++i){
+        float _unitX = plane_size/AxisScale.x;
+        float _unitZ = plane_size/AxisScale.z;
+        float _unitMiddle = _unitX/2;
 
-            var _visTop = plane_size - Margin;
+        int numElemX = (int) AxisScale.x;
+        int numElemZ = (int) AxisScale.z;
+
+
+        for(int i = 0; i < numElemZ; ++i){
+            for(int j = 0; i < numElemX; ++j){
+        
+            /*var _visTop = plane_size - Margin;
             var _pointPos = new Vector3((_valueMatrix[i,0]), 0, (_valueMatrix[i,2]));
             _pointPos = new Vector3(_pointPos.x/AxisScale.x, 0, _pointPos.z/AxisScale.z);
-            _pointPos = _pointPos*_visTop;
+            _pointPos = _pointPos*_visTop;*/
+            var posx = _unitMiddle + (((float)i)*_unitZ);
+            var posz = _unitMiddle + (((float)j)*_unitX);
+            var _pos = new Vector3(posx, 0, posz);
             var _point = Instantiate(VisualizationElement, gameObject.transform);
-            _point.transform.position = _pointPos;
+            _point.transform.position = _pos;
+            
+            }
 
         }
         Debug.Log(AxisScale.ToString());
