@@ -47,7 +47,7 @@ public class PopulateElementsScatter : MonoBehaviour
         var _scaleSize = (gameObject.transform.localScale.x)*(PLANE_SIZE);
         Debug.Log("_scaleSize es: " + _scaleSize.ToString());
         var loadData = gameObject.GetComponent<LoadDataBehaviour>();
-        var _data = loadData.GetDataFrame();
+        var _data = loadData.LoadNumeric();
         var _size = new int[]{_data.Rows.ToList().Count, _data.Columns.ToList().Count};
         _valueVectors = new Vector3[_size[0]];
         _valueMatrix = new float[_size[0],3];

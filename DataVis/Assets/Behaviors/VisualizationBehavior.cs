@@ -6,18 +6,20 @@ using UnityEngine;
 
 public class VisualizationBehavior : MonoBehaviour
 {
-    [SerializeField] private float Size;
+    public float Size {get; set;}
     [SerializeField] private bool _Enabled;
     public Vector3 AxisScale; 
     public static float PLANE_SIZE = 10.0f;
 
     public enum VisualizationTypeEnum{
         Scatter,
-        Bar
+        Bar,
+        Line
     }
 
     public VisualizationTypeEnum VisualizationType;
     
+    public GameObject _axis;
     
     [SerializeField] GameObject _Grid;
 
@@ -28,8 +30,6 @@ public class VisualizationBehavior : MonoBehaviour
         gameObject.transform.localScale = new Vector3(Size,Size,Size);
         gameObject.SetActive(_Enabled);
         Debug.Log("Hello there, I'm the visualization!");
-        var _loadData = gameObject.GetComponent<LoadDataBehaviour>();
-        _loadData.LoadData();
         switch (VisualizationType)
         {
             case VisualizationTypeEnum.Scatter:
@@ -40,7 +40,10 @@ public class VisualizationBehavior : MonoBehaviour
                 var _populateBehaviorBar = gameObject.GetComponent<PopulateElementsBar>();
                 _populateBehaviorBar.DoPopulate();
                 break;
-
+            case VisualizationTypeEnum.Line:
+                var _populateBehaviorLine = gameObject.GetComponent<PopulateElementsLine>();
+                _populateBehaviorLine.DoPopulate();
+                break;
             default:
                 throw new System.Exception("No Visualization Type selected!");
 
