@@ -7,6 +7,10 @@ using UnityEngine;
 public class AxisParentBehavior : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    public int NumberOfXLabels = 10;
+    public int NumberOfYLabels = 10;
+    public int NumberOfZLabels = 10;
     public GameObject[] MyChildren;
     void Start()
     {
@@ -19,12 +23,17 @@ public class AxisParentBehavior : MonoBehaviour
         
     }
 
-    void initializeLines (List<string>[] _labelLists)
+    public void initializeLines (System.Object[] _labelLists)
     {
+        
+        int[] _labelNum = new int[]{NumberOfXLabels,NumberOfYLabels,NumberOfZLabels};
         int i = 0;
-        foreach(var _axis in MyChildren){
 
+        //Order of initialization: X, Y, Z
+        foreach(var _axis in MyChildren){
+            
             var initializer = _axis.GetComponent<AxisBehavior>();
+            initializer.NumberOfLabels = _labelNum[i];
             initializer.initializeAxis(_labelLists[i]);
             i++;
 

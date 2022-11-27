@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class VisualizationBehavior : MonoBehaviour
 {
-    public float Size {get; set;}
+    public float Size;
     [SerializeField] private bool _Enabled;
     public Vector3 AxisScale; 
     public static float PLANE_SIZE = 10.0f;

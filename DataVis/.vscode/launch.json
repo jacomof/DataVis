@@ -7,7 +7,7 @@
         {
             "name": "Unity Editor",
             "type": "unity",
-            "path": "/C:/Users/joaqu/DataVis/DataVis/Library/EditorInstance.json",
+            "path": "/home/joaquin/DataVis/Library/EditorInstance.json",
             "request": "launch"
         },
         {

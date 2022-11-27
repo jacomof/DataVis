@@ -13,7 +13,8 @@ public class PopulateElementsBar : MonoBehaviour
     private float _scaleSize;
     public Vector3 AxisScale{get; private set;}
     [SerializeField] private float Margin = 0.0f;
-    [SerializeField] GameObject VisualizationElement;
+    [SerializeField] private GameObject VisualizationElement;
+    
 
     public struct VisualizationElementCell
     {
@@ -41,7 +42,7 @@ public class PopulateElementsBar : MonoBehaviour
         var _scaleSize = (gameObject.transform.localScale.x)*(PLANE_SIZE);
         Debug.Log("_scaleSize es: " + _scaleSize.ToString());
         var loadData = gameObject.GetComponent<LoadDataBehaviour>();
-        var _data = loadData.LoadNumeric();
+        var _data = loadData.LoadCategoric();
 
         //------Construct floor matrix where the numeric values will be placed----------
         
@@ -89,9 +90,17 @@ public class PopulateElementsBar : MonoBehaviour
             _barFloorMatrix[_catIndex1, _catIndex2].NumericValue = _val;
         }
         
+        float _maxYValue = (float) _data.Columns[2].Max();
+
         //Set Axis parameter for position calculation and enable quick access to it from outside the class
-        AxisScale = new Vector3(_numCatValues1, (float) _data.Columns[2].Max(), _numCatValues2);
+        AxisScale = new Vector3(_numCatValues1, _maxYValue, _numCatValues2);
+        
+        //Place elements inside the visualization using obtained data
         placeElems(_barFloorMatrix);
+
+        //Use labels to initialize the axis
+        initializeAxisLabels(_catValues1, _maxYValue,_catValues2);
+
         return AxisScale;
 
     }
@@ -124,7 +133,7 @@ public class PopulateElementsBar : MonoBehaviour
                     var _pos = new Vector3(_posX, _posY, _posZ);
 
                     //Set size of bar
-                    Vector3 _size = new Vector3(_unitX*0.8f, _ySize, _unitZ*0.8f);
+                    Vector3 _size = new Vector3(_unitX*0.5f, _ySize, _unitZ*0.5f);
 
                     //Color ranges from blue to red on Z axis
                     //And from blue to green on X axis
@@ -149,6 +158,19 @@ public class PopulateElementsBar : MonoBehaviour
         }
 
         Debug.Log(AxisScale.ToString());
+
+    }
+
+    private void initializeAxisLabels(DataFrame _catValues1, float _maxYValue,DataFrame _catValues2)
+    {
+
+        List<string> _labelListX = _catValues1.Columns.GetStringColumn("Values").ToList<string>();
+        List<string> _labelListZ = _catValues2.Columns.GetStringColumn("Values").ToList<string>();
+        
+        VisualizationBehavior _visBehave = gameObject.GetComponent<VisualizationBehavior>(); 
+        System.Object[] _objList = new System.Object[]{_labelListX, _maxYValue,_labelListZ};
+        AxisParentBehavior _axisParentBehav = _visBehave._axis.GetComponent<AxisParentBehavior>();
+        _axisParentBehav.initializeLines(_objList);
 
     }
 }
