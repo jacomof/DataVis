@@ -12,6 +12,7 @@ public class AxisParentBehavior : MonoBehaviour
     public int NumberOfYLabels = 10;
     public int NumberOfZLabels = 10;
     public GameObject[] MyChildren;
+    public bool IsXZNumeric = false;
     void Start()
     {
         
@@ -34,6 +35,7 @@ public class AxisParentBehavior : MonoBehaviour
             
             var initializer = _axis.GetComponent<AxisBehavior>();
             initializer.NumberOfLabels = _labelNum[i];
+            initializer.IsXZNumeric = IsXZNumeric;
             initializer.initializeAxis(_labelLists[i]);
             i++;
 

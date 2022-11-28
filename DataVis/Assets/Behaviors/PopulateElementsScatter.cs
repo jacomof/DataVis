@@ -21,18 +21,6 @@ public class PopulateElementsScatter : MonoBehaviour
     [SerializeField] GameObject VisualizationElement;
     void Start()
     {
-        
-        /*
-        Debug.Log("Size is: " + _size[0].ToString() + ", " + _size[1].ToString());
-        for(long i = 0; i < _size[0]; ++i){
-                var _xVal = (float) _data[i,0];
-                var _yVal = (float) _data[i,1];
-                var _zVal = (float) _data[i,2];
-                _valueVectors[i] = new Vector3(_xVal,_yVal,_zVal);
-        }
-        */
-        
-
 
     }
     // Update is called once per frame
@@ -41,6 +29,8 @@ public class PopulateElementsScatter : MonoBehaviour
         
     }
     //Pre: LoadDataBehavior has a filled DataFrame from which point data can be extracted
+    //The data is assumed to have the order X, Y, Z (meaning column 1 is X data, column 2 is Y data 
+    //and column 3 is Z data, this is for convenience since the visualization is essentialy a set of 3D points)
     //Post: The visualization is populated with scatter points representing the input data
      public Vector3 DoPopulate()
     {
@@ -51,6 +41,7 @@ public class PopulateElementsScatter : MonoBehaviour
         var _size = new int[]{_data.Rows.ToList().Count, _data.Columns.ToList().Count};
         _valueVectors = new Vector3[_size[0]];
         _valueMatrix = new float[_size[0],3];
+        float[] _valueMaxes = new float[3];
         int j = 0;
         foreach(var _col in _data.Columns){
             int i = 0;
@@ -74,6 +65,7 @@ public class PopulateElementsScatter : MonoBehaviour
             j++;
         }
         placeElems(_valueMatrix);
+        initializeAxisLabels(AxisScale.x, AxisScale.y, AxisScale.z);
         return AxisScale;
     }
 
@@ -91,6 +83,17 @@ public class PopulateElementsScatter : MonoBehaviour
 
         }
         Debug.Log(AxisScale.ToString());
+
+    }
+
+    private void initializeAxisLabels(float _maxXValue, float _maxYValue, float _maxZValue)
+    {
+        
+        VisualizationBehavior _visBehave = gameObject.GetComponent<VisualizationBehavior>(); 
+        System.Object[] _objList = new System.Object[]{_maxXValue, _maxYValue, _maxZValue};
+        AxisParentBehavior _axisParentBehav = _visBehave._axis.GetComponent<AxisParentBehavior>();
+        _axisParentBehav.IsXZNumeric = true;
+        _axisParentBehav.initializeLines(_objList);
 
     }
 }
