@@ -16,6 +16,10 @@ public class PopulateElementsPie : MonoBehaviour
     [SerializeField] GameObject VisualizationElement;
     [SerializeField] LineRenderer VisualizationLine;
 
+    void Start(){
+        MeshFilter _myMesh = GetComponent<MeshFilter>();
+        _myMesh.mesh = _constructMesh();
+    }
     public struct VisualizationElementCell
     {
 

@@ -26,6 +26,8 @@ public class AxisBehavior : MonoBehaviour
     public float MaxZValue;
     public int NumberOfLabels = 10;
 
+    public int UnitPrecision = 2;
+
     public bool IsXZNumeric = false;
     void Start()
     {
@@ -179,7 +181,8 @@ public class AxisBehavior : MonoBehaviour
         //Format exact _unit string to char array, change first non-0 digit to 1
         //Limit precision to 3 decimals
         float _unit = _number/(float) NumberOfLabels;
-        char[] _labelUnitChars = _unit.ToString("F3").ToCharArray();
+        string _unitPrecisionString = string.Format("F{0}", UnitPrecision);
+        char[] _labelUnitChars = _unit.ToString(_unitPrecisionString).ToCharArray();
         int i = 0;
         while(_labelUnitChars[i] == '0' || _labelUnitChars[i] == '.')
         {
@@ -214,7 +217,7 @@ public class AxisBehavior : MonoBehaviour
         for(int j = 0; j <= NumberOfLabels; ++j)
         {
             
-            _labelStrings.Add((_sumLabelUnits.ToString("F3"), _labelPos));
+            _labelStrings.Add((_sumLabelUnits.ToString(_unitPrecisionString), _labelPos));
             _sumLabelUnits += _labelUnit;
             _labelPos += _labelPosUnit;
 
