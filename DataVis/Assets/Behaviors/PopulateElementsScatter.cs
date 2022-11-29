@@ -79,7 +79,7 @@ public class PopulateElementsScatter : MonoBehaviour
             _pointPos = new Vector3(_pointPos.x/AxisScale.x, _pointPos.y/AxisScale.y, _pointPos.z/AxisScale.z);
             _pointPos = _pointPos*plane_size;
             var _point = Instantiate(VisualizationElement, gameObject.transform);
-            _point.transform.position = _pointPos;
+            _point.transform.localPosition = _pointPos;
 
         }
         Debug.Log(AxisScale.ToString());

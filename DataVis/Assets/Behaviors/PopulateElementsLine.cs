@@ -78,11 +78,14 @@ public class PopulateElementsLine : MonoBehaviour
             ind++;
 
         }
-        
+        float _maxYValue = (float) _data.Columns[2].Max();
     
         //Set Axis parameter for position calculation and enable quick access to it from outside the class
-        AxisScale = new Vector3(_numCatValues1, (float) _data.Columns[2].Max(), _numCatValues2);
+        AxisScale = new Vector3(_numCatValues1, _maxYValue, _numCatValues2);
+        //Place elements inside the visualization volume, and connect them with lines accordingly
         placeElems(_catValuesDict1, _catValuesDict2, _groupings);
+        //Use labels to initialize the axis
+        initializeAxisLabels(_catValues1, _maxYValue,_catValues2);
         return AxisScale;
 
     }
@@ -127,6 +130,19 @@ public class PopulateElementsLine : MonoBehaviour
         
 
         Debug.Log(AxisScale.ToString());
+
+    }
+
+    private void initializeAxisLabels(DataFrame _catValues1, float _maxYValue,DataFrame _catValues2)
+    {
+
+        List<string> _labelListX = _catValues1.Columns.GetStringColumn("Values").ToList<string>();
+        List<string> _labelListZ = _catValues2.Columns.GetStringColumn("Values").ToList<string>();
+        
+        VisualizationBehavior _visBehave = gameObject.GetComponent<VisualizationBehavior>(); 
+        System.Object[] _objList = new System.Object[]{_labelListX, _maxYValue,_labelListZ};
+        AxisParentBehavior _axisParentBehav = _visBehave._axis.GetComponent<AxisParentBehavior>();
+        _axisParentBehav.initializeLines(_objList);
 
     }
 }
