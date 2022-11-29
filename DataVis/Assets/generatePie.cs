@@ -23,7 +23,7 @@ public class generatePie : MonoBehaviour
         Mesh _piePiece = new Mesh();
         int _numVerts = 8;
         Vector3[] _vertices = new Vector3[_numVerts];
-        int[] _triangles = new int[_numVerts*3];
+        int[] _triangles = new int[((_numVerts*3)-2)*3];
         
         /*_vertices[0] = new Vector3(0,0,0);
         _vertices[1] = new Vector3(0,Height,0);
@@ -51,37 +51,53 @@ public class generatePie : MonoBehaviour
         _vertices[2] = new Vector3(0,0,Length);
         _vertices[3] = new Vector3(0,Height,Length);
         
-        //Cara inicial
+        //Construct inicial ("opening") face
         _triangles[0] = 0;
-        _triangles[1] = 2;
-        _triangles[2] = 1;
-        _triangles[3] = 1;
-        _triangles[4] = 2;
-        _triangles[5] = 3;
+        _triangles[1] = 1;
+        _triangles[2] = 3;
+        _triangles[3] = 0;
+        _triangles[4] = 3;
+        _triangles[5] = 2;
 
-        int last1 = 3;
-        int last2 = 2;
-        int _trianglediff = 6;
-        for(int i = 0; i < 2; ++i){
+        
+        int last1 = 2;
+        int last2 = 3;
+        //int _trianglediff = 9;
+        int triangleInd = 6;
 
+        //Construct intermediate faces
+        for(int i = 0; i < ((_numVerts/2)-2); ++i){
+
+            int new1 = last2+1;
+            int new2 = last2+2;
+            _vertices[new1] = Quaternion.AngleAxis(-45, Vector3.up)* _vertices[last1];
+            _vertices[new2] = Quaternion.AngleAxis(-45, Vector3.up)* _vertices[last2];
+
+            _triangles[triangleInd++] = last1;
+            _triangles[triangleInd++] = last2;
+            _triangles[triangleInd++] = new1;
+            _triangles[triangleInd++] = last2;
+            _triangles[triangleInd++] = new2;
+            _triangles[triangleInd++] = new1;
+            _triangles[triangleInd++] = 1;
+            _triangles[triangleInd++] = new2;
+            _triangles[triangleInd++] = last2;
+            _triangles[triangleInd++] = 0;
+            _triangles[triangleInd++] = last1;
+            _triangles[triangleInd++] = new1;
             
-
-            int new1 = last1+1;
-            int new2 = last1+2;
-            _vertices[new1] = Quaternion.AngleAxis(45, Vector3.up)* _vertices[last2];
-            _vertices[new2] = Quaternion.AngleAxis(45, Vector3.up)* _vertices[last1];
-
-            _triangles[6+_trianglediff] = last2;
-            _triangles[7+_trianglediff] = new1;
-            _triangles[8+_trianglediff] = new2;
-            _triangles[9+_trianglediff] = new2;
-            _triangles[10+_trianglediff] = last1;
-            _triangles[11+_trianglediff] = last2;
-
-            _trianglediff+=_trianglediff;
-            last1=new2;
-            last2=new1;
+            last1=new1;
+            last2=new2;
         }
+       
+        //Construct last ("closing") face
+        _triangles[triangleInd++] = 0;
+        _triangles[triangleInd++] = last1;
+        _triangles[triangleInd++] = 1;
+        _triangles[triangleInd++] = 1;
+        _triangles[triangleInd++] = last1;
+        _triangles[triangleInd] = last2;
+        
         _piePiece.vertices = _vertices;
         _piePiece.triangles = _triangles;
         
