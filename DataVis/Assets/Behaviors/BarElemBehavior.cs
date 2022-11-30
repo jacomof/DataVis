@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.XR.Interaction.Toolkit;
 
 
 public class BarElemBehavior : MonoBehaviour
 {
     private Color _color;
     private Vector3 _size;
+    [SerializeField] UnityEvent myEvent;
     // Start is called before the first frame update
 
     public void SetColor(Color _col)
@@ -34,5 +37,10 @@ public class BarElemBehavior : MonoBehaviour
 
         return _size;
 
+    }
+
+    public void OnSelected(SelectEnterEventArgs _eventInfo)
+    {
+        Debug.Log("I've been selected.");
     }
 }

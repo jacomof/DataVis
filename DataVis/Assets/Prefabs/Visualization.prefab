@@ -54,6 +54,9 @@ MonoBehaviour:
   Size: 1
   _Enabled: 1
   AxisScale: {x: 0, y: 0, z: 0}
+  _event:
+    m_PersistentCalls:
+      m_Calls: []
   VisualizationType: 0
   _axis: {fileID: 796566704532198594}
   _Grid: {fileID: 6582972759866301823, guid: ea4ef4ce42bb3ac4f9443fa6ee819684, type: 3}
