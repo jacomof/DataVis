@@ -13,6 +13,7 @@ public class VisualizationBehavior : MonoBehaviour
     public enum VisualizationTypeEnum{
         Scatter,
         Bar,
+        GroupedBar,
         Line
     }
 
@@ -39,10 +40,16 @@ public class VisualizationBehavior : MonoBehaviour
                 var _populateBehaviorBar = gameObject.GetComponent<PopulateElementsBar>();
                 _populateBehaviorBar.DoPopulate();
                 break;
+            case VisualizationTypeEnum.GroupedBar:
+                var _populateBehaviorBarGrouped = gameObject.GetComponent<PopulateElementsBarGrouped>();
+                _populateBehaviorBarGrouped.DoPopulate();
+                break;
+
             case VisualizationTypeEnum.Line:
                 var _populateBehaviorLine = gameObject.GetComponent<PopulateElementsLine>();
                 _populateBehaviorLine.DoPopulate();
                 break;
+            
             default:
                 throw new System.Exception("No Visualization Type selected!");
 

@@ -6,14 +6,27 @@ using System.Linq;
 using Microsoft.ML;
 using static VisualizationBehavior;
 
+//Class that represents a behavior that populates a visualization with bars encoding the data imported from the input file
+//selected in the main visualization behavior. It first loads the data into a Dataframe, then creates a list of (different) categories
+//from the first and second columns of the DataFrame, then creates a matrix (named floor matrix) with this categories lists as rows and columns (respectively)
+//assigning each cell a position in the X and Z plane, and finally places one bar for each of the combination of categories that has a value.
 public class PopulateElementsBar : MonoBehaviour
 {
-    // Start is called before the first frame update
     private Vector3[] _valueVectors;
-    private float _scaleSize;
+
+    //The scales of the axis in each direction
     public Vector3 AxisScale{get; private set;}
-    [SerializeField] private float Margin = 0.0f;
+
+    //The GameObject that is used as visualization element to instantiate the bars
     [SerializeField] private GameObject VisualizationElement;
+
+    //An array containing a qualitative color pallete to color the bars
+    //It's initialized in the editor
+    //This limits the amount of different bars that can be displayed inside the visualization
+    [SerializeField] private Color[] ColorArray;
+
+    //MaxYValue represents the maximum height of any bar inside the visualization
+    [SerializeField] private float MaxYValue = 1.0f;
     
 
     public struct VisualizationElementCell
@@ -36,11 +49,9 @@ public class PopulateElementsBar : MonoBehaviour
     //category1 & category2 will be interpreted as categories, and will be stored as strings
     //numeric will be the height of the bar and will be interpreted as a float
     //Post: The visualization is populated with bars representing the input data
-     public Vector3 DoPopulate()
+    public Vector3 DoPopulate()
     {
 
-        var _scaleSize = (gameObject.transform.localScale.x)*(PLANE_SIZE);
-        Debug.Log("_scaleSize es: " + _scaleSize.ToString());
         var loadData = gameObject.GetComponent<LoadDataBehaviour>();
         var _data = loadData.LoadCategoric();
 
@@ -76,7 +87,7 @@ public class PopulateElementsBar : MonoBehaviour
         }
 
         //Fill the matrix using the existing values in the dataframe
-        //Remember, category 1 are elements of x axis, category 2 are elements of z axis
+        //Categories 1 (_cat1) are elements of the X axis, categories 2 (_cat2) are elements of the Z axis
         foreach(var elem in _data.Rows)
         {
             string _cat1 = elem[0].ToString();
@@ -89,8 +100,9 @@ public class PopulateElementsBar : MonoBehaviour
             _barFloorMatrix[_catIndex1, _catIndex2].Category2 = _cat2;
             _barFloorMatrix[_catIndex1, _catIndex2].NumericValue = _val;
         }
-        
-        float _maxYValue = (float) _data.Columns[2].Max();
+        //Set max value (usually 1) that represents the maximum height of any bar inside the visualization
+        //All bars Y values are mapped to the range [0, Max Value]
+        float _maxYValue = MaxYValue;
 
         //Set Axis parameter for position calculation and enable quick access to it from outside the class
         AxisScale = new Vector3(_numCatValues1, _maxYValue, _numCatValues2);
@@ -105,13 +117,17 @@ public class PopulateElementsBar : MonoBehaviour
 
     }
 
+    //Private auxiliary function that receives a floor matrix and instantiate the bars in their respective position inside the visualization
     private void placeElems(VisualizationElementCell[,] _barFloorMatrix)
     {
-
+        
         var _plane_size = VisualizationBehavior.PLANE_SIZE;
+
+        //Units represent how much does a cell in the matrix occupy in visualization space
         float _unitX = _plane_size/AxisScale.x;
         float _unitZ = _plane_size/AxisScale.z;
-        float _unitMiddle = _unitX/2;
+        float _unitMiddleX = _unitX/2.0f;
+        float _unitMiddleZ = _unitZ/2.0f;
 
         int numElemX = (int) AxisScale.x;
         int numElemZ = (int) AxisScale.z;
@@ -120,37 +136,40 @@ public class PopulateElementsBar : MonoBehaviour
         var _xColDif = 1.0f/AxisScale.x;
         var _zColDif = 1.0f/AxisScale.z;
 
-        for(int i = 0; i < numElemZ; ++i){
+        int colorIndex = 0;
 
-            
+        for(int i = 0; i < numElemZ; ++i){
             for(int j = 0; j < numElemX; ++j){
                 if(_barFloorMatrix[j,i].NumericValue >0.0f){
+
                     //Calculate position of bar
-                    var _posZ = _unitMiddle + (((float)i)*_unitZ);
-                    var _posX = _unitMiddle + (((float)j)*_unitX);
+                    var _posZ = _unitMiddleZ + (((float)i)*_unitZ);
+                    var _posX = _unitMiddleX + (((float)j)*_unitX);
                     float _ySize = (_barFloorMatrix[j,i].NumericValue / AxisScale.y)*_plane_size;
                     var _posY = _ySize/2.0f;
                     var _pos = new Vector3(_posX, _posY, _posZ);
 
                     //Set size of bar
                     Vector3 _size = new Vector3(_unitX*0.5f, _ySize, _unitZ*0.5f);
-
-                    //Color ranges from blue to red on Z axis
-                    //And from blue to green on X axis
-                    //Minimum blue at right upper edge of visualization!
-                    var _zColRed = (((float)i)*_zColDif);
-                    var _xColGreen = (((float)j)*_xColDif);
-                    var _xBlueColor = (1.0f - (((float)j)*_zColDif))*0.5f;
-                    var _zBlueColor = (1.0f - (((float)i)*_xColDif))*0.5f;
                     
-                    Color _barColor = new Color(_zColRed, _xColGreen, _xBlueColor+_zBlueColor);
-                    
-
                     //Instantiate bar and set properties 
                     var _bar = Instantiate(VisualizationElement, gameObject.transform);
                     _bar.transform.localPosition = _pos;
                     _bar.transform.localScale = _size;
-                    _bar.GetComponent<Renderer>().material.SetColor("_BaseColor", _barColor);
+
+                    try
+                    {
+                        Color _barColor = ColorArray[colorIndex];
+                         _bar.GetComponent<Renderer>().material.SetColor("_BaseColor", _barColor);
+                        colorIndex++;
+                    }
+                    catch (System.IndexOutOfRangeException e)
+                    {
+                        
+                        throw new System.IndexOutOfRangeException("To many bars inside the visualization. There are not enough colors to represent them all!", e);
+                       
+                    }
+                    
                 }
 
             }
@@ -170,6 +189,7 @@ public class PopulateElementsBar : MonoBehaviour
         VisualizationBehavior _visBehave = gameObject.GetComponent<VisualizationBehavior>(); 
         System.Object[] _objList = new System.Object[]{_labelListX, _maxYValue,_labelListZ};
         AxisParentBehavior _axisParentBehav = _visBehave._axis.GetComponent<AxisParentBehavior>();
+        _axisParentBehav.IsXZNumeric = false;
         _axisParentBehav.initializeLines(_objList);
 
     }

@@ -18,7 +18,6 @@ public class AxisBehavior : MonoBehaviour
     public AxisId MyAxisId;
     
     [SerializeField] private GameObject StripeText; 
-    // Start is called before the first frame update
     public List<string> XLabels;
     public List<string> ZLabels;
     public float MaxXValue;
@@ -76,16 +75,17 @@ public class AxisBehavior : MonoBehaviour
             var _unit = _size/_numStripes;
             Vector3 _stripeDif = new Vector3(_unit, 0, 0);
             
-            var _stripePos = new Vector3(0f,0.1f,-0.1f);
+            var _stripePos = new Vector3(_unit/2.0f,0.1f,-0.1f);
 
             foreach (string _label in XLabels){
                 
                 var _textStripe = GameObject.Instantiate(StripeText, gameObject.transform);
-                _stripePos += _stripeDif;
+                
                 var _textComp = _textStripe.GetComponent<TextMeshPro>();
                 var _transform = _textStripe.GetComponent<RectTransform>();
                 _textComp.text = _label;
                 _transform.localPosition = _stripePos;
+                _stripePos += _stripeDif;
 
             }
         }else{
@@ -139,19 +139,21 @@ public class AxisBehavior : MonoBehaviour
             int _numStripes = (int) ZLabels.Count;
             var _unit = _size/_numStripes;
             Vector3 _stripeDif = new Vector3(0, 0, _unit);
-            var _stripePos = new Vector3(-0.25f,0,0);
+            var _stripePos = new Vector3(-0.25f,0,_unit/2.0f);
             foreach (string _label in ZLabels){
                 
                 var _rotation = new Vector3(0,90.0f,0);
                 
                 var _textStripe = GameObject.Instantiate(StripeText, gameObject.transform);
-                _stripePos += _stripeDif;
+                
                 
                 var _textComp = _textStripe.GetComponent<TextMeshPro>();
                 var _transform = _textStripe.GetComponent<RectTransform>();
                 _textComp.text = _label;
                 _transform.localPosition = _stripePos;
                 _transform.localEulerAngles = _rotation;
+
+                _stripePos += _stripeDif;
         }
         }else{
             List<(string, float)> _numericLabels = _getLabelsFromNumber(MaxZValue);
@@ -174,7 +176,7 @@ public class AxisBehavior : MonoBehaviour
 
     List<(string, float)> _getLabelsFromNumber(float _number)
     {
-        //Use us culture locale in order to use . as the decimal part identifier of the labels
+        //Use US culture locale in order to use . as the decimal part identifier of the labels
         System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("en-US");
         System.Threading.Thread.CurrentThread.CurrentCulture = ci;
         

@@ -1,7 +1,7 @@
 Name,NumTitles,Salary
-Ada,2,2000.5
-Ben,0,3000
-Jerry,1,1525.25
-Linda,5,5000.26
-Lucia,3,2500.24
-Manny,7,1000.25
+Ada,2,0.5
+Ben,0,0.6
+Jerry,1,0.2
+Linda,5,0.1
+Lucia,3,0.1
+Manny,7,0.9
