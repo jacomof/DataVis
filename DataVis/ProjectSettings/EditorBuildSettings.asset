@@ -8,6 +8,114 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison1.unity
+    guid: 02aa2ed3390334a47bd0f6d4d7658014
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison2.unity
+    guid: 49f5f0edf9e864145b81979acc376d36
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison3.unity
+    guid: 0e3377bd1073201489b7147f40e9cbb4
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison4.unity
+    guid: e94254f4e18df404cbdb5b174f2db47d
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison5.unity
+    guid: 24f9f75a79aba0340a0a6f7ede86618f
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison6.unity
+    guid: d3a9fb973b120d34893887dd7e696b99
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison7.unity
+    guid: 7de05acb8cf09f94782f9ea7e032e162
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison8.unity
+    guid: d7be90c8452780d4daa93c9bf30eea90
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison9.unity
+    guid: 85ecdc7d5051c444db51cfcf0ff0d8f8
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison10.unity
+    guid: 499cc4a34ee6f0d4cb639ad5f01a76be
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison11.unity
+    guid: 8d93d36f296b7d249bc318014d28f8fd
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison12.unity
+    guid: 1cb10324b337716429c591aa417fca60
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison13.unity
+    guid: 1aac410df091dc348b7bb7507951ed9e
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison14.unity
+    guid: 0d5488c938e6c6845bfa7588e356d6c3
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison15.unity
+    guid: 8484f9d1492769843912eb297b6acc15
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison16.unity
+    guid: a8ebd4241a0d0034c924ab2ad345d9cb
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison17.unity
+    guid: c105f1a1e484da24aa8578eb19959414
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison18.unity
+    guid: 61cd8830f33be0c49bf7d463dcf5caa2
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison19.unity
+    guid: 5ce9d2a904e09f9428047d8eb701ad9b
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison20.unity
+    guid: 0a9d1a7e39a145d41ad5c7db398046fb
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison21.unity
+    guid: c64c807b44d948c4f9ad2c37864fa548
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison22.unity
+    guid: 3521d02ff15e7fd4982d250e0fff7025
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison23.unity
+    guid: 7666818bc811bcd419b2ce5461fd86fe
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison24.unity
+    guid: 0c761efddf3148447a51de35fd72387c
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison25.unity
+    guid: dc42d9d947dea9343a315866e1716661
+  - enabled: 1
+    path: Assets/Scenes/Experiments/BarComparison26.unity
+    guid: b98ad8daec0853548b23865681a084d6
+  - enabled: 1
+    path: Assets/Scenes/Experiments/GroupedvsGridBarComparison1.unity
+    guid: 48da5cf1f04679a42a450e8d7d763f1e
+  - enabled: 1
+    path: Assets/Scenes/Experiments/GroupedvsGridBarComparison2.unity
+    guid: 1483c7e701a53c347bb4d707882de7df
+  - enabled: 1
+    path: Assets/Scenes/Experiments/GroupedvsGridBarComparison3.unity
+    guid: 72bc648464cdf0b4e98ae443c282b815
+  - enabled: 1
+    path: Assets/Scenes/Experiments/GroupedvsGridBarComparison4.unity
+    guid: 3d377a817f532d043bc82ef29d81ec45
+  - enabled: 1
+    path: Assets/Scenes/Experiments/GroupedvsGridBarComparison5.unity
+    guid: 2fb57a6b3be35de42818bffcc2c891fd
+  - enabled: 1
+    path: Assets/Scenes/Experiments/GroupedvsGridBarComparison6.unity
+    guid: dfd4a57f194722a4ba1d0bc5be571a2c
+  - enabled: 1
+    path: Assets/Scenes/Experiments/GroupedvsGridBarComparison7.unity
+    guid: 1ab97420d926a5f45973412e3cdecdb3
+  - enabled: 1
+    path: Assets/Scenes/Experiments/GroupedvsGridBarComparison8.unity
+    guid: 024f50ee60026d84084d7324a341558d
+  - enabled: 1
+    path: Assets/Scenes/Experiments/GroupedvsGridBarComparison9.unity
+    guid: 091bf47564ff4fb4b9b3bac18a5528e9
+  - enabled: 1
+    path: Assets/Scenes/Experiments/GroupedvsGridBarComparison10.unity
+    guid: 85be7d1e3c51f44408952b3a26cbefbe
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8c2fab0daa130b8b39be2bfc3ffa2878,
       type: 2}

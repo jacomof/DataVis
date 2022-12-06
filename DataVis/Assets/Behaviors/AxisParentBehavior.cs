@@ -33,12 +33,23 @@ public class AxisParentBehavior : MonoBehaviour
         //Order of initialization: X, Y, Z
         foreach(var _axis in MyChildren){
             
-            var initializer = _axis.GetComponent<AxisBehavior>();
-            initializer.NumberOfLabels = _labelNum[i];
-            initializer.IsXZNumeric = IsXZNumeric;
-            initializer.initializeAxis(_labelLists[i]);
+            var _initializer = _axis.GetComponent<AxisBehavior>();
+            _initializer.NumberOfLabels = _labelNum[i];
+            _initializer.IsXZNumeric = IsXZNumeric;
+            _initializer.initializeAxis(_labelLists[i]);
             i++;
 
         }
+    }
+
+    public void initializeLinesOnlyY(float max, int num_labels)
+    {
+
+        var _initializer = MyChildren[1].GetComponent<AxisBehavior>();
+        _initializer.NumberOfLabels = num_labels;
+        MyChildren[0].SetActive(false);
+        MyChildren[2].SetActive(false);
+        _initializer.initializeAxis(max);
+
     }
 }

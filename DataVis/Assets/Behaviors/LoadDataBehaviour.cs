@@ -7,7 +7,7 @@ using UnityEditor;
 
 public class LoadDataBehaviour : MonoBehaviour
 {
-    [SerializeField] private TextAsset dataAsset;
+    [SerializeField] public TextAsset dataAsset;
     [SerializeField] private bool HasHeader;
     public DataFrame Data {get; private set;}
     // Start is called before the first frame update

@@ -55,6 +55,16 @@ MonoBehaviour:
   Size: 1
   _Enabled: 1
   AxisScale: {x: 0, y: 0, z: 0}
+  nextScene: 
+  NextSceneAction:
+    m_Name: Next Scene
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: d3ad3fcd-d4a7-4d57-b3ce-8de8b2c7f546
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
   VisualizationType: 2
   _axis: {fileID: 796566704532198594}
   _Grid: {fileID: 6582972759866301823, guid: ea4ef4ce42bb3ac4f9443fa6ee819684, type: 3}
@@ -148,6 +158,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   VisualizationElement: {fileID: 3728698934490470589, guid: 85b98de00407b71438282239d2d1ad81,
     type: 3}
+  LabelObject: {fileID: 0}
+  GroupLabelObject: {fileID: 0}
   ColorArray:
   - {r: 0.6509804, g: 0.80784315, b: 0.8901961, a: 0}
   - {r: 0.12156863, g: 0.47058824, b: 0.7058824, a: 0}
@@ -163,6 +175,7 @@ MonoBehaviour:
   - {r: 0.69411767, g: 0.34901962, b: 0.15686275, a: 0}
   MaxYValue: 1
   Margin: 0.5
+  GroupLabelOffset: 0.5
 --- !u!1 &4072005720229954655
 GameObject:
   m_ObjectHideFlags: 0

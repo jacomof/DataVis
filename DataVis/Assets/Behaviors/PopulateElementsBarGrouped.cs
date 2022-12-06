@@ -29,7 +29,7 @@ public class PopulateElementsBarGrouped : MonoBehaviour
     //Margin between the groups of bars
     [SerializeField] private float Margin = 0.5f;
     [SerializeField] private float GroupLabelOffset = 0.5f;
-    
+    [SerializeField] private float LeftMargin = 2.0f;
 
     public struct VisualizationElementCell
     {
@@ -100,7 +100,7 @@ public class PopulateElementsBarGrouped : MonoBehaviour
         float _plane_size = VisualizationBehavior.PLANE_SIZE;
         float _groupSize = _plane_size/((float)_numGroups);
         Vector3 _currentGroupCenter = new Vector3(_groupSize, 0, 0);
-        float _groupPos = 0.0f;
+        float _groupPos = LeftMargin;
         int _colorIndex = 0;
 
         foreach(var _group in _groupings){
@@ -108,7 +108,7 @@ public class PopulateElementsBarGrouped : MonoBehaviour
             float _groupUnit = (_groupSize-(2.0f*Margin))/((float)_group.Count());
             //Vector3 _groupCenter = new Vector3(_groupSize/2.0f, 0, 0);
             float _barPos = (_groupUnit/2.0f) + _groupPos + Margin;
-            Vector3 _groupLabelPos = new Vector3(_groupPos+(_groupSize/2.0f), -0.5f, -GroupLabelOffset);
+            Vector3 _groupLabelPos = new Vector3(_groupPos+(_groupSize/2.0f), 0.25f, -GroupLabelOffset);
             
             GameObject _groupLabelObject = Instantiate(GroupLabelObject, gameObject.transform);
             _groupLabelObject.transform.localPosition = _groupLabelPos;
@@ -130,7 +130,7 @@ public class PopulateElementsBarGrouped : MonoBehaviour
                 //_bar.GetComponent<BarElemGroupedBehavior>().setText(_label);
                 GameObject _labelObject = Instantiate(LabelObject, gameObject.transform);
                 _labelObject.GetComponent<TextMeshPro>().SetText(_label);
-                _labelObject.transform.localPosition = _localPosition + new Vector3(0,0,-((_groupUnit/2.0f)+0.01f));
+                _labelObject.transform.localPosition = _localPosition + new Vector3(0,0.3f,-((_groupUnit/2.0f)+0.01f));
                 try
                     {
                         Color _barColor = ColorArray[_colorIndex];
@@ -153,6 +153,11 @@ public class PopulateElementsBarGrouped : MonoBehaviour
     }
 
     private void initializeAxisLabels(){
+
+        VisualizationBehavior _visBehave = gameObject.GetComponent<VisualizationBehavior>();
+        AxisParentBehavior _axisParentBehav = _visBehave._axis.GetComponent<AxisParentBehavior>();
+        _axisParentBehav.IsXZNumeric = false;
+        _axisParentBehav.initializeLinesOnlyY(1.0f, 2);
 
     }
 }
