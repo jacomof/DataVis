@@ -240,9 +240,11 @@ GameObject:
   - component: {fileID: 2621933947801560231}
   - component: {fileID: 2621933947801560230}
   - component: {fileID: 2621933947801560234}
+  - component: {fileID: 1250499857928107205}
+  - component: {fileID: 1995896495890469342}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -321,7 +323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 2621933947801560229}
-  m_MoveSpeed: 1
+  m_MoveSpeed: 2.5
   m_EnableStrafe: 1
   m_EnableFly: 0
   m_UseGravity: 1
@@ -384,7 +386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 2621933947801560229}
-  m_TurnSpeed: 50
+  m_TurnSpeed: 75
   m_LeftHandTurnAction:
     m_UseReference: 0
     m_Action:
@@ -426,6 +428,85 @@ MonoBehaviour:
   m_LocomotionProvider: {fileID: 2621933947801560228}
   m_MinHeight: 0
   m_MaxHeight: Infinity
+--- !u!114 &1250499857928107205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2621933947801560226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7460839d174550409c53e7bec30c935, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitialPosition: {x: 5.5, y: 1, z: -10}
+  InitialAngle: {x: 0, y: 0, z: 0}
+  ResetAction:
+    m_Name: Reset
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: d234932a-1e57-4fae-8f78-cf2eddb270ab
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 3f3f7b17-56b5-4a97-b11d-860b3240a80a
+      m_Path: <ViveController>/menu
+      m_Interactions: Hold
+      m_Processors: 
+      m_Groups: 
+      m_Action: Reset
+      m_Flags: 0
+    m_Flags: 0
+--- !u!114 &1995896495890469342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2621933947801560226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 616db3f59b55556469508b10562a7d63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gravity: -9.8
+  _flyingSpeed: 5
+  AscendButton:
+    m_Name: Ascend Button
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: d3b16a01-3513-4a15-9f5a-465199926f8b
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 33f8bcbb-7de9-43d6-b043-c9457504efac
+      m_Path: <Keyboard>/space
+      m_Interactions: Press
+      m_Processors: 
+      m_Groups: 
+      m_Action: Ascend Button
+      m_Flags: 0
+    m_Flags: 0
+  DescendButton:
+    m_Name: Descend Button
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: bda343fb-7155-4862-b7c0-d2e0de4bd596
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 27fb4034-e81e-453f-bb26-6625ec288bfc
+      m_Path: <Keyboard>/leftShift
+      m_Interactions: Press(behavior=2)
+      m_Processors: 
+      m_Groups: 
+      m_Action: Descend Button
+      m_Flags: 0
+    m_Flags: 0
 --- !u!1 &2621933948405787058
 GameObject:
   m_ObjectHideFlags: 0
@@ -758,7 +839,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
-  m_HitClosestOnly: 0
+  m_HitClosestOnly: 1
   m_HoverToSelect: 0
   m_HoverTimeToSelect: 0.5
   m_EnableUIInteraction: 1
@@ -814,7 +895,7 @@ LineRenderer:
   - {x: 0, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.005
+    widthMultiplier: 0.02
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -825,8 +906,17 @@ LineRenderer:
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4

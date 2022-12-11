@@ -1,5 +1,13 @@
 {
   "dependencies": {
+    "com.tobii.xr.sdk": {
+      "version": "file:C:/Users/joaqu/DataVis/tobiiXRSDK",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.xr.management": "3.2.16"
+      }
+    },
     "com.unity.burst": {
       "version": "1.7.3",
       "depth": 1,

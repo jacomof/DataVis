@@ -4,11 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
-public class ExperimentAttributes{
 
-    public static int ExperimentCount = 1;
-    public static int MaxCount = 24;
-}
 public class VisualizationBehavior : MonoBehaviour
 {
     public float Size;
@@ -18,13 +14,14 @@ public class VisualizationBehavior : MonoBehaviour
 
     public string nextScene;
 
-    public InputAction NextSceneAction;
+    public InputAction NextExperimentAction;
 
     public enum VisualizationTypeEnum{
         Scatter,
         Bar,
         GroupedBar,
         GroupedBar2DVs,
+        GroupedBar2DVsBoxed,
         Line
     }
 
@@ -38,6 +35,8 @@ public class VisualizationBehavior : MonoBehaviour
     public VisualizationTypeEnum VisualizationType;
 
     public ExperimentTypeEnum ExperimentType;
+
+    [SerializeField] private bool ExperimentMode = false;
     
     public GameObject _axis;
     
@@ -45,18 +44,109 @@ public class VisualizationBehavior : MonoBehaviour
 
     [SerializeField] private bool EnableGrid;
     // Start is called before the first frame update
+
+    [SerializeField] private GameObject Player;
+
+    [SerializeField] private GameObject ExperimentManagerObject;
+    private ExperimentManagerBehavior _experimentManager;
+    
     void Start()
     {
         gameObject.transform.localScale = new Vector3(Size,Size,Size);
         gameObject.SetActive(_Enabled);
-        TextAsset _experimentFile;
-        if(ExperimentType == ExperimentTypeEnum.TwoDimensionalvsVRBars)
-            _experimentFile = Resources.Load<TextAsset>("Data/2DvsVR/2Dv3DBarComparison" + ExperimentAttributes.ExperimentCount.ToString());
-        else
-            _experimentFile = Resources.Load<TextAsset>("Data/GridvsGrouped/GroupedvsGridBarComparison" + ExperimentAttributes.ExperimentCount.ToString());
-        var _loadBehavior = GetComponent<LoadDataBehaviour>();
-        _loadBehavior.dataAsset = _experimentFile; 
+        
         Debug.Log("Hello there, I'm the visualization!");
+        populateElements();
+        var _lineFactory = gameObject.GetComponent<LineFactory>();
+        NextExperimentAction.Disable();
+        if(ExperimentMode)
+        {
+            NextExperimentAction.performed += OnNextExperimentPressed;
+            NextExperimentAction.Enable();
+            _experimentManager = ExperimentManagerObject.GetComponent<ExperimentManagerBehavior>();
+        }
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if(EnableGrid)
+            _Grid.SetActive(true);
+        else
+            _Grid.SetActive(false);
+    }
+
+    void OnNextExperimentPressed(InputAction.CallbackContext ctx){
+
+        Debug.Log("Currently loaded scene: " + SceneManager.sceneCount);
+        //NextExperimentAction.performed -= OnNextExperimentPressed;
+        //string _sceneName = SceneManager.GetActiveScene().name;
+        //SceneManager.UnloadScene("Scenes/Experiments/BarComparison3");
+        //SceneManager.UnloadSceneAsync(_sceneName);
+        if(_experimentManager.ExperimentCount < _experimentManager.MaxCount)
+            _experimentManager.ExperimentCount++;
+        else{
+
+            _experimentManager.ExperimentCount = 1;
+
+        }
+        restartVisualization();
+        
+        
+    }
+
+    private void restartVisualization()
+    {
+        
+        if(GetComponent<LoadDataBehaviour>().IsThereExperimentData()){
+            ExtraCharacterBehavior _controller = null;
+            foreach(Transform child in transform)
+            {
+
+                if(child.tag == "Erasable"){
+
+                    Object.Destroy(child.gameObject);
+
+                }else if(child.tag == "Gazer"){
+
+                    child.gameObject.GetComponent<Gazer>().SaveTime();
+                    Object.Destroy(child.gameObject);
+
+                }
+            }
+            
+             
+            _controller = Player.GetComponent<ExtraCharacterBehavior>();
+            _controller.SetActive(false);
+            _controller.RestartPosition();
+            populateElements();
+            _controller.SetActive(true);
+        }else{
+            ExtraCharacterBehavior _controller = Player.GetComponent<ExtraCharacterBehavior>();
+            foreach(Transform child in transform)
+            {
+
+                if(child.tag == "Erasable"){
+
+                    Object.Destroy(child.gameObject);
+
+                }else if(child.tag == "Gazer"){
+
+                    child.gameObject.GetComponent<Gazer>().SaveTime();
+                    Object.Destroy(child.gameObject);
+
+                }
+            }
+            _controller.SetActive(false);
+            Debug.Log("Experiment Finished");
+            _experimentManager.ExperimentFinished=true;
+        }
+    }
+
+    private void populateElements()
+    {
+
         switch (VisualizationType)
         {
             case VisualizationTypeEnum.Scatter:
@@ -75,6 +165,10 @@ public class VisualizationBehavior : MonoBehaviour
                 var _populateBehaviorBarGrouped2DVs = gameObject.GetComponent<PopulateElementsBar2DVs>();
                 _populateBehaviorBarGrouped2DVs.DoPopulate();
                 break;
+            case VisualizationTypeEnum.GroupedBar2DVsBoxed:
+                var _populateBehaviorBarGrouped2DVsBoxed = gameObject.GetComponent<PopulateElementsBarBoxedContainer>();
+                _populateBehaviorBarGrouped2DVsBoxed.DoPopulate();
+                break;
             case VisualizationTypeEnum.Line:
                 var _populateBehaviorLine = gameObject.GetComponent<PopulateElementsLine>();
                 _populateBehaviorLine.DoPopulate();
@@ -85,43 +179,26 @@ public class VisualizationBehavior : MonoBehaviour
 
         }
         var _lineFactory = gameObject.GetComponent<LineFactory>();
-        NextSceneAction.Disable();
-        NextSceneAction.performed += OnNextScenePressed;
-        NextSceneAction.Enable();
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if(EnableGrid)
-            _Grid.SetActive(true);
-        else
-            _Grid.SetActive(false);
+    public string GetParticipantID(){
+
+        return _experimentManager.ParticipantID;
+
     }
 
-    void OnNextScenePressed(InputAction.CallbackContext ctx){
+    public int GetExperimentCount(){
 
-        Debug.Log("Currently loaded scene: " + SceneManager.sceneCount);
-        NextSceneAction.performed -= OnNextScenePressed;
-        //string _sceneName = SceneManager.GetActiveScene().name;
-        //SceneManager.UnloadScene("Scenes/Experiments/BarComparison3");
-        //SceneManager.UnloadSceneAsync(_sceneName);
-        if(ExperimentAttributes.ExperimentCount < ExperimentAttributes.MaxCount)
-            ExperimentAttributes.ExperimentCount++;
-        else{
+        return _experimentManager.ExperimentCount;
 
-            ExperimentAttributes.ExperimentCount = 1;
-
-        }
-        if(ExperimentType == ExperimentTypeEnum.TwoDimensionalvsVRBars)
-
-            SceneManager.LoadScene("Scenes/Experiments/BarComparison" + ExperimentAttributes.ExperimentCount, LoadSceneMode.Single);
-        
-        else{
-
-            SceneManager.LoadScene("Scenes/Experiments/GroupedvsGridBarComparison" + ExperimentAttributes.ExperimentCount, LoadSceneMode.Single);
-
-        }
-        
     }
+
+    public string GetExperimentName(){
+
+        return _experimentManager.ExperimentName;
+
+    }
+
+
 }

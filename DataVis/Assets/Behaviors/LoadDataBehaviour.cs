@@ -4,11 +4,15 @@ using Microsoft.VisualBasic.FileIO;
 using Microsoft.Data.Analysis;
 using System.IO;
 using UnityEditor;
+using System.Linq;
 
 public class LoadDataBehaviour : MonoBehaviour
 {
     [SerializeField] public TextAsset dataAsset;
     [SerializeField] private bool HasHeader;
+    private DataFrame _experimentData;
+    private int _experimentDataIndex = 0;
+    private bool _experimentDataRead = false;
     public DataFrame Data {get; private set;}
     // Start is called before the first frame update
     void Start()
@@ -56,16 +60,41 @@ public class LoadDataBehaviour : MonoBehaviour
 
     }
 
-    public DataFrame LoadPie()
+    public void InitializeExperimentData()
     {
+
         System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("en-US");
         System.Threading.Thread.CurrentThread.CurrentCulture = ci;
-        var ts = new System.Type[] {string.Empty.GetType(), 0.0f.GetType()};
-        DataFrame readData = DataFrame.LoadCsvFromString(dataAsset.ToString(), header:true, dataTypes: ts);
-        return readData;
-
+        var ts = new System.Type[] {0.0f.GetType(), 0.0f.GetType()};
+        _experimentData = DataFrame.LoadCsvFromString(dataAsset.ToString(), header:true, dataTypes: ts);
 
     }
+    public DataFrame LoadExperimentData()
+    {
+
+        if(!_experimentDataRead) InitializeExperimentData();
+        DataFrame readData = _experimentData[new int[]{_experimentDataIndex}];
+        _experimentDataIndex++;
+        return readData;
+
+    }
+
+    private int GetExperimentDataCount()
+    {
+
+        if(_experimentDataRead) InitializeExperimentData();
+        int _size = _experimentData.Rows.ToList().Count;
+        return _size;
+
+    }
+
+    public bool IsThereExperimentData()
+    {
+
+        return _experimentDataIndex < GetExperimentDataCount();
+
+    }
+
     public DataFrame GetDataFrame(){
 
         return Data;

@@ -46,7 +46,7 @@ public class PopulateElementsPie : MonoBehaviour
         var _scaleSize = (gameObject.transform.localScale.x)*(PLANE_SIZE);
         Debug.Log("_scaleSize es: " + _scaleSize.ToString());
         var loadData = gameObject.GetComponent<LoadDataBehaviour>();
-        var _data = loadData.LoadPie();
+        //var _data = loadData.LoadPie();
         return AxisScale;
     }
 
