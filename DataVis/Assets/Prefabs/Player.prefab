@@ -325,8 +325,8 @@ MonoBehaviour:
   m_System: {fileID: 2621933947801560229}
   m_MoveSpeed: 2.5
   m_EnableStrafe: 1
-  m_EnableFly: 0
-  m_UseGravity: 1
+  m_EnableFly: 1
+  m_UseGravity: 0
   m_GravityApplicationMode: 0
   m_ForwardSource: {fileID: 2621933948950616697}
   m_LeftHandMoveAction:
@@ -489,6 +489,14 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Ascend Button
       m_Flags: 0
+    - m_Name: 
+      m_Id: 06ca7831-b965-48c9-ac1b-9e3874da0bfc
+      m_Path: <XRInputV1::HTC::HTCViveControllerOpenXR>{RightHand}/grippressed
+      m_Interactions: Press
+      m_Processors: 
+      m_Groups: 
+      m_Action: Ascend Button
+      m_Flags: 0
     m_Flags: 0
   DescendButton:
     m_Name: Descend Button
@@ -502,6 +510,14 @@ MonoBehaviour:
       m_Id: 27fb4034-e81e-453f-bb26-6625ec288bfc
       m_Path: <Keyboard>/leftShift
       m_Interactions: Press(behavior=2)
+      m_Processors: 
+      m_Groups: 
+      m_Action: Descend Button
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 2b8e3663-fdd3-4d53-a455-c915a94537dc
+      m_Path: <XRInputV1::HTC::HTCViveControllerOpenXR>{LeftHand}/grippressed
+      m_Interactions: 
       m_Processors: 
       m_Groups: 
       m_Action: Descend Button

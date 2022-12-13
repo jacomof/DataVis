@@ -25,23 +25,22 @@ public class Gazer : MonoBehaviour, IGazeFocusable
     //The method of the "IGazeFocusable" interface, which will be called when this object receives or loses focus
     public void GazeFocusChanged(bool hasFocus)
     {
-        //If this object received focus, fade the object's color to highlight color
+        //If this object received focus, fade the object's color to highlight color and start timer again
         if (hasFocus)
         {
             if(!timerGoing)
             {
-                InvokeRepeating("IncrementTimer", _timerStep, _timerStep);
-               
+                Debug.Log("Starting timer with time " + Timer);
                 timerGoing = true;
             }
             _targetColor = highlightColor;
         }
-        //If this object lost focus, fade the object's color to it's original color
+        //If this object lost focus, fade the object's color to it's original color and pause timer
         else
         {
             if(timerGoing){
-                CancelInvoke("IncrementTimer");
                 timerGoing = false;
+                Debug.Log("Stopping timer with time " + Timer);
             }
             _targetColor = _originalColor;
         }
@@ -65,18 +64,24 @@ public class Gazer : MonoBehaviour, IGazeFocusable
         {
             _renderer.material.color = Color.Lerp(_renderer.material.color, _targetColor, Time.deltaTime * (1 / animationTime));
         }
+        if (Input.GetKeyDown(KeyCode.G)) Debug.Log("Timer is: " + Timer);
+
+        //
+
         if(Input.GetKeyDown(KeyCode.T) && !timerGoing){
-            Debug.Log("Time is " + Timer);
+            //Debug.Log("Time is " + Timer);
             InvokeRepeating("IncrementTimer", _timerStep, _timerStep);
             timerGoing = true;
         }else if(Input.GetKeyDown(KeyCode.T)){
 
             Debug.Log("Time is " + Timer);
-            Debug.Log("Timer stopped!");
+            //Debug.Log("Timer stopped!");
             CancelInvoke("IncrementTimer");
             timerGoing = false;
 
         }
+        if (timerGoing) Timer += Time.deltaTime;
+        
     }
     
     private void IncrementTimer()

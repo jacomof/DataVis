@@ -85,7 +85,7 @@ public void DoPopulate()
             //Box container added
             var _container = Instantiate(BoxedContainer, gameObject.transform);
             var _localContainerPosition = new Vector3(_barPos, 5.0f, 0);
-            Vector3 _containerSize = new Vector3(2, 10.0f, 2);
+            Vector3 _containerSize = new Vector3(2.01f, 10.01f, 2.01f);
             _container.transform.localPosition = _localContainerPosition;
             _container.transform.localScale = _containerSize;
 

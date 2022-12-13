@@ -17,6 +17,7 @@ public class ExtraCharacterBehavior : MonoBehaviour
     void Start()
     {
         ResetAction.performed += RestartPosition;
+        ResetAction.Enable();
     }
 
     // Update is called once per frame

@@ -175,6 +175,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 5.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5496396447575031623, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
+        type: 3}
+      propertyPath: m_EnableFly
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496396447575031623, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5834120745088371095, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
         type: 3}
       propertyPath: Margin
@@ -184,6 +194,51 @@ PrefabInstance:
         type: 3}
       propertyPath: MaxYValue
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8329193328464480829, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
+        type: 3}
+      propertyPath: AscendButton.m_SingletonActionBindings.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8329193328464480829, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
+        type: 3}
+      propertyPath: DescendButton.m_SingletonActionBindings.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8329193328464480829, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
+        type: 3}
+      propertyPath: AscendButton.m_SingletonActionBindings.Array.data[1].m_Id
+      value: 64e5ec71-f7d3-4fc1-aefd-220410ba0f8a
+      objectReference: {fileID: 0}
+    - target: {fileID: 8329193328464480829, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
+        type: 3}
+      propertyPath: DescendButton.m_SingletonActionBindings.Array.data[1].m_Id
+      value: f2b74f96-3bc4-460d-8383-5875fc57145b
+      objectReference: {fileID: 0}
+    - target: {fileID: 8329193328464480829, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
+        type: 3}
+      propertyPath: AscendButton.m_SingletonActionBindings.Array.data[1].m_Path
+      value: <XRInputV1::HTC::HTCViveControllerOpenXR>{RightHand}/grippressed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8329193328464480829, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
+        type: 3}
+      propertyPath: DescendButton.m_SingletonActionBindings.Array.data[1].m_Path
+      value: <XRInputV1::HTC::HTCViveControllerOpenXR>{LeftHand}/grippressed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8329193328464480829, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
+        type: 3}
+      propertyPath: AscendButton.m_SingletonActionBindings.Array.data[1].m_Action
+      value: Ascend Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 8329193328464480829, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
+        type: 3}
+      propertyPath: DescendButton.m_SingletonActionBindings.Array.data[1].m_Action
+      value: Descend Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 8329193328464480829, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
+        type: 3}
+      propertyPath: AscendButton.m_SingletonActionBindings.Array.data[1].m_Interactions
+      value: Press
       objectReference: {fileID: 0}
     - target: {fileID: 8806346492551418742, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
         type: 3}
@@ -263,6 +318,70 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1917447095329133484}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1092722030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1092722032}
+  - component: {fileID: 1092722031}
+  m_Layer: 0
+  m_Name: TobiiXR Initializer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1092722031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092722030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 323f6169a2404ef4293c9be9671a1803, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Settings:
+    EyeTrackingFilter: {fileID: 0}
+    StandaloneEyeTrackingProviders:
+    - TypeName: HTCProvider
+    - TypeName: Tobii.XR.TobiiProvider
+    - TypeName: Tobii.XR.NoseDirectionProvider
+    - TypeName: Tobii.XR.MouseProvider
+    AndroidEyeTrackingProviders:
+    - TypeName: Tobii.XR.PicoXRProvider
+    - TypeName: Tobii.XR.TobiiProvider
+    - TypeName: Tobii.XR.NoseDirectionProvider
+    - TypeName: Tobii.XR.MouseProvider
+    LayerMask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    HowLongToKeepCandidatesInSeconds: 1
+    AdvancedEnabled: 0
+    OcumenLicense: 
+    PopupLicenseValidationErrors: 0
+    LicenseAsset: {fileID: 0}
+--- !u!4 &1092722032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092722030}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1293330243
 GameObject:
   m_ObjectHideFlags: 0

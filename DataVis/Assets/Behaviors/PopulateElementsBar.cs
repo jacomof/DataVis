@@ -160,7 +160,9 @@ public class PopulateElementsBar : MonoBehaviour
                     try
                     {
                         Color _barColor = ColorArray[colorIndex];
-                         _bar.GetComponent<Renderer>().material.SetColor("_BaseColor", _barColor);
+                        Renderer r =  _bar.GetComponent<Renderer>();
+                        r.material.SetColor("_BaseColor", _barColor);
+                        r.material.SetColor("_EmissionColor", _barColor);
                         colorIndex++;
                     }
                     catch (System.IndexOutOfRangeException e)
