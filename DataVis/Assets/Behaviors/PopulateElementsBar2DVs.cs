@@ -84,12 +84,14 @@ public class PopulateElementsBar2DVs : MonoBehaviour
                 }
                 
             //Then Gaze detector is added
-            var _yGazeValue = _plane_size-_yVal;
-            var _yGazeCenter = _yVal + _yGazeValue/2.0f;
+            float _yGazeValue = 1.5f;
+            float _yGazeCenter = _yVal + 0.5f;
             GameObject gazeObject = Instantiate(GazeObject, gameObject.transform);
-            gazeObject.transform.localScale = new Vector3(2, _yGazeValue, 2);
+            gazeObject.transform.localScale = new Vector3(2.1f, _yGazeValue, 2.1f);
             gazeObject.transform.localPosition = new Vector3(_barPos, _yGazeCenter, 0);
             gazeObject.GetComponent<Gazer>()._visualizationBehavior = gameObject.GetComponent<VisualizationBehavior>();
+            gazeObject.name="BarDetector"+i;
+            
             _groupPos+=_groupSize;
         }
             

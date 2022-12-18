@@ -253,21 +253,6 @@ PrefabInstance:
       propertyPath: dataAsset
       value: 
       objectReference: {fileID: 4900000, guid: d37532833d903ae46a98aff95787bb75, type: 3}
-    - target: {fileID: 559955044268141414, guid: d1421b31ffa8ce642b83f0850a20829f,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 559955044268141414, guid: d1421b31ffa8ce642b83f0850a20829f,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 559955044268141414, guid: d1421b31ffa8ce642b83f0850a20829f,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.7
-      objectReference: {fileID: 0}
     - target: {fileID: 559955044268141423, guid: d1421b31ffa8ce642b83f0850a20829f,
         type: 3}
       propertyPath: Margin
@@ -278,15 +263,15 @@ PrefabInstance:
       propertyPath: MaxYValue
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 3767840217508739390, guid: d1421b31ffa8ce642b83f0850a20829f,
+        type: 3}
+      propertyPath: NumberOfLabels
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5353629642795437746, guid: d1421b31ffa8ce642b83f0850a20829f,
         type: 3}
       propertyPath: m_Name
       value: VisualizationAndCharacter2DvsVR
-      objectReference: {fileID: 0}
-    - target: {fileID: 5496396447575031618, guid: d1421b31ffa8ce642b83f0850a20829f,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.5
       objectReference: {fileID: 0}
     - target: {fileID: 8806346492551418742, guid: d1421b31ffa8ce642b83f0850a20829f,
         type: 3}

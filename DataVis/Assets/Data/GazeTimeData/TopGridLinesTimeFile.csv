@@ -1,28 +1,168 @@
-joaq, 1, 0
-joaq, 1, 0
-joaq, 2, 0
-joaq, 2, 0
-joaq, 3, 0
-joaq, 3, 0
-joaq, 4, 0
-joaq, 4, 0
-joaq, 1, 0
-joaq, 1, 0
-joaq, 2, 0
-joaq, 2, 0
-joaq, 3, 0
-joaq, 3, 0
-joaq, 1, 0
-joaq, 1, 0
-joaq, 2, 0
-joaq, 2, 0
-joaq, 3, 0
-joaq, 3, 0
-joaq, 4, 0
-joaq, 4, 0
-joaq, 1, 2.90397
-joaq, 1, 1.04099
-joaq, 2, 0.99899
-joaq, 2, 4.32287
-joaq, 3, 0.91799
-joaq, 3, 0.32800
+joaq, 1, FloorDetector, 0.00000
+joaq, 1, TopDetector, 0.00000
+joaq, 1, AxisDetector, 0.00000
+joaq, 1, BarDetector0, 0.00000
+joaq, 1, BarDetector1, 0.00000
+joaq, 2, FloorDetector, 0.00000
+joaq, 2, TopDetector, 0.00000
+joaq, 2, AxisDetector, 0.00000
+joaq, 2, BarDetector0, 0.00000
+joaq, 2, BarDetector1, 0.00000
+joaq, 3, FloorDetector, 0.00000
+joaq, 3, TopDetector, 0.00000
+joaq, 3, AxisDetector, 2.72066
+joaq, 3, BarDetector0, 6.33811
+joaq, 3, BarDetector1, 3.77454
+joaq, 4, FloorDetector, 0.00000
+joaq, 4, TopDetector, 0.00000
+joaq, 4, AxisDetector, 2.72066
+joaq, 4, BarDetector0, 0.00000
+joaq, 4, BarDetector1, 0.00000
+joaq, 5, FloorDetector, 0.00000
+joaq, 5, TopDetector, 0.00000
+joaq, 5, AxisDetector, 2.72066
+joaq, 5, BarDetector0, 0.00000
+joaq, 5, BarDetector1, 0.00000
+joaq, 6, FloorDetector, 0.00000
+joaq, 6, TopDetector, 0.00000
+joaq, 6, AxisDetector, 2.72066
+joaq, 6, BarDetector0, 0.00000
+joaq, 6, BarDetector1, 0.00000
+joaq, 7, FloorDetector, 0.00000
+joaq, 7, TopDetector, 0.00000
+joaq, 7, AxisDetector, 2.72066
+joaq, 7, BarDetector0, 0.00000
+joaq, 7, BarDetector1, 0.00000
+joaq, 8, FloorDetector, 0.00000
+joaq, 8, TopDetector, 0.00000
+joaq, 8, AxisDetector, 2.72066
+joaq, 8, BarDetector0, 0.00000
+joaq, 8, BarDetector1, 0.00000
+joaq, 9, FloorDetector, 0.00000
+joaq, 9, TopDetector, 0.00000
+joaq, 9, AxisDetector, 2.72066
+joaq, 9, BarDetector0, 0.00000
+joaq, 9, BarDetector1, 0.00000
+joaq, 10, FloorDetector, 0.00000
+joaq, 10, TopDetector, 0.00000
+joaq, 10, AxisDetector, 2.72066
+joaq, 10, BarDetector0, 0.00000
+joaq, 10, BarDetector1, 0.00000
+joaq, 11, FloorDetector, 0.00000
+joaq, 11, TopDetector, 0.00000
+joaq, 11, AxisDetector, 2.72066
+joaq, 11, BarDetector0, 0.00000
+joaq, 11, BarDetector1, 0.00000
+joaq, 12, FloorDetector, 0.00000
+joaq, 12, TopDetector, 0.00000
+joaq, 12, AxisDetector, 2.72066
+joaq, 12, BarDetector0, 0.00000
+joaq, 12, BarDetector1, 0.00000
+joaq, 13, FloorDetector, 0.00000
+joaq, 13, TopDetector, 0.00000
+joaq, 13, AxisDetector, 2.72066
+joaq, 13, BarDetector0, 0.00000
+joaq, 13, BarDetector1, 0.00000
+joaq, 14, FloorDetector, 0.00000
+joaq, 14, TopDetector, 0.00000
+joaq, 14, AxisDetector, 2.72066
+joaq, 14, BarDetector0, 0.00000
+joaq, 14, BarDetector1, 0.00000
+joaq, 15, FloorDetector, 0.00000
+joaq, 15, TopDetector, 0.00000
+joaq, 15, AxisDetector, 2.72066
+joaq, 15, BarDetector0, 0.00000
+joaq, 15, BarDetector1, 0.00000
+joaq, 16, FloorDetector, 0.00000
+joaq, 16, TopDetector, 0.00000
+joaq, 16, AxisDetector, 2.72066
+joaq, 1, FloorDetector, 0.00000
+joaq, 1, TopDetector, 0.00000
+joaq, 1, AxisDetector, 8.63167
+joaq, 1, BarDetector0, 0.00000
+joaq, 1, BarDetector1, 0.00000
+joaq, 2, FloorDetector, 0.00000
+joaq, 2, TopDetector, 0.00000
+joaq, 2, AxisDetector, 0.00000
+joaq, 2, BarDetector0, 0.00000
+joaq, 2, BarDetector1, 0.00000
+joaq, 1, FloorDetector, 0.00000
+joaq, 1, TopDetector, 0.00000
+joaq, 1, AxisDetector, 0.00000
+joaq, 1, BarDetector0, 0.00000
+joaq, 1, BarDetector1, 0.00000
+joaq, 1, FloorDetector, 0.00000
+joaq, 1, TopDetector, 0.00000
+joaq, 1, AxisDetector, 0.00000
+joaq, 1, BarDetector0, 0.00000
+joaq, 1, BarDetector1, 0.00000
+joaq, 2, FloorDetector, 0.00000
+joaq, 2, TopDetector, 0.00000
+joaq, 2, AxisDetector, 0.00000
+joaq, 2, BarDetector0, 1.56129
+joaq, 2, BarDetector1, 0.00000
+joaq, 3, FloorDetector, 0.00000
+joaq, 3, TopDetector, 0.00000
+joaq, 3, AxisDetector, 0.00000
+joaq, 3, BarDetector0, 1.57993
+joaq, 3, BarDetector1, 0.00000
+joaq, 4, FloorDetector, 0.00000
+joaq, 4, TopDetector, 0.00000
+joaq, 4, AxisDetector, 0.00000
+joaq, 4, BarDetector0, 1.48589
+joaq, 4, BarDetector1, 0.00000
+joaq, 5, FloorDetector, 0.00000
+joaq, 5, TopDetector, 0.00000
+joaq, 5, AxisDetector, 0.00000
+joaq, 5, BarDetector0, 0.00000
+joaq, 5, BarDetector1, 0.00000
+joaq, 6, FloorDetector, 0.00000
+joaq, 6, TopDetector, 0.00000
+joaq, 6, AxisDetector, 0.00000
+joaq, 6, BarDetector0, 1.46169
+joaq, 6, BarDetector1, 0.00000
+joaq, 7, FloorDetector, 0.00000
+joaq, 7, TopDetector, 0.00000
+joaq, 7, AxisDetector, 0.00000
+joaq, 7, BarDetector0, 0.00000
+joaq, 7, BarDetector1, 0.00000
+joaq, 8, FloorDetector, 0.00000
+joaq, 8, TopDetector, 0.00000
+joaq, 8, AxisDetector, 0.00000
+joaq, 8, BarDetector0, 0.00000
+joaq, 8, BarDetector1, 0.00000
+joaq, 9, FloorDetector, 0.00000
+joaq, 9, TopDetector, 0.00000
+joaq, 9, AxisDetector, 0.00000
+joaq, 9, BarDetector0, 0.00000
+joaq, 9, BarDetector1, 0.00000
+joaq, 10, FloorDetector, 0.00000
+joaq, 10, TopDetector, 0.00000
+joaq, 10, AxisDetector, 0.00000
+joaq, 10, BarDetector0, 0.00000
+joaq, 10, BarDetector1, 0.00000
+joaq, 11, FloorDetector, 0.00000
+joaq, 11, TopDetector, 0.00000
+joaq, 11, AxisDetector, 0.00000
+joaq, 11, BarDetector0, 1.47792
+joaq, 11, BarDetector1, 0.00000
+joaq, 12, FloorDetector, 0.00000
+joaq, 12, TopDetector, 0.00000
+joaq, 12, AxisDetector, 0.00000
+joaq, 12, BarDetector0, 0.00000
+joaq, 12, BarDetector1, 0.00000
+joaq, 13, FloorDetector, 0.00000
+joaq, 13, TopDetector, 0.00000
+joaq, 13, AxisDetector, 0.00000
+joaq, 13, BarDetector0, 0.00000
+joaq, 13, BarDetector1, 0.00000
+joaq, 14, FloorDetector, 0.00000
+joaq, 14, TopDetector, 0.00000
+joaq, 14, AxisDetector, 0.00000
+joaq, 14, BarDetector0, 1.41239
+joaq, 14, BarDetector1, 0.00000
+joaq, 15, FloorDetector, 0.00000
+joaq, 15, TopDetector, 0.00000
+joaq, 15, AxisDetector, 0.00000
+joaq, 15, BarDetector0, 1.42224
+joaq, 15, BarDetector1, 0.00000

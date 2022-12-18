@@ -149,31 +149,11 @@ PrefabInstance:
         type: 3}
       propertyPath: dataAsset
       value: 
-      objectReference: {fileID: 4900000, guid: 6351c5bdce69bb74696d055941e838c8, type: 3}
-    - target: {fileID: 559955044268141414, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 559955044268141414, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 559955044268141414, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.7
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4900000, guid: 8e6055275b0e4aa41a97b279df428276, type: 3}
     - target: {fileID: 5353629642795437746, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
         type: 3}
       propertyPath: m_Name
       value: VisualizationAndCharacter2DvsVRBoxedContainer
-      objectReference: {fileID: 0}
-    - target: {fileID: 5496396447575031618, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.5
       objectReference: {fileID: 0}
     - target: {fileID: 5496396447575031623, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
         type: 3}
@@ -194,6 +174,27 @@ PrefabInstance:
         type: 3}
       propertyPath: MaxYValue
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5834120745088371095, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
+        type: 3}
+      propertyPath: BoxedContainer
+      value: 
+      objectReference: {fileID: 6719544978119890208, guid: e93af3c05cf4b8e4c8ab1e5a5642a69d,
+        type: 3}
+    - target: {fileID: 5834120745088371095, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
+        type: 3}
+      propertyPath: ColorArray.Array.data[0].b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5834120745088371095, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
+        type: 3}
+      propertyPath: ColorArray.Array.data[0].g
+      value: 0.47058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5834120745088371095, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
+        type: 3}
+      propertyPath: ColorArray.Array.data[0].r
+      value: 0.12156863
       objectReference: {fileID: 0}
     - target: {fileID: 8329193328464480829, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
         type: 3}
@@ -717,7 +718,7 @@ PrefabInstance:
     - target: {fileID: 1917447094990032067, guid: dee50b81458a33548bcbaba4a02dc825,
         type: 3}
       propertyPath: ParticipantID
-      value: pedro
+      value: gisela
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dee50b81458a33548bcbaba4a02dc825, type: 3}

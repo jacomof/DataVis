@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 4958775438886465195}
   - component: {fileID: 2406501017541114817}
   - component: {fileID: 5123924893873346313}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BarElementGrouped
   m_TagString: Erasable
   m_Icon: {fileID: 0}

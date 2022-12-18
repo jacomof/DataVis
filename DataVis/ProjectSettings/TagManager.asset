@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Erasable
   - Gazer
+  - GazerNonErasable
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - BarLayer
   - Water
   - UI
   - 

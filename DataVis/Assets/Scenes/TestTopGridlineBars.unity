@@ -370,21 +370,6 @@ PrefabInstance:
       propertyPath: dataAsset
       value: 
       objectReference: {fileID: 4900000, guid: 6351c5bdce69bb74696d055941e838c8, type: 3}
-    - target: {fileID: 559955044268141414, guid: ece5cc2aee7fe5a4197834adba2fd7d9,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 559955044268141414, guid: ece5cc2aee7fe5a4197834adba2fd7d9,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 559955044268141414, guid: ece5cc2aee7fe5a4197834adba2fd7d9,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.7
-      objectReference: {fileID: 0}
     - target: {fileID: 559955044268141423, guid: ece5cc2aee7fe5a4197834adba2fd7d9,
         type: 3}
       propertyPath: Margin
@@ -400,15 +385,25 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
+    - target: {fileID: 5169203568137871836, guid: ece5cc2aee7fe5a4197834adba2fd7d9,
+        type: 3}
+      propertyPath: m_TagString
+      value: GazerNonErasable
+      objectReference: {fileID: 0}
     - target: {fileID: 5353629642795437746, guid: ece5cc2aee7fe5a4197834adba2fd7d9,
         type: 3}
       propertyPath: m_Name
       value: VisualizationAndCharacter2DvsVRTopGridline
       objectReference: {fileID: 0}
-    - target: {fileID: 5496396447575031618, guid: ece5cc2aee7fe5a4197834adba2fd7d9,
+    - target: {fileID: 5382197906668586272, guid: ece5cc2aee7fe5a4197834adba2fd7d9,
         type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.5
+      propertyPath: Name
+      value: FloorDetector
+      objectReference: {fileID: 0}
+    - target: {fileID: 5538671264485973230, guid: ece5cc2aee7fe5a4197834adba2fd7d9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 8806346492551418742, guid: ece5cc2aee7fe5a4197834adba2fd7d9,
         type: 3}
@@ -464,6 +459,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9194535926336634211, guid: ece5cc2aee7fe5a4197834adba2fd7d9,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0675419207873224e93735bf38e0f1f8, type: 2}
+    - target: {fileID: 9194535926336634211, guid: ece5cc2aee7fe5a4197834adba2fd7d9,
+        type: 3}
+      propertyPath: m_Positions.Array.data[1].x
+      value: -0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ece5cc2aee7fe5a4197834adba2fd7d9, type: 3}

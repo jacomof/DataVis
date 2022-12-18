@@ -20,6 +20,8 @@ public class Gazer : MonoBehaviour, IGazeFocusable
 
     private bool timerGoing = false;
     public VisualizationBehavior _visualizationBehavior;
+
+    
     
 
     //The method of the "IGazeFocusable" interface, which will be called when this object receives or loses focus
@@ -97,8 +99,9 @@ public class Gazer : MonoBehaviour, IGazeFocusable
         System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("en-US");
         System.Threading.Thread.CurrentThread.CurrentCulture = ci;
         StreamWriter _timeFile =  File.AppendText("Assets/Data/GazeTimeData/" + _visualizationBehavior.GetExperimentName() + "TimeFile.csv");
-        _timeFile.WriteLineAsync(_visualizationBehavior.GetParticipantID() + ", " + _visualizationBehavior.GetExperimentCount().ToString() + ", " + Timer.ToString("F5"));
+        _timeFile.WriteLineAsync(_visualizationBehavior.GetParticipantID() + ", " + _visualizationBehavior.GetExperimentCount().ToString() + ", " + gameObject.name + ", " + Timer.ToString("F5"));
         _timeFile.Close();
+        Timer=0.0f;
 
     }
 }

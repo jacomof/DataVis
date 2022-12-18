@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 
 public class VisualizationBehavior : MonoBehaviour
 {
-    public float Size;
     [SerializeField] private bool _Enabled;
     public Vector3 AxisScale; 
     public static float PLANE_SIZE = 10.0f;
@@ -52,7 +51,6 @@ public class VisualizationBehavior : MonoBehaviour
     
     void Start()
     {
-        gameObject.transform.localScale = new Vector3(Size,Size,Size);
         gameObject.SetActive(_Enabled);
         
         Debug.Log("Hello there, I'm the visualization!");
@@ -113,6 +111,10 @@ public class VisualizationBehavior : MonoBehaviour
                     child.gameObject.GetComponent<Gazer>().SaveTime();
                     Object.Destroy(child.gameObject);
 
+                }else if(child.tag == "GazerNonErasable"){
+
+                    child.gameObject.GetComponent<Gazer>().SaveTime();
+
                 }
             }
             
@@ -135,6 +137,10 @@ public class VisualizationBehavior : MonoBehaviour
 
                     child.gameObject.GetComponent<Gazer>().SaveTime();
                     Object.Destroy(child.gameObject);
+
+                }else if(child.tag == "GazerNonErasable"){
+
+                    child.gameObject.GetComponent<Gazer>().SaveTime();
 
                 }
             }
