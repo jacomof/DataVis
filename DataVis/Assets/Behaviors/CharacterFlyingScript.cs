@@ -28,7 +28,7 @@ public class CharacterFlyingScript : MonoBehaviour
 
         if(AscendButton.IsPressed()){
             _yVelocity=_flyingSpeed;
-            Debug.Log("Button is pressed!");
+            //Debug.Log("Button is pressed!");
         }
         if(DescendButton.IsPressed())
             _yVelocity= -_flyingSpeed;
