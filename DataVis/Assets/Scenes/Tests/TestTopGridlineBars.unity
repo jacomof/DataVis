@@ -256,6 +256,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1917447094990032067, guid: dee50b81458a33548bcbaba4a02dc825,
         type: 3}
+      propertyPath: ParticipantID
+      value: Ruth Chacon
+      objectReference: {fileID: 0}
+    - target: {fileID: 1917447094990032067, guid: dee50b81458a33548bcbaba4a02dc825,
+        type: 3}
       propertyPath: ExperimentName
       value: TopGridLines
       objectReference: {fileID: 0}
@@ -376,6 +381,11 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 559955044268141423, guid: ece5cc2aee7fe5a4197834adba2fd7d9,
+        type: 3}
+      propertyPath: MaxYValue
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3767840217508739390, guid: ece5cc2aee7fe5a4197834adba2fd7d9,
         type: 3}
       propertyPath: MaxYValue
       value: 100

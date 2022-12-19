@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.tobii.xr.sdk": {
-      "version": "file:C:/Users/joaqu/DataVis/tobiiXRSDK",
+      "version": "file:D:/JoaquinFigueira/TrueDataVis/DataVis/tobii",
       "depth": 0,
       "source": "local",
       "dependencies": {

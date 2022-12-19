@@ -1,403 +1,445 @@
-gisela, 1, FloorDetector, 0.00000
-gisela, 1, TopDetector, 0.00000
-gisela, 1, AxisDetector, 0.00000
-gisela, 1, BarDetector0, 0.00000
-gisela, 1, BarDetector1, 0.00000
-gisela, 2, FloorDetector, 0.00000
-gisela, 2, TopDetector, 0.00000
-gisela, 2, AxisDetector, 0.00000
-gisela, 2, BarDetector0, 1.35398
-gisela, 2, BarDetector1, 0.00000
-gisela, 3, FloorDetector, 0.00000
-gisela, 3, TopDetector, 0.00000
-gisela, 3, AxisDetector, 0.00000
-gisela, 3, BarDetector0, 1.43097
-gisela, 3, BarDetector1, 0.00000
-gisela, 4, FloorDetector, 0.00000
-gisela, 4, TopDetector, 0.00000
-gisela, 4, AxisDetector, 0.00000
-gisela, 4, BarDetector0, 1.46076
-gisela, 4, BarDetector1, 0.00000
-gisela, 5, FloorDetector, 11.38490
-gisela, 5, TopDetector, 0.44828
-gisela, 5, AxisDetector, 0.00000
-gisela, 5, BarDetector0, 0.62001
-gisela, 5, BarDetector1, 0.00000
-gisela, 6, FloorDetector, 0.00336
-gisela, 6, TopDetector, 0.00000
-gisela, 6, AxisDetector, 0.00000
-gisela, 6, BarDetector0, 1.48205
-gisela, 6, BarDetector1, 0.00000
-gisela, 7, FloorDetector, 0.00000
-gisela, 7, TopDetector, 0.00000
-gisela, 7, AxisDetector, 0.00000
-gisela, 7, BarDetector0, 0.00000
-gisela, 7, BarDetector1, 0.00000
-gisela, 8, FloorDetector, 0.00000
-gisela, 8, TopDetector, 0.00000
-gisela, 8, AxisDetector, 0.00000
-gisela, 8, BarDetector0, 0.00000
-gisela, 8, BarDetector1, 0.00000
-gisela, 9, FloorDetector, 0.00000
-gisela, 9, TopDetector, 0.00000
-gisela, 9, AxisDetector, 0.00000
-gisela, 9, BarDetector0, 0.00000
-gisela, 9, BarDetector1, 0.00000
-gisela, 10, FloorDetector, 0.00000
-gisela, 10, TopDetector, 0.00000
-gisela, 10, AxisDetector, 0.00000
-gisela, 10, BarDetector0, 0.00000
-gisela, 10, BarDetector1, 0.00000
-gisela, 11, FloorDetector, 0.00000
-gisela, 11, TopDetector, 0.00000
-gisela, 11, AxisDetector, 0.00000
-gisela, 11, BarDetector0, 1.45526
-gisela, 11, BarDetector1, 0.00000
-gisela, 12, FloorDetector, 0.00000
-gisela, 12, TopDetector, 0.00000
-gisela, 12, AxisDetector, 0.00000
-gisela, 12, BarDetector0, 0.00000
-gisela, 12, BarDetector1, 0.00000
-gisela, 13, FloorDetector, 0.00000
-gisela, 13, TopDetector, 0.00000
-gisela, 13, AxisDetector, 0.00000
-gisela, 13, BarDetector0, 0.00000
-gisela, 13, BarDetector1, 0.00000
-gisela, 14, FloorDetector, 0.00000
-gisela, 14, TopDetector, 0.00000
-gisela, 14, AxisDetector, 0.00000
-gisela, 14, BarDetector0, 2.22901
-gisela, 14, BarDetector1, 0.00000
-gisela, 15, FloorDetector, 0.00000
-gisela, 15, TopDetector, 0.00000
-gisela, 15, AxisDetector, 0.00000
-gisela, 15, BarDetector0, 10.02898
-gisela, 15, BarDetector1, 0.00000
-gisela, 1, FloorDetector, 0.00000
-gisela, 1, TopDetector, 0.00000
-gisela, 1, AxisDetector, 0.00000
-gisela, 1, BarDetector0, 0.00000
-gisela, 1, BarDetector1, 0.00000
-gisela, 2, FloorDetector, 0.00000
-gisela, 2, TopDetector, 0.00000
-gisela, 2, AxisDetector, 0.00000
-gisela, 2, BarDetector0, 0.00000
-gisela, 2, BarDetector1, 0.00000
-gisela, 3, FloorDetector, 0.00000
-gisela, 3, TopDetector, 0.00000
-gisela, 3, AxisDetector, 0.00000
-gisela, 3, BarDetector0, 0.00000
-gisela, 3, BarDetector1, 0.00000
-gisela, 4, FloorDetector, 0.00000
-gisela, 4, TopDetector, 0.00000
-gisela, 4, AxisDetector, 0.00000
-gisela, 4, BarDetector0, 1.62589
-gisela, 4, BarDetector1, 0.00000
-gisela, 5, FloorDetector, 0.00000
-gisela, 5, TopDetector, 0.00000
-gisela, 5, AxisDetector, 0.00000
-gisela, 5, BarDetector0, 0.00000
-gisela, 5, BarDetector1, 0.00000
-gisela, 6, FloorDetector, 0.00000
-gisela, 6, TopDetector, 0.00000
-gisela, 6, AxisDetector, 0.00000
-gisela, 6, BarDetector0, 1.37374
-gisela, 6, BarDetector1, 0.00000
-gisela, 7, FloorDetector, 0.00000
-gisela, 7, TopDetector, 0.00000
-gisela, 7, AxisDetector, 0.00000
-gisela, 7, BarDetector0, 1.39725
-gisela, 7, BarDetector1, 0.00000
-gisela, 8, FloorDetector, 0.00000
-gisela, 8, TopDetector, 0.00000
-gisela, 8, AxisDetector, 0.00000
-gisela, 8, BarDetector0, 1.25274
-gisela, 8, BarDetector1, 0.00000
-gisela, 9, FloorDetector, 0.00000
-gisela, 9, TopDetector, 0.00000
-gisela, 9, AxisDetector, 0.00000
-gisela, 9, BarDetector0, 0.00000
-gisela, 9, BarDetector1, 0.00000
-gisela, 10, FloorDetector, 0.00000
-gisela, 10, TopDetector, 0.00000
-gisela, 10, AxisDetector, 0.00000
-gisela, 10, BarDetector0, 4.73203
-gisela, 10, BarDetector1, 0.00000
-gisela, 11, FloorDetector, 0.00000
-gisela, 11, TopDetector, 0.00000
-gisela, 11, AxisDetector, 0.00000
-gisela, 11, BarDetector0, 0.00000
-gisela, 11, BarDetector1, 0.00000
-gisela, 12, FloorDetector, 0.00000
-gisela, 12, TopDetector, 0.00000
-gisela, 12, AxisDetector, 0.00000
-gisela, 12, BarDetector0, 1.40142
-gisela, 12, BarDetector1, 0.00000
-gisela, 13, FloorDetector, 0.00000
-gisela, 13, TopDetector, 0.00000
-gisela, 13, AxisDetector, 0.00000
-gisela, 13, BarDetector0, 0.00000
-gisela, 13, BarDetector1, 0.00000
-gisela, 14, FloorDetector, 0.00000
-gisela, 14, TopDetector, 0.00000
-gisela, 14, AxisDetector, 0.00000
-gisela, 14, BarDetector0, 1.28962
-gisela, 14, BarDetector1, 0.00000
-gisela, 15, FloorDetector, 0.00000
-gisela, 15, TopDetector, 0.00000
-gisela, 15, AxisDetector, 0.00000
-gisela, 15, BarDetector0, 0.00000
-gisela, 15, BarDetector1, 0.00000
-gisela, 16, FloorDetector, 0.00000
-gisela, 16, TopDetector, 0.00000
-gisela, 16, AxisDetector, 0.00000
-gisela, 1, FloorDetector, 0.00000
-gisela, 1, TopDetector, 0.00000
-gisela, 1, AxisDetector, 0.00000
-gisela, 1, BarDetector0, 0.00000
-gisela, 1, BarDetector1, 0.00000
-gisela, 2, FloorDetector, 0.00000
-gisela, 2, TopDetector, 0.00000
-gisela, 2, AxisDetector, 0.00000
-gisela, 2, BarDetector0, 0.00000
-gisela, 2, BarDetector1, 0.00000
-gisela, 3, FloorDetector, 0.00000
-gisela, 3, TopDetector, 0.00000
-gisela, 3, AxisDetector, 0.00000
-gisela, 3, BarDetector0, 0.00000
-gisela, 3, BarDetector1, 0.00000
-gisela, 1, FloorDetector, 0.00000
-gisela, 1, TopDetector, 0.00000
-gisela, 1, AxisDetector, 0.00000
-gisela, 1, BarDetector0, 0.00000
-gisela, 1, BarDetector1, 0.00000
-gisela, 1, FloorDetector, 0.00000
-gisela, 1, TopDetector, 0.00000
-gisela, 1, AxisDetector, 0.00000
-gisela, 1, BarDetector0, 0.00000
-gisela, 1, BarDetector1, 0.00000
-gisela, 2, FloorDetector, 0.00000
-gisela, 2, TopDetector, 0.00000
-gisela, 2, AxisDetector, 0.00000
-gisela, 2, BarDetector0, 0.00000
-gisela, 2, BarDetector1, 0.00000
-gisela, 3, FloorDetector, 0.00000
-gisela, 3, TopDetector, 0.00000
-gisela, 3, AxisDetector, 0.00000
-gisela, 3, BarDetector0, 0.00000
-gisela, 3, BarDetector1, 0.00000
-gisela, 4, FloorDetector, 0.00000
-gisela, 4, TopDetector, 0.00000
-gisela, 4, AxisDetector, 0.00000
-gisela, 4, BarDetector0, 1.43560
-gisela, 4, BarDetector1, 0.00000
-gisela, 5, FloorDetector, 0.00000
-gisela, 5, TopDetector, 0.00000
-gisela, 5, AxisDetector, 0.00000
-gisela, 5, BarDetector0, 0.00000
-gisela, 5, BarDetector1, 0.00000
-gisela, 1, FloorDetector, 0.00000
-gisela, 1, TopDetector, 0.00000
-gisela, 1, AxisDetector, 0.00000
-gisela, 1, BarDetector0, 0.00000
-gisela, 1, BarDetector1, 0.00000
-gisela, 2, FloorDetector, 0.00000
-gisela, 2, TopDetector, 0.00000
-gisela, 2, AxisDetector, 0.00000
-gisela, 2, BarDetector0, 0.00000
-gisela, 2, BarDetector1, 0.00000
-gisela, 1, FloorDetector, 0.00000
-gisela, 1, TopDetector, 0.00000
-gisela, 1, AxisDetector, 0.00000
-gisela, 1, BarDetector0, 0.00000
-gisela, 1, BarDetector1, 0.00000
-gisela, 2, FloorDetector, 0.00000
-gisela, 2, TopDetector, 0.00000
-gisela, 2, AxisDetector, 0.00000
-gisela, 2, BarDetector0, 0.00000
-gisela, 2, BarDetector1, 0.00000
-gisela, 1, FloorDetector, 0.00000
-gisela, 1, TopDetector, 0.00000
-gisela, 1, AxisDetector, 0.00000
-gisela, 1, BarDetector0, 0.00000
-gisela, 1, BarDetector1, 0.00000
-gisela, 2, FloorDetector, 0.00000
-gisela, 2, TopDetector, 0.00000
-gisela, 2, AxisDetector, 0.00000
-gisela, 2, BarDetector0, 0.00000
-gisela, 2, BarDetector1, 0.00000
-gisela, 3, FloorDetector, 0.00000
-gisela, 3, TopDetector, 0.00000
-gisela, 3, AxisDetector, 0.00000
-gisela, 3, BarDetector0, 0.00000
-gisela, 3, BarDetector1, 0.00000
-gisela, 4, FloorDetector, 0.00000
-gisela, 4, TopDetector, 0.00000
-gisela, 4, AxisDetector, 0.00000
-gisela, 4, BarDetector0, 1.50933
-gisela, 4, BarDetector1, 0.00000
-gisela, 5, FloorDetector, 0.00000
-gisela, 5, TopDetector, 0.00000
-gisela, 5, AxisDetector, 0.00000
-gisela, 5, BarDetector0, 0.00000
-gisela, 5, BarDetector1, 0.00000
-gisela, 6, FloorDetector, 0.00000
-gisela, 6, TopDetector, 0.00000
-gisela, 6, AxisDetector, 0.00000
-gisela, 6, BarDetector0, 1.38210
-gisela, 6, BarDetector1, 0.00000
-gisela, 7, FloorDetector, 0.00000
-gisela, 7, TopDetector, 0.00000
-gisela, 7, AxisDetector, 0.00000
-gisela, 7, BarDetector0, 1.36577
-gisela, 7, BarDetector1, 0.00000
-gisela, 1, FloorDetector, 0.00000
-gisela, 1, TopDetector, 0.00000
-gisela, 1, AxisDetector, 0.00000
-gisela, 1, BarDetector0, 0.00000
-gisela, 1, BarDetector1, 0.00000
-gisela, 2, FloorDetector, 0.00000
-gisela, 2, TopDetector, 0.00000
-gisela, 2, AxisDetector, 0.00000
-gisela, 2, BarDetector0, 0.00000
-gisela, 2, BarDetector1, 0.00000
-gisela, 3, FloorDetector, 0.00000
-gisela, 3, TopDetector, 0.00000
-gisela, 3, AxisDetector, 0.00000
-gisela, 3, BarDetector0, 1.35503
-gisela, 3, BarDetector1, 0.00000
-gisela, 4, FloorDetector, 0.00000
-gisela, 4, TopDetector, 0.00000
-gisela, 4, AxisDetector, 0.00000
-gisela, 4, BarDetector0, 0.00000
-gisela, 4, BarDetector1, 0.00000
-gisela, 5, FloorDetector, 0.00000
-gisela, 5, TopDetector, 0.00000
-gisela, 5, AxisDetector, 0.00000
-gisela, 5, BarDetector0, 1.37420
-gisela, 5, BarDetector1, 0.00000
-gisela, 6, FloorDetector, 0.00000
-gisela, 6, TopDetector, 0.00000
-gisela, 6, AxisDetector, 0.00000
-gisela, 6, BarDetector0, 0.00000
-gisela, 6, BarDetector1, 0.00000
-gisela, 7, FloorDetector, 0.00000
-gisela, 7, TopDetector, 0.00000
-gisela, 7, AxisDetector, 0.00000
-gisela, 7, BarDetector0, 2.15367
-gisela, 7, BarDetector1, 0.00000
-gisela, 8, FloorDetector, 0.00000
-gisela, 8, TopDetector, 0.00000
-gisela, 8, AxisDetector, 0.00000
-gisela, 8, BarDetector0, 1.41767
-gisela, 8, BarDetector1, 0.00000
-gisela, 9, FloorDetector, 0.00000
-gisela, 9, TopDetector, 0.00000
-gisela, 9, AxisDetector, 0.00000
-gisela, 9, BarDetector0, 0.00000
-gisela, 9, BarDetector1, 0.00000
-gisela, 10, FloorDetector, 0.00000
-gisela, 10, TopDetector, 0.00000
-gisela, 10, AxisDetector, 0.00000
-gisela, 10, BarDetector0, 9.46116
-gisela, 10, BarDetector1, 0.00000
-gisela, 11, FloorDetector, 0.00000
-gisela, 11, TopDetector, 0.00000
-gisela, 11, AxisDetector, 0.00000
-gisela, 11, BarDetector0, 0.00000
-gisela, 11, BarDetector1, 0.00000
-gisela, 12, FloorDetector, 0.00000
-gisela, 12, TopDetector, 0.00000
-gisela, 12, AxisDetector, 0.00000
-gisela, 12, BarDetector0, 1.45254
-gisela, 12, BarDetector1, 0.00000
-gisela, 13, FloorDetector, 0.00000
-gisela, 13, TopDetector, 0.00000
-gisela, 13, AxisDetector, 0.00000
-gisela, 13, BarDetector0, 0.00000
-gisela, 13, BarDetector1, 0.00000
-gisela, 14, FloorDetector, 0.00000
-gisela, 14, TopDetector, 0.00000
-gisela, 14, AxisDetector, 0.00000
-gisela, 14, BarDetector0, 1.45808
-gisela, 14, BarDetector1, 0.00000
-gisela, 15, FloorDetector, 0.00000
-gisela, 15, TopDetector, 0.00000
-gisela, 15, AxisDetector, 0.00000
-gisela, 15, BarDetector0, 0.00000
-gisela, 15, BarDetector1, 0.00000
-gisela, 1, FloorDetector, 0.00000
-gisela, 1, TopDetector, 0.00000
-gisela, 1, AxisDetector, 0.00000
-gisela, 1, BarDetector0, 0.00000
-gisela, 1, BarDetector1, 0.00000
-gisela, 2, FloorDetector, 0.00000
-gisela, 2, TopDetector, 0.00000
-gisela, 2, AxisDetector, 0.00000
-gisela, 2, BarDetector0, 0.00000
-gisela, 2, BarDetector1, 0.00000
-gisela, 3, FloorDetector, 0.00000
-gisela, 3, TopDetector, 0.00000
-gisela, 3, AxisDetector, 0.00000
-gisela, 3, BarDetector0, 1.40699
-gisela, 3, BarDetector1, 0.00000
-gisela, 4, FloorDetector, 0.00000
-gisela, 4, TopDetector, 0.00000
-gisela, 4, AxisDetector, 0.00000
-gisela, 4, BarDetector0, 0.00000
-gisela, 4, BarDetector1, 0.00000
-gisela, 5, FloorDetector, 0.00000
-gisela, 5, TopDetector, 0.00000
-gisela, 5, AxisDetector, 0.00000
-gisela, 5, BarDetector0, 1.33508
-gisela, 5, BarDetector1, 0.00000
-gisela, 6, FloorDetector, 0.00000
-gisela, 6, TopDetector, 0.00000
-gisela, 6, AxisDetector, 0.00000
-gisela, 6, BarDetector0, 0.00000
-gisela, 6, BarDetector1, 0.00000
-gisela, 7, FloorDetector, 0.00000
-gisela, 7, TopDetector, 0.00000
-gisela, 7, AxisDetector, 0.00000
-gisela, 7, BarDetector0, 1.31997
-gisela, 7, BarDetector1, 0.00000
-gisela, 8, FloorDetector, 0.00000
-gisela, 8, TopDetector, 0.00000
-gisela, 8, AxisDetector, 0.00000
-gisela, 8, BarDetector0, 1.43851
-gisela, 8, BarDetector1, 0.00000
-gisela, 9, FloorDetector, 0.00000
-gisela, 9, TopDetector, 0.00000
-gisela, 9, AxisDetector, 0.00000
-gisela, 9, BarDetector0, 0.00000
-gisela, 9, BarDetector1, 0.00000
-gisela, 10, FloorDetector, 0.00000
-gisela, 10, TopDetector, 0.00000
-gisela, 10, AxisDetector, 0.00000
-gisela, 10, BarDetector0, 1.33137
-gisela, 10, BarDetector1, 0.00000
-gisela, 11, FloorDetector, 0.00000
-gisela, 11, TopDetector, 0.00000
-gisela, 11, AxisDetector, 0.00000
-gisela, 11, BarDetector0, 0.00000
-gisela, 11, BarDetector1, 0.00000
-gisela, 12, FloorDetector, 0.00000
-gisela, 12, TopDetector, 0.00000
-gisela, 12, AxisDetector, 0.00000
-gisela, 12, BarDetector0, 9.88966
-gisela, 12, BarDetector1, 0.00000
-gisela, 13, FloorDetector, 0.00000
-gisela, 13, TopDetector, 0.00000
-gisela, 13, AxisDetector, 0.00000
-gisela, 13, BarDetector0, 0.00000
-gisela, 13, BarDetector1, 0.00000
-gisela, 14, FloorDetector, 0.00000
-gisela, 14, TopDetector, 0.00000
-gisela, 14, AxisDetector, 0.00000
-gisela, 14, BarDetector0, 1.40229
-gisela, 14, BarDetector1, 0.00000
-gisela, 15, FloorDetector, 0.00000
-gisela, 15, TopDetector, 0.00000
-gisela, 15, AxisDetector, 0.00000
-gisela, 15, BarDetector0, 0.00000
-gisela, 15, BarDetector1, 0.00000
+Gisela,1, FloorDetector,0.95183
+Gisela,1, TopDetector,0.3769
+Gisela,1, AxisDetector,6.80915
+Gisela,1, BarDetector0,13.28765
+Gisela,1, BarDetector1,7.72044
+Gisela,2, FloorDetector,1.00959
+Gisela,2, TopDetector,2.21961
+Gisela,2, AxisDetector,1.80748
+Gisela,2, BarDetector0,6.58928
+Gisela,2, BarDetector1,5.80025
+Gisela,3, FloorDetector,2.26059
+Gisela,3, TopDetector,0.8318
+Gisela,3, AxisDetector,0.64222
+Gisela,3, BarDetector0,4.92771
+Gisela,3, BarDetector1,6.64592
+Gisela,4, FloorDetector,0.2756
+Gisela,4, TopDetector,0.55364
+Gisela,4, AxisDetector,1.66377
+Gisela,4, BarDetector0,5.81803
+Gisela,4, BarDetector1,6.59914
+Gisela,5, FloorDetector,5.2212
+Gisela,5, TopDetector,1.90346
+Gisela,5, AxisDetector,0.32841
+Gisela,5, BarDetector0,4.12532
+Gisela,5, BarDetector1,11.65339
+Gisela,6, FloorDetector,8.67707
+Gisela,6, TopDetector,1.07945
+Gisela,6, AxisDetector,1.28162
+Gisela,6, BarDetector0,15.56151
+Gisela,6, BarDetector1,5.75847
+Gisela,7, FloorDetector,2.97366
+Gisela,7, TopDetector,0.35971
+Gisela,7, AxisDetector,5.26589
+Gisela,7, BarDetector0,13.92445
+Gisela,7, BarDetector1,4.95585
+Gisela,8, FloorDetector,0.12734
+Gisela,8, TopDetector,0.01149
+Gisela,8, AxisDetector,1.83474
+Gisela,8, BarDetector0,11.1452
+Gisela,8, BarDetector1,8.45147
+Gisela,9, FloorDetector,0.35354
+Gisela,9, TopDetector,2.52704
+Gisela,9, AxisDetector,2.54158
+Gisela,9, BarDetector0,16.44306
+Gisela,9, BarDetector1,8.58597
+Gisela,10, FloorDetector,0.95689
+Gisela,10, TopDetector,2.71278
+Gisela,10, AxisDetector,9.05903
+Gisela,10, BarDetector0,11.20944
+Gisela,10, BarDetector1,18.06006
+Gisela,11, FloorDetector,4.34899
+Gisela,11, TopDetector,1.7867
+Gisela,11, AxisDetector,4.77523
+Gisela,11, BarDetector0,7.22571
+Gisela,11, BarDetector1,6.16
+Gisela,12, FloorDetector,5.81568
+Gisela,12, TopDetector,0.3072
+Gisela,12, AxisDetector,1.94488
+Gisela,12, BarDetector0,8.56366
+Gisela,12, BarDetector1,6.30603
+Gisela,13, FloorDetector,0.71866
+Gisela,13, TopDetector,3.17775
+Gisela,13, AxisDetector,0.72913
+Gisela,13, BarDetector0,5.13458
+Gisela,13, BarDetector1,6.84478
+Gisela,14, FloorDetector,2.88366
+Gisela,14, TopDetector,0.15647
+Gisela,14, AxisDetector,1.6524
+Gisela,14, BarDetector0,10.74197
+Gisela,14, BarDetector1,7.68971
+Gisela,15, FloorDetector,0.10561
+Gisela,15, TopDetector,1.9856
+Gisela,15, AxisDetector,2.91416
+Gisela,15, BarDetector0,14.16534
+Gisela,15, BarDetector1,6.02669
+Sergi Avila,1, FloorDetector,0.25894
+Sergi Avila,1, TopDetector,0.53219
+Sergi Avila,1, AxisDetector,6.11762
+Sergi Avila,1, BarDetector0,12.94246
+Sergi Avila,1, BarDetector1,3.60885
+Sergi Avila,2, FloorDetector,3.22343
+Sergi Avila,2, TopDetector,1.8116
+Sergi Avila,2, AxisDetector,5.05936
+Sergi Avila,2, BarDetector0,3.31081
+Sergi Avila,2, BarDetector1,2.68982
+Sergi Avila,3, FloorDetector,2.34864
+Sergi Avila,3, TopDetector,0
+Sergi Avila,3, AxisDetector,5.00135
+Sergi Avila,3, BarDetector0,2.68658
+Sergi Avila,3, BarDetector1,1.36711
+Sergi Avila,4, FloorDetector,0.3307
+Sergi Avila,4, TopDetector,0.46323
+Sergi Avila,4, AxisDetector,3.03735
+Sergi Avila,4, BarDetector0,5.44473
+Sergi Avila,4, BarDetector1,5.19242
+Sergi Avila,5, FloorDetector,0.8238
+Sergi Avila,5, TopDetector,0.15287
+Sergi Avila,5, AxisDetector,0.57005
+Sergi Avila,5, BarDetector0,1.39802
+Sergi Avila,5, BarDetector1,3.85934
+Sergi Avila,6, FloorDetector,0.10562
+Sergi Avila,6, TopDetector,1.48581
+Sergi Avila,6, AxisDetector,1.35767
+Sergi Avila,6, BarDetector0,3.50952
+Sergi Avila,6, BarDetector1,1.20176
+Sergi Avila,7, FloorDetector,0
+Sergi Avila,7, TopDetector,0
+Sergi Avila,7, AxisDetector,1.7187
+Sergi Avila,7, BarDetector0,5.93878
+Sergi Avila,7, BarDetector1,2.93376
+Sergi Avila,8, FloorDetector,0
+Sergi Avila,8, TopDetector,1.04973
+Sergi Avila,8, AxisDetector,6.53471
+Sergi Avila,8, BarDetector0,2.54982
+Sergi Avila,8, BarDetector1,4.27429
+Sergi Avila,9, FloorDetector,0
+Sergi Avila,9, TopDetector,0.01206
+Sergi Avila,9, AxisDetector,3.45853
+Sergi Avila,9, BarDetector0,3.92532
+Sergi Avila,9, BarDetector1,2.66693
+Sergi Avila,10, FloorDetector,0.07246
+Sergi Avila,10, TopDetector,1.19837
+Sergi Avila,10, AxisDetector,4.97606
+Sergi Avila,10, BarDetector0,2.85407
+Sergi Avila,10, BarDetector1,3.5682
+Sergi Avila,11, FloorDetector,0.29586
+Sergi Avila,11, TopDetector,0
+Sergi Avila,11, AxisDetector,2.88223
+Sergi Avila,11, BarDetector0,3.67354
+Sergi Avila,11, BarDetector1,0.98666
+Sergi Avila,12, FloorDetector,1.53285
+Sergi Avila,12, TopDetector,0.52524
+Sergi Avila,12, AxisDetector,0.54081
+Sergi Avila,12, BarDetector0,1.66275
+Sergi Avila,12, BarDetector1,3.13898
+Sergi Avila,13, FloorDetector,0
+Sergi Avila,13, TopDetector,0
+Sergi Avila,13, AxisDetector,3.02408
+Sergi Avila,13, BarDetector0,3.67001
+Sergi Avila,13, BarDetector1,2.3314
+Sergi Avila,14, FloorDetector,0
+Sergi Avila,14, TopDetector,0
+Sergi Avila,14, AxisDetector,3.46848
+Sergi Avila,14, BarDetector0,1.95255
+Sergi Avila,14, BarDetector1,0.55482
+Sergi Avila,15, FloorDetector,0
+Sergi Avila,15, TopDetector,0.4155
+Sergi Avila,15, AxisDetector,2.64211
+Sergi Avila,15, BarDetector0,1.91359
+Sergi Avila,15, BarDetector1,3.32976
+Samuel Blanco, 1, FloorDetector, 0.48454
+Samuel Blanco, 1, TopDetector, 4.89463
+Samuel Blanco, 1, AxisDetector, 5.13066
+Samuel Blanco, 1, BarDetector0, 11.86417
+Samuel Blanco, 1, BarDetector1, 5.93558
+Samuel Blanco, 2, FloorDetector, 0.00000
+Samuel Blanco, 2, TopDetector, 4.51162
+Samuel Blanco, 2, AxisDetector, 1.24188
+Samuel Blanco, 2, BarDetector0, 10.25329
+Samuel Blanco, 2, BarDetector1, 1.73134
+Samuel Blanco, 3, FloorDetector, 2.91065
+Samuel Blanco, 3, TopDetector, 1.28404
+Samuel Blanco, 3, AxisDetector, 4.44788
+Samuel Blanco, 3, BarDetector0, 16.30630
+Samuel Blanco, 3, BarDetector1, 10.54560
+Samuel Blanco, 4, FloorDetector, 1.82247
+Samuel Blanco, 4, TopDetector, 0.22056
+Samuel Blanco, 4, AxisDetector, 1.57676
+Samuel Blanco, 4, BarDetector0, 2.88687
+Samuel Blanco, 4, BarDetector1, 3.08872
+Samuel Blanco, 5, FloorDetector, 0.65311
+Samuel Blanco, 5, TopDetector, 1.39792
+Samuel Blanco, 5, AxisDetector, 0.60211
+Samuel Blanco, 5, BarDetector0, 1.42885
+Samuel Blanco, 5, BarDetector1, 1.44672
+Samuel Blanco, 6, FloorDetector, 0.02259
+Samuel Blanco, 6, TopDetector, 1.42496
+Samuel Blanco, 6, AxisDetector, 0.73171
+Samuel Blanco, 6, BarDetector0, 4.74561
+Samuel Blanco, 6, BarDetector1, 3.55302
+Samuel Blanco, 7, FloorDetector, 0.00000
+Samuel Blanco, 7, TopDetector, 2.98874
+Samuel Blanco, 7, AxisDetector, 2.85499
+Samuel Blanco, 7, BarDetector0, 1.92909
+Samuel Blanco, 7, BarDetector1, 0.86546
+Samuel Blanco, 8, FloorDetector, 0.00000
+Samuel Blanco, 8, TopDetector, 2.17719
+Samuel Blanco, 8, AxisDetector, 4.88734
+Samuel Blanco, 8, BarDetector0, 11.33106
+Samuel Blanco, 8, BarDetector1, 4.82137
+Samuel Blanco, 9, FloorDetector, 0.04375
+Samuel Blanco, 9, TopDetector, 1.51320
+Samuel Blanco, 9, AxisDetector, 3.95524
+Samuel Blanco, 9, BarDetector0, 8.17854
+Samuel Blanco, 9, BarDetector1, 1.59976
+Samuel Blanco, 10, FloorDetector, 0.00000
+Samuel Blanco, 10, TopDetector, 3.08739
+Samuel Blanco, 10, AxisDetector, 1.15646
+Samuel Blanco, 10, BarDetector0, 1.71027
+Samuel Blanco, 10, BarDetector1, 0.42246
+Samuel Blanco, 11, FloorDetector, 0.13254
+Samuel Blanco, 11, TopDetector, 0.82156
+Samuel Blanco, 11, AxisDetector, 2.29212
+Samuel Blanco, 11, BarDetector0, 3.50444
+Samuel Blanco, 11, BarDetector1, 5.80046
+Samuel Blanco, 12, FloorDetector, 0.11112
+Samuel Blanco, 12, TopDetector, 1.40002
+Samuel Blanco, 12, AxisDetector, 0.13277
+Samuel Blanco, 12, BarDetector0, 1.80398
+Samuel Blanco, 12, BarDetector1, 3.75277
+Samuel Blanco, 13, FloorDetector, 0.08864
+Samuel Blanco, 13, TopDetector, 2.08451
+Samuel Blanco, 13, AxisDetector, 4.00282
+Samuel Blanco, 13, BarDetector0, 6.57071
+Samuel Blanco, 13, BarDetector1, 4.33381
+Samuel Blanco, 14, FloorDetector, 0.77657
+Samuel Blanco, 14, TopDetector, 0.00000
+Samuel Blanco, 14, AxisDetector, 0.57996
+Samuel Blanco, 14, BarDetector0, 3.82298
+Samuel Blanco, 14, BarDetector1, 3.68584
+Samuel Blanco, 15, FloorDetector, 0.00000
+Samuel Blanco, 15, TopDetector, 2.99922
+Samuel Blanco, 15, AxisDetector, 2.02203
+Samuel Blanco, 15, BarDetector0, 2.75800
+Samuel Blanco, 15, BarDetector1, 7.99872
+Paula Del Cuerpo, 1, FloorDetector, 0.00000
+Paula Del Cuerpo, 1, TopDetector, 2.33335
+Paula Del Cuerpo, 1, AxisDetector, 4.16965
+Paula Del Cuerpo, 1, BarDetector0, 6.10858
+Paula Del Cuerpo, 1, BarDetector1, 3.03556
+Paula Del Cuerpo, 2, FloorDetector, 0.00000
+Paula Del Cuerpo, 2, TopDetector, 1.96267
+Paula Del Cuerpo, 2, AxisDetector, 1.08792
+Paula Del Cuerpo, 2, BarDetector0, 1.10504
+Paula Del Cuerpo, 2, BarDetector1, 1.00791
+Paula Del Cuerpo, 3, FloorDetector, 0.13377
+Paula Del Cuerpo, 3, TopDetector, 0.00000
+Paula Del Cuerpo, 3, AxisDetector, 2.05136
+Paula Del Cuerpo, 3, BarDetector0, 1.53048
+Paula Del Cuerpo, 3, BarDetector1, 3.10891
+Paula Del Cuerpo, 4, FloorDetector, 0.00000
+Paula Del Cuerpo, 4, TopDetector, 0.24427
+Paula Del Cuerpo, 4, AxisDetector, 1.11066
+Paula Del Cuerpo, 4, BarDetector0, 0.91068
+Paula Del Cuerpo, 4, BarDetector1, 2.79683
+Paula Del Cuerpo, 5, FloorDetector, 0.00000
+Paula Del Cuerpo, 5, TopDetector, 2.77373
+Paula Del Cuerpo, 5, AxisDetector, 0.62213
+Paula Del Cuerpo, 5, BarDetector0, 2.22119
+Paula Del Cuerpo, 5, BarDetector1, 2.13141
+Paula Del Cuerpo, 6, FloorDetector, 0.04588
+Paula Del Cuerpo, 6, TopDetector, 11.12755
+Paula Del Cuerpo, 6, AxisDetector, 1.57621
+Paula Del Cuerpo, 6, BarDetector0, 1.13341
+Paula Del Cuerpo, 6, BarDetector1, 7.81860
+Paula Del Cuerpo, 7, FloorDetector, 0.00000
+Paula Del Cuerpo, 7, TopDetector, 0.95094
+Paula Del Cuerpo, 7, AxisDetector, 2.41910
+Paula Del Cuerpo, 7, BarDetector0, 2.00161
+Paula Del Cuerpo, 7, BarDetector1, 0.62281
+Paula Del Cuerpo, 8, FloorDetector, 0.00000
+Paula Del Cuerpo, 8, TopDetector, 4.91080
+Paula Del Cuerpo, 8, AxisDetector, 1.57857
+Paula Del Cuerpo, 8, BarDetector0, 3.35418
+Paula Del Cuerpo, 8, BarDetector1, 0.93269
+Paula Del Cuerpo, 9, FloorDetector, 0.00000
+Paula Del Cuerpo, 9, TopDetector, 4.40114
+Paula Del Cuerpo, 9, AxisDetector, 1.88722
+Paula Del Cuerpo, 9, BarDetector0, 1.57607
+Paula Del Cuerpo, 9, BarDetector1, 3.21581
+Paula Del Cuerpo, 10, FloorDetector, 0.00000
+Paula Del Cuerpo, 10, TopDetector, 4.57714
+Paula Del Cuerpo, 10, AxisDetector, 1.61881
+Paula Del Cuerpo, 10, BarDetector0, 3.66925
+Paula Del Cuerpo, 10, BarDetector1, 0.75246
+Paula Del Cuerpo, 11, FloorDetector, 0.02224
+Paula Del Cuerpo, 11, TopDetector, 4.25510
+Paula Del Cuerpo, 11, AxisDetector, 3.88703
+Paula Del Cuerpo, 11, BarDetector0, 2.90809
+Paula Del Cuerpo, 11, BarDetector1, 1.75646
+Paula Del Cuerpo, 12, FloorDetector, 0.04430
+Paula Del Cuerpo, 12, TopDetector, 2.97578
+Paula Del Cuerpo, 12, AxisDetector, 0.77649
+Paula Del Cuerpo, 12, BarDetector0, 2.44908
+Paula Del Cuerpo, 12, BarDetector1, 1.46216
+Paula Del Cuerpo, 13, FloorDetector, 0.00000
+Paula Del Cuerpo, 13, TopDetector, 16.30249
+Paula Del Cuerpo, 13, AxisDetector, 0.02185
+Paula Del Cuerpo, 13, BarDetector0, 1.93123
+Paula Del Cuerpo, 13, BarDetector1, 1.22202
+Paula Del Cuerpo, 14, FloorDetector, 0.00000
+Paula Del Cuerpo, 14, TopDetector, 2.50964
+Paula Del Cuerpo, 14, AxisDetector, 5.66604
+Paula Del Cuerpo, 14, BarDetector0, 4.55166
+Paula Del Cuerpo, 14, BarDetector1, 1.13272
+Paula Del Cuerpo, 15, FloorDetector, 0.00000
+Paula Del Cuerpo, 15, TopDetector, 3.79417
+Paula Del Cuerpo, 15, AxisDetector, 0.49016
+Paula Del Cuerpo, 15, BarDetector0, 1.86491
+Paula Del Cuerpo, 15, BarDetector1, 0.24425
+Gabriel Figueira, 1, FloorDetector, 0.64024
+Gabriel Figueira, 1, TopDetector, 5.07930
+Gabriel Figueira, 1, AxisDetector, 11.92869
+Gabriel Figueira, 1, BarDetector0, 7.57401
+Gabriel Figueira, 1, BarDetector1, 0.43641
+Gabriel Figueira, 2, FloorDetector, 0.02257
+Gabriel Figueira, 2, TopDetector, 1.75332
+Gabriel Figueira, 2, AxisDetector, 2.57789
+Gabriel Figueira, 2, BarDetector0, 2.02226
+Gabriel Figueira, 2, BarDetector1, 1.24737
+Gabriel Figueira, 3, FloorDetector, 2.41843
+Gabriel Figueira, 3, TopDetector, 0.37799
+Gabriel Figueira, 3, AxisDetector, 0.93426
+Gabriel Figueira, 3, BarDetector0, 2.59841
+Gabriel Figueira, 3, BarDetector1, 0.06811
+Gabriel Figueira, 4, FloorDetector, 0.00000
+Gabriel Figueira, 4, TopDetector, 0.57660
+Gabriel Figueira, 4, AxisDetector, 0.96096
+Gabriel Figueira, 4, BarDetector0, 0.75715
+Gabriel Figueira, 4, BarDetector1, 0.00000
+Gabriel Figueira, 5, FloorDetector, 1.48769
+Gabriel Figueira, 5, TopDetector, 1.99963
+Gabriel Figueira, 5, AxisDetector, 0.00000
+Gabriel Figueira, 5, BarDetector0, 0.35623
+Gabriel Figueira, 5, BarDetector1, 1.11035
+Gabriel Figueira, 6, FloorDetector, 2.39876
+Gabriel Figueira, 6, TopDetector, 1.94157
+Gabriel Figueira, 6, AxisDetector, 0.11134
+Gabriel Figueira, 6, BarDetector0, 1.82019
+Gabriel Figueira, 6, BarDetector1, 1.84241
+Gabriel Figueira, 7, FloorDetector, 0.00000
+Gabriel Figueira, 7, TopDetector, 0.48623
+Gabriel Figueira, 7, AxisDetector, 0.00000
+Gabriel Figueira, 7, BarDetector0, 0.31178
+Gabriel Figueira, 7, BarDetector1, 0.00000
+Gabriel Figueira, 8, FloorDetector, 0.73187
+Gabriel Figueira, 8, TopDetector, 0.75473
+Gabriel Figueira, 8, AxisDetector, 1.64316
+Gabriel Figueira, 8, BarDetector0, 1.23984
+Gabriel Figueira, 8, BarDetector1, 0.42228
+Gabriel Figueira, 9, FloorDetector, 0.00000
+Gabriel Figueira, 9, TopDetector, 0.71108
+Gabriel Figueira, 9, AxisDetector, 0.48324
+Gabriel Figueira, 9, BarDetector0, 0.20059
+Gabriel Figueira, 9, BarDetector1, 1.02160
+Gabriel Figueira, 10, FloorDetector, 0.02197
+Gabriel Figueira, 10, TopDetector, 2.01902
+Gabriel Figueira, 10, AxisDetector, 2.84271
+Gabriel Figueira, 10, BarDetector0, 0.91108
+Gabriel Figueira, 10, BarDetector1, 1.64363
+Gabriel Figueira, 11, FloorDetector, 0.13322
+Gabriel Figueira, 11, TopDetector, 1.73331
+Gabriel Figueira, 11, AxisDetector, 0.26797
+Gabriel Figueira, 11, BarDetector0, 1.86455
+Gabriel Figueira, 11, BarDetector1, 0.35488
+Gabriel Figueira, 12, FloorDetector, 0.62005
+Gabriel Figueira, 12, TopDetector, 4.61608
+Gabriel Figueira, 12, AxisDetector, 0.17640
+Gabriel Figueira, 12, BarDetector0, 5.57908
+Gabriel Figueira, 12, BarDetector1, 0.42206
+Gabriel Figueira, 13, FloorDetector, 0.00000
+Gabriel Figueira, 13, TopDetector, 2.86209
+Gabriel Figueira, 13, AxisDetector, 0.15673
+Gabriel Figueira, 13, BarDetector0, 0.97705
+Gabriel Figueira, 13, BarDetector1, 0.46715
+Gabriel Figueira, 14, FloorDetector, 0.00000
+Gabriel Figueira, 14, TopDetector, 0.00000
+Gabriel Figueira, 14, AxisDetector, 0.00000
+Gabriel Figueira, 14, BarDetector0, 0.00000
+Gabriel Figueira, 14, BarDetector1, 0.00000
+Gabriel Figueira, 15, FloorDetector, 0.00000
+Gabriel Figueira, 15, TopDetector, 1.48817
+Gabriel Figueira, 15, AxisDetector, 0.20012
+Gabriel Figueira, 15, BarDetector0, 3.20070
+Gabriel Figueira, 15, BarDetector1, 0.00000
+Ruth Chacon, 1, FloorDetector, 0.30203
+Ruth Chacon, 1, TopDetector, 2.28683
+Ruth Chacon, 1, AxisDetector, 6.90071
+Ruth Chacon, 1, BarDetector0, 4.71465
+Ruth Chacon, 1, BarDetector1, 1.57710
+Ruth Chacon, 2, FloorDetector, 1.02213
+Ruth Chacon, 2, TopDetector, 1.77312
+Ruth Chacon, 2, AxisDetector, 3.35305
+Ruth Chacon, 2, BarDetector0, 3.68523
+Ruth Chacon, 2, BarDetector1, 2.55967
+Ruth Chacon, 3, FloorDetector, 0.79835
+Ruth Chacon, 3, TopDetector, 0.29011
+Ruth Chacon, 3, AxisDetector, 3.75072
+Ruth Chacon, 3, BarDetector0, 3.42429
+Ruth Chacon, 3, BarDetector1, 2.39933
+Ruth Chacon, 4, FloorDetector, 0.02222
+Ruth Chacon, 4, TopDetector, 0.00000
+Ruth Chacon, 4, AxisDetector, 1.55158
+Ruth Chacon, 4, BarDetector0, 3.27149
+Ruth Chacon, 4, BarDetector1, 3.68987
+Ruth Chacon, 5, FloorDetector, 1.37743
+Ruth Chacon, 5, TopDetector, 0.86764
+Ruth Chacon, 5, AxisDetector, 1.39811
+Ruth Chacon, 5, BarDetector0, 0.78250
+Ruth Chacon, 5, BarDetector1, 2.51008
+Ruth Chacon, 6, FloorDetector, 0.06534
+Ruth Chacon, 6, TopDetector, 0.79897
+Ruth Chacon, 6, AxisDetector, 4.03866
+Ruth Chacon, 6, BarDetector0, 2.53765
+Ruth Chacon, 6, BarDetector1, 2.15413
+Ruth Chacon, 7, FloorDetector, 0.06563
+Ruth Chacon, 7, TopDetector, 0.24231
+Ruth Chacon, 7, AxisDetector, 2.30918
+Ruth Chacon, 7, BarDetector0, 5.15841
+Ruth Chacon, 7, BarDetector1, 4.40061
+Ruth Chacon, 8, FloorDetector, 0.00000
+Ruth Chacon, 8, TopDetector, 0.68918
+Ruth Chacon, 8, AxisDetector, 2.75418
+Ruth Chacon, 8, BarDetector0, 2.51458
+Ruth Chacon, 8, BarDetector1, 2.55496
+Ruth Chacon, 9, FloorDetector, 0.06843
+Ruth Chacon, 9, TopDetector, 0.50051
+Ruth Chacon, 9, AxisDetector, 4.38190
+Ruth Chacon, 9, BarDetector0, 3.57394
+Ruth Chacon, 9, BarDetector1, 2.99974
+Ruth Chacon, 10, FloorDetector, 0.24321
+Ruth Chacon, 10, TopDetector, 1.17934
+Ruth Chacon, 10, AxisDetector, 3.61963
+Ruth Chacon, 10, BarDetector0, 3.39137
+Ruth Chacon, 10, BarDetector1, 3.28950
+Ruth Chacon, 11, FloorDetector, 0.35678
+Ruth Chacon, 11, TopDetector, 0.35512
+Ruth Chacon, 11, AxisDetector, 1.64256
+Ruth Chacon, 11, BarDetector0, 2.06760
+Ruth Chacon, 11, BarDetector1, 1.70761
+Ruth Chacon, 12, FloorDetector, 0.15607
+Ruth Chacon, 12, TopDetector, 1.53296
+Ruth Chacon, 12, AxisDetector, 5.95306
+Ruth Chacon, 12, BarDetector0, 6.39889
+Ruth Chacon, 12, BarDetector1, 4.26398
+Ruth Chacon, 13, FloorDetector, 1.77506
+Ruth Chacon, 13, TopDetector, 2.31131
+Ruth Chacon, 13, AxisDetector, 3.59604
+Ruth Chacon, 13, BarDetector0, 3.55678
+Ruth Chacon, 13, BarDetector1, 3.46335
+Ruth Chacon, 14, FloorDetector, 0.39947
+Ruth Chacon, 14, TopDetector, 0.37660
+Ruth Chacon, 14, AxisDetector, 1.59808
+Ruth Chacon, 14, BarDetector0, 3.26968
+Ruth Chacon, 14, BarDetector1, 3.17696

@@ -54,7 +54,7 @@ public void DoPopulate()
 
         int _numGroups = 2;
         float _plane_size = VisualizationBehavior.PLANE_SIZE;
-        float _groupSize = _plane_size/((float)_numGroups);
+        float _groupSize = Margin;
         Vector3 _currentGroupCenter = new Vector3(_groupSize, 0, 0);
         float _groupPos = Margin;
         int _colorIndex = 0;
