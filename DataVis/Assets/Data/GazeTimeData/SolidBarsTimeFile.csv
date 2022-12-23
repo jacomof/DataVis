@@ -1043,78 +1043,828 @@ Robert Encarnacion,15, TopDetector,0
 Robert Encarnacion,15, AxisDetector,2.02531
 Robert Encarnacion,15, BarDetector0,5.64717
 Robert Encarnacion,15, BarDetector1,3.35421
-Micaela Sandra Velasquez, 1, FloorDetector, 0.35607
-Micaela Sandra Velasquez, 1, TopDetector, 1.00010
-Micaela Sandra Velasquez, 1, AxisDetector, 5.25031
-Micaela Sandra Velasquez, 1, BarDetector0, 6.88419
-Micaela Sandra Velasquez, 1, BarDetector1, 6.03306
-Micaela Sandra Velasquez, 2, FloorDetector, 0.00000
-Micaela Sandra Velasquez, 2, TopDetector, 0.00000
-Micaela Sandra Velasquez, 2, AxisDetector, 4.44254
-Micaela Sandra Velasquez, 2, BarDetector0, 5.62346
-Micaela Sandra Velasquez, 2, BarDetector1, 6.19681
-Micaela Sandra Velasquez, 3, FloorDetector, 0.11150
-Micaela Sandra Velasquez, 3, TopDetector, 0.30992
-Micaela Sandra Velasquez, 3, AxisDetector, 6.37435
-Micaela Sandra Velasquez, 3, BarDetector0, 9.37850
-Micaela Sandra Velasquez, 3, BarDetector1, 4.79880
-Micaela Sandra Velasquez, 4, FloorDetector, 0.02231
-Micaela Sandra Velasquez, 4, TopDetector, 0.26606
-Micaela Sandra Velasquez, 4, AxisDetector, 9.08563
-Micaela Sandra Velasquez, 4, BarDetector0, 5.22002
-Micaela Sandra Velasquez, 4, BarDetector1, 8.15289
-Micaela Sandra Velasquez, 5, FloorDetector, 0.00000
-Micaela Sandra Velasquez, 5, TopDetector, 0.00000
-Micaela Sandra Velasquez, 5, AxisDetector, 5.79781
-Micaela Sandra Velasquez, 5, BarDetector0, 5.01844
-Micaela Sandra Velasquez, 5, BarDetector1, 5.02240
-Micaela Sandra Velasquez, 6, FloorDetector, 0.79979
-Micaela Sandra Velasquez, 6, TopDetector, 0.19991
-Micaela Sandra Velasquez, 6, AxisDetector, 6.31079
-Micaela Sandra Velasquez, 6, BarDetector0, 3.57797
-Micaela Sandra Velasquez, 6, BarDetector1, 5.63787
-Micaela Sandra Velasquez, 7, FloorDetector, 0.02242
-Micaela Sandra Velasquez, 7, TopDetector, 0.02170
-Micaela Sandra Velasquez, 7, AxisDetector, 16.39130
-Micaela Sandra Velasquez, 7, BarDetector0, 4.93337
-Micaela Sandra Velasquez, 7, BarDetector1, 7.44164
-Micaela Sandra Velasquez, 8, FloorDetector, 0.48912
-Micaela Sandra Velasquez, 8, TopDetector, 0.00000
-Micaela Sandra Velasquez, 8, AxisDetector, 1.64426
-Micaela Sandra Velasquez, 8, BarDetector0, 10.28412
-Micaela Sandra Velasquez, 8, BarDetector1, 7.52929
-Micaela Sandra Velasquez, 9, FloorDetector, 1.61924
-Micaela Sandra Velasquez, 9, TopDetector, 2.40151
-Micaela Sandra Velasquez, 9, AxisDetector, 4.23769
-Micaela Sandra Velasquez, 9, BarDetector0, 4.80057
-Micaela Sandra Velasquez, 9, BarDetector1, 4.04078
-Micaela Sandra Velasquez, 10, FloorDetector, 0.02272
-Micaela Sandra Velasquez, 10, TopDetector, 7.04098
-Micaela Sandra Velasquez, 10, AxisDetector, 3.44352
-Micaela Sandra Velasquez, 10, BarDetector0, 2.13429
-Micaela Sandra Velasquez, 10, BarDetector1, 9.50705
-Micaela Sandra Velasquez, 11, FloorDetector, 0.00000
-Micaela Sandra Velasquez, 11, TopDetector, 0.39743
-Micaela Sandra Velasquez, 11, AxisDetector, 6.66462
-Micaela Sandra Velasquez, 11, BarDetector0, 3.91145
-Micaela Sandra Velasquez, 11, BarDetector1, 8.12874
-Micaela Sandra Velasquez, 12, FloorDetector, 0.00000
-Micaela Sandra Velasquez, 12, TopDetector, 7.24034
-Micaela Sandra Velasquez, 12, AxisDetector, 2.84668
-Micaela Sandra Velasquez, 12, BarDetector0, 3.60177
-Micaela Sandra Velasquez, 12, BarDetector1, 2.10791
-Micaela Sandra Velasquez, 13, FloorDetector, 0.00000
-Micaela Sandra Velasquez, 13, TopDetector, 3.41612
-Micaela Sandra Velasquez, 13, AxisDetector, 2.57666
-Micaela Sandra Velasquez, 13, BarDetector0, 3.26579
-Micaela Sandra Velasquez, 13, BarDetector1, 4.38152
-Micaela Sandra Velasquez, 14, FloorDetector, 0.00000
-Micaela Sandra Velasquez, 14, TopDetector, 3.77606
-Micaela Sandra Velasquez, 14, AxisDetector, 2.77535
-Micaela Sandra Velasquez, 14, BarDetector0, 6.30918
-Micaela Sandra Velasquez, 14, BarDetector1, 2.68765
-Micaela Sandra Velasquez, 15, FloorDetector, 0.02249
-Micaela Sandra Velasquez, 15, TopDetector, 5.17443
-Micaela Sandra Velasquez, 15, AxisDetector, 2.73152
-Micaela Sandra Velasquez, 15, BarDetector0, 6.48767
-Micaela Sandra Velasquez, 15, BarDetector1, 4.97576
+Micaela Sandra Velasquez,1, FloorDetector,0.35607
+Micaela Sandra Velasquez,1, TopDetector,1.0001
+Micaela Sandra Velasquez,1, AxisDetector,5.25031
+Micaela Sandra Velasquez,1, BarDetector0,6.88419
+Micaela Sandra Velasquez,1, BarDetector1,6.03306
+Micaela Sandra Velasquez,2, FloorDetector,0
+Micaela Sandra Velasquez,2, TopDetector,0
+Micaela Sandra Velasquez,2, AxisDetector,4.44254
+Micaela Sandra Velasquez,2, BarDetector0,5.62346
+Micaela Sandra Velasquez,2, BarDetector1,6.19681
+Micaela Sandra Velasquez,3, FloorDetector,0.1115
+Micaela Sandra Velasquez,3, TopDetector,0.30992
+Micaela Sandra Velasquez,3, AxisDetector,6.37435
+Micaela Sandra Velasquez,3, BarDetector0,9.3785
+Micaela Sandra Velasquez,3, BarDetector1,4.7988
+Micaela Sandra Velasquez,4, FloorDetector,0.02231
+Micaela Sandra Velasquez,4, TopDetector,0.26606
+Micaela Sandra Velasquez,4, AxisDetector,9.08563
+Micaela Sandra Velasquez,4, BarDetector0,5.22002
+Micaela Sandra Velasquez,4, BarDetector1,8.15289
+Micaela Sandra Velasquez,5, FloorDetector,0
+Micaela Sandra Velasquez,5, TopDetector,0
+Micaela Sandra Velasquez,5, AxisDetector,5.79781
+Micaela Sandra Velasquez,5, BarDetector0,5.01844
+Micaela Sandra Velasquez,5, BarDetector1,5.0224
+Micaela Sandra Velasquez,6, FloorDetector,0.79979
+Micaela Sandra Velasquez,6, TopDetector,0.19991
+Micaela Sandra Velasquez,6, AxisDetector,6.31079
+Micaela Sandra Velasquez,6, BarDetector0,3.57797
+Micaela Sandra Velasquez,6, BarDetector1,5.63787
+Micaela Sandra Velasquez,7, FloorDetector,0.02242
+Micaela Sandra Velasquez,7, TopDetector,0.0217
+Micaela Sandra Velasquez,7, AxisDetector,16.3913
+Micaela Sandra Velasquez,7, BarDetector0,4.93337
+Micaela Sandra Velasquez,7, BarDetector1,7.44164
+Micaela Sandra Velasquez,8, FloorDetector,0.48912
+Micaela Sandra Velasquez,8, TopDetector,0
+Micaela Sandra Velasquez,8, AxisDetector,1.64426
+Micaela Sandra Velasquez,8, BarDetector0,10.28412
+Micaela Sandra Velasquez,8, BarDetector1,7.52929
+Micaela Sandra Velasquez,9, FloorDetector,1.61924
+Micaela Sandra Velasquez,9, TopDetector,2.40151
+Micaela Sandra Velasquez,9, AxisDetector,4.23769
+Micaela Sandra Velasquez,9, BarDetector0,4.80057
+Micaela Sandra Velasquez,9, BarDetector1,4.04078
+Micaela Sandra Velasquez,10, FloorDetector,0.02272
+Micaela Sandra Velasquez,10, TopDetector,7.04098
+Micaela Sandra Velasquez,10, AxisDetector,3.44352
+Micaela Sandra Velasquez,10, BarDetector0,2.13429
+Micaela Sandra Velasquez,10, BarDetector1,9.50705
+Micaela Sandra Velasquez,11, FloorDetector,0
+Micaela Sandra Velasquez,11, TopDetector,0.39743
+Micaela Sandra Velasquez,11, AxisDetector,6.66462
+Micaela Sandra Velasquez,11, BarDetector0,3.91145
+Micaela Sandra Velasquez,11, BarDetector1,8.12874
+Micaela Sandra Velasquez,12, FloorDetector,0
+Micaela Sandra Velasquez,12, TopDetector,7.24034
+Micaela Sandra Velasquez,12, AxisDetector,2.84668
+Micaela Sandra Velasquez,12, BarDetector0,3.60177
+Micaela Sandra Velasquez,12, BarDetector1,2.10791
+Micaela Sandra Velasquez,13, FloorDetector,0
+Micaela Sandra Velasquez,13, TopDetector,3.41612
+Micaela Sandra Velasquez,13, AxisDetector,2.57666
+Micaela Sandra Velasquez,13, BarDetector0,3.26579
+Micaela Sandra Velasquez,13, BarDetector1,4.38152
+Micaela Sandra Velasquez,14, FloorDetector,0
+Micaela Sandra Velasquez,14, TopDetector,3.77606
+Micaela Sandra Velasquez,14, AxisDetector,2.77535
+Micaela Sandra Velasquez,14, BarDetector0,6.30918
+Micaela Sandra Velasquez,14, BarDetector1,2.68765
+Micaela Sandra Velasquez,15, FloorDetector,0.02249
+Micaela Sandra Velasquez,15, TopDetector,5.17443
+Micaela Sandra Velasquez,15, AxisDetector,2.73152
+Micaela Sandra Velasquez,15, BarDetector0,6.48767
+Micaela Sandra Velasquez,15, BarDetector1,4.97576
+Gerardo Hernandez,1, FloorDetector,0.23784
+Gerardo Hernandez,1, TopDetector,0.73386
+Gerardo Hernandez,1, AxisDetector,6.64241
+Gerardo Hernandez,1, BarDetector0,7.46033
+Gerardo Hernandez,1, BarDetector1,5.49257
+Gerardo Hernandez,2, FloorDetector,0.20181
+Gerardo Hernandez,2, TopDetector,0
+Gerardo Hernandez,2, AxisDetector,2.31789
+Gerardo Hernandez,2, BarDetector0,5.20097
+Gerardo Hernandez,2, BarDetector1,3.40611
+Gerardo Hernandez,3, FloorDetector,0.03209
+Gerardo Hernandez,3, TopDetector,0
+Gerardo Hernandez,3, AxisDetector,2.80796
+Gerardo Hernandez,3, BarDetector0,2.19067
+Gerardo Hernandez,3, BarDetector1,5.66757
+Gerardo Hernandez,4, FloorDetector,0
+Gerardo Hernandez,4, TopDetector,0.83986
+Gerardo Hernandez,4, AxisDetector,1.51403
+Gerardo Hernandez,4, BarDetector0,4.06163
+Gerardo Hernandez,4, BarDetector1,4.22128
+Gerardo Hernandez,5, FloorDetector,0.01268
+Gerardo Hernandez,5, TopDetector,0
+Gerardo Hernandez,5, AxisDetector,2.03807
+Gerardo Hernandez,5, BarDetector0,4.07757
+Gerardo Hernandez,5, BarDetector1,5.2663
+Gerardo Hernandez,6, FloorDetector,0
+Gerardo Hernandez,6, TopDetector,0
+Gerardo Hernandez,6, AxisDetector,1.61247
+Gerardo Hernandez,6, BarDetector0,5.1485
+Gerardo Hernandez,6, BarDetector1,2.82822
+Gerardo Hernandez,7, FloorDetector,0.03126
+Gerardo Hernandez,7, TopDetector,0
+Gerardo Hernandez,7, AxisDetector,6.64361
+Gerardo Hernandez,7, BarDetector0,9.90822
+Gerardo Hernandez,7, BarDetector1,6.2353
+Gerardo Hernandez,8, FloorDetector,0.50626
+Gerardo Hernandez,8, TopDetector,0
+Gerardo Hernandez,8, AxisDetector,0.5476
+Gerardo Hernandez,8, BarDetector0,9.94076
+Gerardo Hernandez,8, BarDetector1,8.70659
+Gerardo Hernandez,9, FloorDetector,0.08122
+Gerardo Hernandez,9, TopDetector,4.47481
+Gerardo Hernandez,9, AxisDetector,0.72933
+Gerardo Hernandez,9, BarDetector0,5.67766
+Gerardo Hernandez,9, BarDetector1,4.51263
+Gerardo Hernandez,10, FloorDetector,0
+Gerardo Hernandez,10, TopDetector,5.34441
+Gerardo Hernandez,10, AxisDetector,3.21694
+Gerardo Hernandez,10, BarDetector0,3.975
+Gerardo Hernandez,10, BarDetector1,6.70068
+Gerardo Hernandez,11, FloorDetector,0.07935
+Gerardo Hernandez,11, TopDetector,0
+Gerardo Hernandez,11, AxisDetector,1.24375
+Gerardo Hernandez,11, BarDetector0,5.12944
+Gerardo Hernandez,11, BarDetector1,5.24599
+Gerardo Hernandez,12, FloorDetector,0
+Gerardo Hernandez,12, TopDetector,0.70523
+Gerardo Hernandez,12, AxisDetector,1.79689
+Gerardo Hernandez,12, BarDetector0,5.48163
+Gerardo Hernandez,12, BarDetector1,5.28219
+Gerardo Hernandez,13, FloorDetector,0
+Gerardo Hernandez,13, TopDetector,5.29702
+Gerardo Hernandez,13, AxisDetector,2.19257
+Gerardo Hernandez,13, BarDetector0,3.97144
+Gerardo Hernandez,13, BarDetector1,4.18007
+Gerardo Hernandez,14, FloorDetector,0.01077
+Gerardo Hernandez,14, TopDetector,12.70241
+Gerardo Hernandez,14, AxisDetector,0.99947
+Gerardo Hernandez,14, BarDetector0,5.36503
+Gerardo Hernandez,14, BarDetector1,7.27606
+Gerardo Hernandez,15, FloorDetector,0
+Gerardo Hernandez,15, TopDetector,4.075
+Gerardo Hernandez,15, AxisDetector,1.59326
+Gerardo Hernandez,15, BarDetector0,4.29876
+Gerardo Hernandez,15, BarDetector1,6.39379
+Elizabeth Figueira,1, FloorDetector,0.9799
+Elizabeth Figueira,1, TopDetector,0.32831
+Elizabeth Figueira,1, AxisDetector,22.73365
+Elizabeth Figueira,1, BarDetector0,4.44878
+Elizabeth Figueira,1, BarDetector1,1.32773
+Elizabeth Figueira,3, FloorDetector,1.24038
+Elizabeth Figueira,3, TopDetector,0
+Elizabeth Figueira,3, AxisDetector,20.26843
+Elizabeth Figueira,3, BarDetector0,4.71129
+Elizabeth Figueira,3, BarDetector1,2.61953
+Elizabeth Figueira,4, FloorDetector,0.22073
+Elizabeth Figueira,4, TopDetector,0.10423
+Elizabeth Figueira,4, AxisDetector,13.3162
+Elizabeth Figueira,4, BarDetector0,4.60543
+Elizabeth Figueira,4, BarDetector1,2.01474
+Elizabeth Figueira,5, FloorDetector,0.01046
+Elizabeth Figueira,5, TopDetector,0.77366
+Elizabeth Figueira,5, AxisDetector,17.61935
+Elizabeth Figueira,5, BarDetector0,3.44088
+Elizabeth Figueira,5, BarDetector1,1.63232
+Elizabeth Figueira,6, FloorDetector,0
+Elizabeth Figueira,6, TopDetector,0
+Elizabeth Figueira,6, AxisDetector,10.46966
+Elizabeth Figueira,6, BarDetector0,4.0436
+Elizabeth Figueira,6, BarDetector1,4.43262
+Elizabeth Figueira,7, FloorDetector,0.27356
+Elizabeth Figueira,7, TopDetector,0
+Elizabeth Figueira,7, AxisDetector,15.69605
+Elizabeth Figueira,7, BarDetector0,2.25739
+Elizabeth Figueira,7, BarDetector1,0.64087
+Elizabeth Figueira,8, FloorDetector,3.36016
+Elizabeth Figueira,8, TopDetector,0.08421
+Elizabeth Figueira,8, AxisDetector,24.45212
+Elizabeth Figueira,8, BarDetector0,10.6454
+Elizabeth Figueira,8, BarDetector1,23.65805
+Elizabeth Figueira,9, FloorDetector,34.48966
+Elizabeth Figueira,9, TopDetector,0
+Elizabeth Figueira,9, AxisDetector,12.02558
+Elizabeth Figueira,9, BarDetector0,6.60567
+Elizabeth Figueira,9, BarDetector1,0.95704
+Elizabeth Figueira,10, FloorDetector,5.64201
+Elizabeth Figueira,10, TopDetector,6.42746
+Elizabeth Figueira,10, AxisDetector,5.48211
+Elizabeth Figueira,10, BarDetector0,0.7024
+Elizabeth Figueira,10, BarDetector1,0.36271
+Elizabeth Figueira,11, FloorDetector,0
+Elizabeth Figueira,11, TopDetector,0.30566
+Elizabeth Figueira,11, AxisDetector,7.72675
+Elizabeth Figueira,11, BarDetector0,2.82393
+Elizabeth Figueira,11, BarDetector1,3.97087
+Elizabeth Figueira,12, FloorDetector,0.28285
+Elizabeth Figueira,12, TopDetector,0
+Elizabeth Figueira,12, AxisDetector,5.87381
+Elizabeth Figueira,12, BarDetector0,6.03332
+Elizabeth Figueira,12, BarDetector1,3.05428
+Elizabeth Figueira,13, FloorDetector,0
+Elizabeth Figueira,13, TopDetector,0
+Elizabeth Figueira,13, AxisDetector,9.30909
+Elizabeth Figueira,13, BarDetector0,2.9142
+Elizabeth Figueira,13, BarDetector1,2.19418
+Elizabeth Figueira,14, FloorDetector,0
+Elizabeth Figueira,14, TopDetector,3.29311
+Elizabeth Figueira,14, AxisDetector,3.84169
+Elizabeth Figueira,14, BarDetector0,3.45842
+Elizabeth Figueira,14, BarDetector1,0
+Elizabeth Figueira,15, FloorDetector,0.36208
+Elizabeth Figueira,15, TopDetector,4.40378
+Elizabeth Figueira,15, AxisDetector,5.98871
+Elizabeth Figueira,15, BarDetector0,3.58986
+Elizabeth Figueira,15, BarDetector1,1.66435
+Elizabeth Figueira,16, FloorDetector,0.05091
+Elizabeth Figueira,16, TopDetector,0.51498
+Elizabeth Figueira,16, AxisDetector,9.68761
+Elizabeth Figueira,16, BarDetector0,1.96163
+Elizabeth Figueira,16, BarDetector1,2.43696
+Yairet Cardenas,1, FloorDetector,0.6478
+Yairet Cardenas,1, TopDetector,0
+Yairet Cardenas,1, AxisDetector,2.42992
+Yairet Cardenas,1, BarDetector0,6.09598
+Yairet Cardenas,1, BarDetector1,3.14042
+Yairet Cardenas,2, FloorDetector,0.19304
+Yairet Cardenas,2, TopDetector,0
+Yairet Cardenas,2, AxisDetector,5.09089
+Yairet Cardenas,2, BarDetector0,2.12638
+Yairet Cardenas,2, BarDetector1,2.83184
+Yairet Cardenas,3, FloorDetector,0.07044
+Yairet Cardenas,3, TopDetector,0.53125
+Yairet Cardenas,3, AxisDetector,1.61406
+Yairet Cardenas,3, BarDetector0,2.0901
+Yairet Cardenas,3, BarDetector1,3.64864
+Yairet Cardenas,4, FloorDetector,0.01003
+Yairet Cardenas,4, TopDetector,0
+Yairet Cardenas,4, AxisDetector,1.42154
+Yairet Cardenas,4, BarDetector0,2.24401
+Yairet Cardenas,4, BarDetector1,3.24082
+Yairet Cardenas,5, FloorDetector,0
+Yairet Cardenas,5, TopDetector,0
+Yairet Cardenas,5, AxisDetector,2.7781
+Yairet Cardenas,5, BarDetector0,3.06121
+Yairet Cardenas,5, BarDetector1,1.88901
+Yairet Cardenas,6, FloorDetector,0.20001
+Yairet Cardenas,6, TopDetector,0
+Yairet Cardenas,6, AxisDetector,4.91834
+Yairet Cardenas,6, BarDetector0,3.12837
+Yairet Cardenas,6, BarDetector1,2.02206
+Yairet Cardenas,7, FloorDetector,0
+Yairet Cardenas,7, TopDetector,0
+Yairet Cardenas,7, AxisDetector,2.20308
+Yairet Cardenas,7, BarDetector0,4.36914
+Yairet Cardenas,7, BarDetector1,2.26962
+Yairet Cardenas,8, FloorDetector,0.1515
+Yairet Cardenas,8, TopDetector,0
+Yairet Cardenas,8, AxisDetector,0.59378
+Yairet Cardenas,8, BarDetector0,4.32031
+Yairet Cardenas,8, BarDetector1,4.76481
+Yairet Cardenas,9, FloorDetector,0.08196
+Yairet Cardenas,9, TopDetector,1.04421
+Yairet Cardenas,9, AxisDetector,0.94054
+Yairet Cardenas,9, BarDetector0,2.12637
+Yairet Cardenas,9, BarDetector1,4.81489
+Yairet Cardenas,10, FloorDetector,0
+Yairet Cardenas,10, TopDetector,2.63279
+Yairet Cardenas,10, AxisDetector,2.36054
+Yairet Cardenas,10, BarDetector0,2.9434
+Yairet Cardenas,10, BarDetector1,1.72615
+Yairet Cardenas,11, FloorDetector,0.01078
+Yairet Cardenas,11, TopDetector,0
+Yairet Cardenas,11, AxisDetector,4.38138
+Yairet Cardenas,11, BarDetector0,2.30184
+Yairet Cardenas,11, BarDetector1,3.09859
+Yairet Cardenas,12, FloorDetector,0
+Yairet Cardenas,12, TopDetector,0.18501
+Yairet Cardenas,12, AxisDetector,2.33124
+Yairet Cardenas,12, BarDetector0,2.83519
+Yairet Cardenas,12, BarDetector1,2.03871
+Yairet Cardenas,13, FloorDetector,0.01215
+Yairet Cardenas,13, TopDetector,3.72144
+Yairet Cardenas,13, AxisDetector,1.47768
+Yairet Cardenas,13, BarDetector0,3.85434
+Yairet Cardenas,13, BarDetector1,4.58092
+Yairet Cardenas,14, FloorDetector,0
+Yairet Cardenas,14, TopDetector,1.01168
+Yairet Cardenas,14, AxisDetector,1.62273
+Yairet Cardenas,14, BarDetector0,1.52465
+Yairet Cardenas,14, BarDetector1,2.66693
+Yairet Cardenas,15, FloorDetector,0
+Yairet Cardenas,15, TopDetector,0.25761
+Yairet Cardenas,15, AxisDetector,1.08809
+Yairet Cardenas,15, BarDetector0,6.35052
+Yairet Cardenas,15, BarDetector1,2.92549
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+Thaymara Pernalete,1, FloorDetector,0.04556
+Thaymara Pernalete,1, TopDetector,3.4496
+Thaymara Pernalete,1, AxisDetector,14.76395
+Thaymara Pernalete,1, BarDetector0,2.93788
+Thaymara Pernalete,1, BarDetector1,7.37757
+Thaymara Pernalete,2, FloorDetector,0
+Thaymara Pernalete,2, TopDetector,2.2899
+Thaymara Pernalete,2, AxisDetector,3.5792
+Thaymara Pernalete,2, BarDetector0,2.44363
+Thaymara Pernalete,2, BarDetector1,0.88995
+Thaymara Pernalete,3, FloorDetector,0
+Thaymara Pernalete,3, TopDetector,7.49875
+Thaymara Pernalete,3, AxisDetector,4.82177
+Thaymara Pernalete,3, BarDetector0,0.38174
+Thaymara Pernalete,3, BarDetector1,1.35246
+Thaymara Pernalete,4, FloorDetector,0
+Thaymara Pernalete,4, TopDetector,4.24144
+Thaymara Pernalete,4, AxisDetector,0.55504
+Thaymara Pernalete,4, BarDetector0,0.77195
+Thaymara Pernalete,4, BarDetector1,0.05708
+Thaymara Pernalete,5, FloorDetector,0
+Thaymara Pernalete,5, TopDetector,3.00582
+Thaymara Pernalete,5, AxisDetector,1.43732
+Thaymara Pernalete,5, BarDetector0,0
+Thaymara Pernalete,5, BarDetector1,0.30856
+Thaymara Pernalete,6, FloorDetector,0
+Thaymara Pernalete,6, TopDetector,5.96862
+Thaymara Pernalete,6, AxisDetector,1.49894
+Thaymara Pernalete,6, BarDetector0,0.01032
+Thaymara Pernalete,6, BarDetector1,0
+Thaymara Pernalete,7, FloorDetector,0.03417
+Thaymara Pernalete,7, TopDetector,10.07442
+Thaymara Pernalete,7, AxisDetector,1.66683
+Thaymara Pernalete,7, BarDetector0,1.40748
+Thaymara Pernalete,7, BarDetector1,0.2724
+Thaymara Pernalete,8, FloorDetector,0
+Thaymara Pernalete,8, TopDetector,0.20965
+Thaymara Pernalete,8, AxisDetector,0.82355
+Thaymara Pernalete,8, BarDetector0,0
+Thaymara Pernalete,8, BarDetector1,0
+Thaymara Pernalete,9, FloorDetector,0
+Thaymara Pernalete,9, TopDetector,1.53993
+Thaymara Pernalete,9, AxisDetector,1.95833
+Thaymara Pernalete,9, BarDetector0,0.0232
+Thaymara Pernalete,9, BarDetector1,1.75634
+Thaymara Pernalete,10, FloorDetector,0
+Thaymara Pernalete,10, TopDetector,2.82789
+Thaymara Pernalete,10, AxisDetector,2.4984
+Thaymara Pernalete,10, BarDetector0,0.57944
+Thaymara Pernalete,10, BarDetector1,0
+Thaymara Pernalete,11, FloorDetector,0
+Thaymara Pernalete,11, TopDetector,0.28401
+Thaymara Pernalete,11, AxisDetector,4.20517
+Thaymara Pernalete,11, BarDetector0,0.03355
+Thaymara Pernalete,11, BarDetector1,0.36366
+Thaymara Pernalete,12, FloorDetector,0
+Thaymara Pernalete,12, TopDetector,7.38236
+Thaymara Pernalete,12, AxisDetector,0.64605
+Thaymara Pernalete,12, BarDetector0,1.45565
+Thaymara Pernalete,12, BarDetector1,0.5952
+Thaymara Pernalete,13, FloorDetector,0.01146
+Thaymara Pernalete,13, TopDetector,1.88803
+Thaymara Pernalete,13, AxisDetector,1.70702
+Thaymara Pernalete,13, BarDetector0,0.91611
+Thaymara Pernalete,13, BarDetector1,3.01179
+Thaymara Pernalete,14, FloorDetector,0.0237
+Thaymara Pernalete,14, TopDetector,13.47522
+Thaymara Pernalete,14, AxisDetector,0.47902
+Thaymara Pernalete,14, BarDetector0,0.53595
+Thaymara Pernalete,14, BarDetector1,0.51366
+Thaymara Pernalete,15, FloorDetector,0
+Thaymara Pernalete,15, TopDetector,8.18373
+Thaymara Pernalete,15, AxisDetector,0.2905
+Thaymara Pernalete,15, BarDetector0,0.61027
+Thaymara Pernalete,15, BarDetector1,1.33665
+Carlos Rojas,1, FloorDetector,7.45589
+Carlos Rojas,1, TopDetector,0.42254
+Carlos Rojas,1, AxisDetector,8.94141
+Carlos Rojas,1, BarDetector0,22.74835
+Carlos Rojas,1, BarDetector1,3.30922
+Carlos Rojas,2, FloorDetector,1.79992
+Carlos Rojas,2, TopDetector,0.31029
+Carlos Rojas,2, AxisDetector,4.19861
+Carlos Rojas,2, BarDetector0,2.11023
+Carlos Rojas,2, BarDetector1,1.42212
+Carlos Rojas,3, FloorDetector,4.57987
+Carlos Rojas,3, TopDetector,0
+Carlos Rojas,3, AxisDetector,7.41452
+Carlos Rojas,3, BarDetector0,4.24552
+Carlos Rojas,3, BarDetector1,3.02177
+Carlos Rojas,4, FloorDetector,0.04617
+Carlos Rojas,4, TopDetector,0.04636
+Carlos Rojas,4, AxisDetector,9.8975
+Carlos Rojas,4, BarDetector0,3.99219
+Carlos Rojas,4, BarDetector1,5.41102
+Carlos Rojas,5, FloorDetector,0
+Carlos Rojas,5, TopDetector,0
+Carlos Rojas,5, AxisDetector,8.14311
+Carlos Rojas,5, BarDetector0,5.84587
+Carlos Rojas,5, BarDetector1,4.08657
+Carlos Rojas,6, FloorDetector,10.39762
+Carlos Rojas,6, TopDetector,0.33361
+Carlos Rojas,6, AxisDetector,12.77166
+Carlos Rojas,6, BarDetector0,16.63295
+Carlos Rojas,6, BarDetector1,3.15475
+Carlos Rojas,7, FloorDetector,0.57792
+Carlos Rojas,7, TopDetector,0
+Carlos Rojas,7, AxisDetector,6.17282
+Carlos Rojas,7, BarDetector0,6.31052
+Carlos Rojas,7, BarDetector1,3.9538
+Carlos Rojas,8, FloorDetector,6.22371
+Carlos Rojas,8, TopDetector,0
+Carlos Rojas,8, AxisDetector,0.24448
+Carlos Rojas,8, BarDetector0,1.57656
+Carlos Rojas,8, BarDetector1,0.93302
+Carlos Rojas,9, FloorDetector,1.48593
+Carlos Rojas,9, TopDetector,1.44489
+Carlos Rojas,9, AxisDetector,0.97651
+Carlos Rojas,9, BarDetector0,3.68833
+Carlos Rojas,9, BarDetector1,1.26603
+Carlos Rojas,10, FloorDetector,0.45415
+Carlos Rojas,10, TopDetector,0.36628
+Carlos Rojas,10, AxisDetector,2.18015
+Carlos Rojas,10, BarDetector0,1.99664
+Carlos Rojas,10, BarDetector1,3.37181
+Carlos Rojas,11, FloorDetector,0
+Carlos Rojas,11, TopDetector,0
+Carlos Rojas,11, AxisDetector,4.18617
+Carlos Rojas,11, BarDetector0,2.0894
+Carlos Rojas,11, BarDetector1,2.94016
+Carlos Rojas,12, FloorDetector,0
+Carlos Rojas,12, TopDetector,1.33282
+Carlos Rojas,12, AxisDetector,5.14081
+Carlos Rojas,12, BarDetector0,4.32768
+Carlos Rojas,12, BarDetector1,3.19939
+Carlos Rojas,13, FloorDetector,0
+Carlos Rojas,13, TopDetector,1.5988
+Carlos Rojas,13, AxisDetector,2.0681
+Carlos Rojas,13, BarDetector0,2.57513
+Carlos Rojas,13, BarDetector1,1.97701
+Carlos Rojas,14, FloorDetector,0
+Carlos Rojas,14, TopDetector,1.71024
+Carlos Rojas,14, AxisDetector,2.99931
+Carlos Rojas,14, BarDetector0,7.21861
+Carlos Rojas,14, BarDetector1,4.15349
+Carlos Rojas,15, FloorDetector,0.04602
+Carlos Rojas,15, TopDetector,0.07662
+Carlos Rojas,15, AxisDetector,0.80087
+Carlos Rojas,15, BarDetector0,3.4724
+Carlos Rojas,15, BarDetector1,1.74877
+Rodrigo Figueira,1, FloorDetector,0.13599
+Rodrigo Figueira,1, TopDetector,0
+Rodrigo Figueira,1, AxisDetector,0
+Rodrigo Figueira,1, BarDetector0,7.1134
+Rodrigo Figueira,1, BarDetector1,2.28137
+Rodrigo Figueira,2, FloorDetector,0.7687
+Rodrigo Figueira,2, TopDetector,0
+Rodrigo Figueira,2, AxisDetector,0
+Rodrigo Figueira,2, BarDetector0,6.40148
+Rodrigo Figueira,2, BarDetector1,0.65507
+Rodrigo Figueira,3, FloorDetector,6.89784
+Rodrigo Figueira,3, TopDetector,0
+Rodrigo Figueira,3, AxisDetector,0.30224
+Rodrigo Figueira,3, BarDetector0,3.00429
+Rodrigo Figueira,3, BarDetector1,0.99502
+Rodrigo Figueira,4, FloorDetector,0.40278
+Rodrigo Figueira,4, TopDetector,0
+Rodrigo Figueira,4, AxisDetector,0
+Rodrigo Figueira,4, BarDetector0,2.07732
+Rodrigo Figueira,4, BarDetector1,3.10995
+Rodrigo Figueira,5, FloorDetector,0.28861
+Rodrigo Figueira,5, TopDetector,0
+Rodrigo Figueira,5, AxisDetector,2.24325
+Rodrigo Figueira,5, BarDetector0,6.30325
+Rodrigo Figueira,5, BarDetector1,1.06841
+Rodrigo Figueira,6, FloorDetector,0.11058
+Rodrigo Figueira,6, TopDetector,0
+Rodrigo Figueira,6, AxisDetector,0
+Rodrigo Figueira,6, BarDetector0,3.44189
+Rodrigo Figueira,6, BarDetector1,2.13358
+Rodrigo Figueira,7, FloorDetector,5.28659
+Rodrigo Figueira,7, TopDetector,0
+Rodrigo Figueira,7, AxisDetector,0.88812
+Rodrigo Figueira,7, BarDetector0,1.6432
+Rodrigo Figueira,7, BarDetector1,0.61982
+Rodrigo Figueira,8, FloorDetector,4.61994
+Rodrigo Figueira,8, TopDetector,0
+Rodrigo Figueira,8, AxisDetector,0.15543
+Rodrigo Figueira,8, BarDetector0,4.7783
+Rodrigo Figueira,8, BarDetector1,0.70786
+Rodrigo Figueira,9, FloorDetector,1.75463
+Rodrigo Figueira,9, TopDetector,2.44435
+Rodrigo Figueira,9, AxisDetector,0.31005
+Rodrigo Figueira,9, BarDetector0,3.17673
+Rodrigo Figueira,9, BarDetector1,0.4883
+Rodrigo Figueira,10, FloorDetector,0
+Rodrigo Figueira,10, TopDetector,0
+Rodrigo Figueira,10, AxisDetector,0.22344
+Rodrigo Figueira,10, BarDetector0,1.66721
+Rodrigo Figueira,10, BarDetector1,1.28922
+Rodrigo Figueira,11, FloorDetector,0.28665
+Rodrigo Figueira,11, TopDetector,0
+Rodrigo Figueira,11, AxisDetector,0
+Rodrigo Figueira,11, BarDetector0,4.17744
+Rodrigo Figueira,11, BarDetector1,0.40001
+Rodrigo Figueira,12, FloorDetector,0.82233
+Rodrigo Figueira,12, TopDetector,0
+Rodrigo Figueira,12, AxisDetector,0.19996
+Rodrigo Figueira,12, BarDetector0,0.02219
+Rodrigo Figueira,12, BarDetector1,0.82103
+Rodrigo Figueira,13, FloorDetector,0
+Rodrigo Figueira,13, TopDetector,2.77598
+Rodrigo Figueira,13, AxisDetector,0.06725
+Rodrigo Figueira,13, BarDetector0,2.44151
+Rodrigo Figueira,13, BarDetector1,0.02197
+Rodrigo Figueira,14, FloorDetector,0.02164
+Rodrigo Figueira,14, TopDetector,0
+Rodrigo Figueira,14, AxisDetector,2.06377
+Rodrigo Figueira,14, BarDetector0,0.35499
+Rodrigo Figueira,14, BarDetector1,0
+Rodrigo Figueira,15, FloorDetector,0
+Rodrigo Figueira,15, TopDetector,0
+Rodrigo Figueira,15, AxisDetector,2.95491
+Rodrigo Figueira,15, BarDetector0,0.06625
+Rodrigo Figueira,15, BarDetector1,0
+Yudith Cardinale,1, FloorDetector,1.21388
+Yudith Cardinale,1, TopDetector,0.35981
+Yudith Cardinale,1, AxisDetector,16.03576
+Yudith Cardinale,1, BarDetector0,7.96278
+Yudith Cardinale,1, BarDetector1,5.34511
+Yudith Cardinale,2, FloorDetector,0.04811
+Yudith Cardinale,2, TopDetector,0
+Yudith Cardinale,2, AxisDetector,4.79704
+Yudith Cardinale,2, BarDetector0,2.22523
+Yudith Cardinale,2, BarDetector1,6.50657
+Yudith Cardinale,3, FloorDetector,0.84355
+Yudith Cardinale,3, TopDetector,0
+Yudith Cardinale,3, AxisDetector,4.10328
+Yudith Cardinale,3, BarDetector0,6.0388
+Yudith Cardinale,3, BarDetector1,6.06775
+Yudith Cardinale,4, FloorDetector,0.01174
+Yudith Cardinale,4, TopDetector,0
+Yudith Cardinale,4, AxisDetector,3.32972
+Yudith Cardinale,4, BarDetector0,5.39374
+Yudith Cardinale,4, BarDetector1,5.07578
+Yudith Cardinale,5, FloorDetector,0
+Yudith Cardinale,5, TopDetector,0
+Yudith Cardinale,5, AxisDetector,5.1741
+Yudith Cardinale,5, BarDetector0,3.49443
+Yudith Cardinale,5, BarDetector1,6.35047
+Yudith Cardinale,6, FloorDetector,0
+Yudith Cardinale,6, TopDetector,0
+Yudith Cardinale,6, AxisDetector,5.28767
+Yudith Cardinale,6, BarDetector0,2.77136
+Yudith Cardinale,6, BarDetector1,6.1088
+Yudith Cardinale,7, FloorDetector,0
+Yudith Cardinale,7, TopDetector,0
+Yudith Cardinale,7, AxisDetector,2.40048
+Yudith Cardinale,7, BarDetector0,5.02137
+Yudith Cardinale,7, BarDetector1,4.04351
+Yudith Cardinale,8, FloorDetector,3.35501
+Yudith Cardinale,8, TopDetector,0
+Yudith Cardinale,8, AxisDetector,2.57675
+Yudith Cardinale,8, BarDetector0,4.7547
+Yudith Cardinale,8, BarDetector1,0.86751
+Yudith Cardinale,9, FloorDetector,4.3983
+Yudith Cardinale,9, TopDetector,4.68819
+Yudith Cardinale,9, AxisDetector,1.08784
+Yudith Cardinale,9, BarDetector0,2.21874
+Yudith Cardinale,9, BarDetector1,2.13229
+Yudith Cardinale,10, FloorDetector,0.44092
+Yudith Cardinale,10, TopDetector,2.19894
+Yudith Cardinale,10, AxisDetector,1.00037
+Yudith Cardinale,10, BarDetector0,4.04318
+Yudith Cardinale,10, BarDetector1,4.6223
+Yudith Cardinale,11, FloorDetector,0
+Yudith Cardinale,11, TopDetector,0.0212
+Yudith Cardinale,11, AxisDetector,3.93069
+Yudith Cardinale,11, BarDetector0,4.6902
+Yudith Cardinale,11, BarDetector1,4.72935
+Yudith Cardinale,12, FloorDetector,0
+Yudith Cardinale,12, TopDetector,1.02193
+Yudith Cardinale,12, AxisDetector,8.04097
+Yudith Cardinale,12, BarDetector0,3.82002
+Yudith Cardinale,12, BarDetector1,3.71101
+Yudith Cardinale,13, FloorDetector,0
+Yudith Cardinale,13, TopDetector,3.64358
+Yudith Cardinale,13, AxisDetector,4.13116
+Yudith Cardinale,13, BarDetector0,3.93289
+Yudith Cardinale,13, BarDetector1,2.53249
+Yudith Cardinale,14, FloorDetector,0
+Yudith Cardinale,14, TopDetector,3.55654
+Yudith Cardinale,14, AxisDetector,3.86552
+Yudith Cardinale,14, BarDetector0,6.06497
+Yudith Cardinale,14, BarDetector1,6.22144
+Yudith Cardinale,15, FloorDetector,0
+Yudith Cardinale,15, TopDetector,0.26659
+Yudith Cardinale,15, AxisDetector,2.97633
+Yudith Cardinale,15, BarDetector0,5.30854
+Yudith Cardinale,15, BarDetector1,3.70799
+Carlos Figueira,1, FloorDetector,6.1096
+Carlos Figueira,1, TopDetector,0.18985
+Carlos Figueira,1, AxisDetector,1.04447
+Carlos Figueira,1, BarDetector0,12.70251
+Carlos Figueira,1, BarDetector1,9.99398
+Carlos Figueira,2, FloorDetector,0.6228
+Carlos Figueira,2, TopDetector,0
+Carlos Figueira,2, AxisDetector,3.06277
+Carlos Figueira,2, BarDetector0,3.30927
+Carlos Figueira,2, BarDetector1,2.19667
+Carlos Figueira,3, FloorDetector,0.37729
+Carlos Figueira,3, TopDetector,0
+Carlos Figueira,3, AxisDetector,2.57644
+Carlos Figueira,3, BarDetector0,3.51067
+Carlos Figueira,3, BarDetector1,1.50804
+Carlos Figueira,4, FloorDetector,0.31099
+Carlos Figueira,4, TopDetector,0
+Carlos Figueira,4, AxisDetector,3.9102
+Carlos Figueira,4, BarDetector0,4.17587
+Carlos Figueira,4, BarDetector1,3.00612
+Carlos Figueira,5, FloorDetector,0.11192
+Carlos Figueira,5, TopDetector,0
+Carlos Figueira,5, AxisDetector,2.46463
+Carlos Figueira,5, BarDetector0,6.72943
+Carlos Figueira,5, BarDetector1,1.91313
+Carlos Figueira,6, FloorDetector,0.55484
+Carlos Figueira,6, TopDetector,0
+Carlos Figueira,6, AxisDetector,4.95906
+Carlos Figueira,6, BarDetector0,1.5332
+Carlos Figueira,6, BarDetector1,2.56265
+Carlos Figueira,7, FloorDetector,0.24436
+Carlos Figueira,7, TopDetector,0.31077
+Carlos Figueira,7, AxisDetector,3.88862
+Carlos Figueira,7, BarDetector0,3.04314
+Carlos Figueira,7, BarDetector1,2.59788
+Carlos Figueira,8, FloorDetector,2.08589
+Carlos Figueira,8, TopDetector,0
+Carlos Figueira,8, AxisDetector,0.99709
+Carlos Figueira,8, BarDetector0,1.55834
+Carlos Figueira,8, BarDetector1,0.86763
+Carlos Figueira,9, FloorDetector,5.73181
+Carlos Figueira,9, TopDetector,1.07112
+Carlos Figueira,9, AxisDetector,4.1106
+Carlos Figueira,9, BarDetector0,7.88567
+Carlos Figueira,9, BarDetector1,0.26716
+Carlos Figueira,10, FloorDetector,0.02199
+Carlos Figueira,10, TopDetector,1.33148
+Carlos Figueira,10, AxisDetector,4.5518
+Carlos Figueira,10, BarDetector0,2.37957
+Carlos Figueira,10, BarDetector1,2.08885
+Carlos Figueira,11, FloorDetector,0.57774
+Carlos Figueira,11, TopDetector,0
+Carlos Figueira,11, AxisDetector,1.1781
+Carlos Figueira,11, BarDetector0,1.70894
+Carlos Figueira,11, BarDetector1,2.22182
+Carlos Figueira,12, FloorDetector,0
+Carlos Figueira,12, TopDetector,0.02198
+Carlos Figueira,12, AxisDetector,2.28832
+Carlos Figueira,12, BarDetector0,2.4865
+Carlos Figueira,12, BarDetector1,1.86575
+Carlos Figueira,13, FloorDetector,0.089
+Carlos Figueira,13, TopDetector,2.06557
+Carlos Figueira,13, AxisDetector,2.06551
+Carlos Figueira,13, BarDetector0,7.41678
+Carlos Figueira,13, BarDetector1,3.6214
+Carlos Figueira,14, FloorDetector,0
+Carlos Figueira,14, TopDetector,1.86627
+Carlos Figueira,14, AxisDetector,2.11056
+Carlos Figueira,14, BarDetector0,5.44288
+Carlos Figueira,14, BarDetector1,2.11076
+Carlos Figueira,15, FloorDetector,0.02266
+Carlos Figueira,15, TopDetector,0
+Carlos Figueira,15, AxisDetector,3.93206
+Carlos Figueira,15, BarDetector0,3.93092
+Carlos Figueira,15, BarDetector1,4.17579
+Israel Soleto, 1, FloorDetector, 0.53733
+Israel Soleto, 1, TopDetector, 0.00000
+Israel Soleto, 1, AxisDetector, 7.90082
+Israel Soleto, 1, BarDetector0, 3.56556
+Israel Soleto, 1, BarDetector1, 2.14788
+Israel Soleto, 2, FloorDetector, 0.37757
+Israel Soleto, 2, TopDetector, 0.00000
+Israel Soleto, 2, AxisDetector, 4.29998
+Israel Soleto, 2, BarDetector0, 1.65061
+Israel Soleto, 2, BarDetector1, 2.59881
+Israel Soleto, 3, FloorDetector, 0.57413
+Israel Soleto, 3, TopDetector, 0.00000
+Israel Soleto, 3, AxisDetector, 5.48950
+Israel Soleto, 3, BarDetector0, 3.81779
+Israel Soleto, 3, BarDetector1, 2.64795
+Israel Soleto, 4, FloorDetector, 0.00000
+Israel Soleto, 4, TopDetector, 0.01044
+Israel Soleto, 4, AxisDetector, 6.16204
+Israel Soleto, 4, BarDetector0, 1.98904
+Israel Soleto, 4, BarDetector1, 2.07144
+Israel Soleto, 5, FloorDetector, 0.00000
+Israel Soleto, 5, TopDetector, 0.00000
+Israel Soleto, 5, AxisDetector, 4.24461
+Israel Soleto, 5, BarDetector0, 1.91535
+Israel Soleto, 5, BarDetector1, 2.09070
+Israel Soleto, 6, FloorDetector, 0.11235
+Israel Soleto, 6, TopDetector, 0.00000
+Israel Soleto, 6, AxisDetector, 8.20339
+Israel Soleto, 6, BarDetector0, 3.04337
+Israel Soleto, 6, BarDetector1, 2.73911
+Israel Soleto, 7, FloorDetector, 0.32813
+Israel Soleto, 7, TopDetector, 0.00000
+Israel Soleto, 7, AxisDetector, 3.85168
+Israel Soleto, 7, BarDetector0, 3.77949
+Israel Soleto, 7, BarDetector1, 3.11924
+Israel Soleto, 8, FloorDetector, 3.78978
+Israel Soleto, 8, TopDetector, 0.00000
+Israel Soleto, 8, AxisDetector, 2.45533
+Israel Soleto, 8, BarDetector0, 2.75794
+Israel Soleto, 8, BarDetector1, 0.51500
+Israel Soleto, 9, FloorDetector, 0.91140
+Israel Soleto, 9, TopDetector, 0.29058
+Israel Soleto, 9, AxisDetector, 4.76798
+Israel Soleto, 9, BarDetector0, 0.83185
+Israel Soleto, 9, BarDetector1, 3.63847
+Israel Soleto, 10, FloorDetector, 0.00000
+Israel Soleto, 10, TopDetector, 0.21850
+Israel Soleto, 10, AxisDetector, 4.76187
+Israel Soleto, 10, BarDetector0, 1.35942
+Israel Soleto, 10, BarDetector1, 0.95190
+Israel Soleto, 11, FloorDetector, 0.00000
+Israel Soleto, 11, TopDetector, 0.00000
+Israel Soleto, 11, AxisDetector, 2.87594
+Israel Soleto, 11, BarDetector0, 1.49145
+Israel Soleto, 11, BarDetector1, 1.67069
+Israel Soleto, 12, FloorDetector, 0.00000
+Israel Soleto, 12, TopDetector, 0.00000
+Israel Soleto, 12, AxisDetector, 2.01609
+Israel Soleto, 12, BarDetector0, 1.66783
+Israel Soleto, 12, BarDetector1, 1.87580
+Israel Soleto, 13, FloorDetector, 0.00000
+Israel Soleto, 13, TopDetector, 0.76841
+Israel Soleto, 13, AxisDetector, 3.07494
+Israel Soleto, 13, BarDetector0, 2.61287
+Israel Soleto, 13, BarDetector1, 1.29794
+Israel Soleto, 14, FloorDetector, 0.02194
+Israel Soleto, 14, TopDetector, 0.84245
+Israel Soleto, 14, AxisDetector, 1.80324
+Israel Soleto, 14, BarDetector0, 2.15840
+Israel Soleto, 14, BarDetector1, 2.38753
+Israel Soleto, 15, FloorDetector, 0.00000
+Israel Soleto, 15, TopDetector, 0.00000
+Israel Soleto, 15, AxisDetector, 2.21150
+Israel Soleto, 15, BarDetector0, 3.38096
+Israel Soleto, 15, BarDetector1, 2.48010
