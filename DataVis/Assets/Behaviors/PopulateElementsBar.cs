@@ -67,6 +67,9 @@ public class PopulateElementsBar : MonoBehaviour
         var _numCatValues2 = _catValues2.Rows.ToList().Count;
 
         var _barFloorMatrix = new VisualizationElementCell[_numCatValues1, _numCatValues2];
+        float yMax = (float) _data.Columns[2].Max();
+        if(MaxYValue < yMax)
+            MaxYValue = yMax;
 
         //Map categories to indexes of the floor matrix
         var _catValuesDict1 = new Dictionary<string, int>();

@@ -46,6 +46,7 @@ public class PopulateElementsLine : MonoBehaviour
         
         
         var _cols = _data.Columns;
+        _data = _data.OrderBy(_cols[0].Name);
         var _catValues1 = (_cols[0].ValueCounts()).OrderBy("Values");
         var _catValues2 = (_cols[1].ValueCounts()).OrderBy("Values");
 

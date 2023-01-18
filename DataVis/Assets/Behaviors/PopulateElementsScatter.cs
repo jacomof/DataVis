@@ -28,7 +28,7 @@ public class PopulateElementsScatter : MonoBehaviour
     {
         
     }
-    //Pre: LoadDataBehavior has a filled DataFrame from which point data can be extracted
+    //Pre: There exists a csv file with the correct input format (number, number, number) to load the data from
     //The data is assumed to have the order X, Y, Z (meaning column 1 is X data, column 2 is Y data 
     //and column 3 is Z data, this is for convenience since the visualization is essentialy a set of 3D points)
     //Post: The visualization is populated with scatter points representing the input data
@@ -39,7 +39,6 @@ public class PopulateElementsScatter : MonoBehaviour
         var loadData = gameObject.GetComponent<LoadDataBehaviour>();
         var _data = loadData.LoadNumeric();
         var _size = new int[]{_data.Rows.ToList().Count, _data.Columns.ToList().Count};
-        _valueVectors = new Vector3[_size[0]];
         _valueMatrix = new float[_size[0],3];
         float[] _valueMaxes = new float[3];
         int j = 0;

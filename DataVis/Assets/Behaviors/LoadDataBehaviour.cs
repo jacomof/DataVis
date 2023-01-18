@@ -38,27 +38,27 @@ public class LoadDataBehaviour : MonoBehaviour
     }
 
     //Loads data assuming first two columns contain string data, and the last column contains numerical values (read as floats)
-    public DataFrame LoadCategoric()
-    {
-        System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("en-US");
-        System.Threading.Thread.CurrentThread.CurrentCulture = ci;
-        var ts = new System.Type[] { string.Empty.GetType(), string.Empty.GetType(), 0.0f.GetType()};
-        DataFrame readData = DataFrame.LoadCsvFromString(dataAsset.ToString(), header:true, dataTypes: ts);
-        Debug.Log("File read!");
-        return readData;
+public DataFrame LoadCategoric()
+{
+    System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("en-US");
+    System.Threading.Thread.CurrentThread.CurrentCulture = ci;
+    var ts = new System.Type[] { string.Empty.GetType(), string.Empty.GetType(), 0.0f.GetType()};
+    DataFrame readData = DataFrame.LoadCsvFromString(dataAsset.ToString(), header:true, dataTypes: ts);
+    Debug.Log("File read!");
+    return readData;
 
-    }
+}
 
-    public DataFrame LoadNumeric()
-    {
-        System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("en-US");
-        System.Threading.Thread.CurrentThread.CurrentCulture = ci;
-        System.Type _floatType = 0.0f.GetType();
-        DataFrame readData = DataFrame.LoadCsvFromString(dataAsset.ToString(), header:true, dataTypes: new System.Type[]{_floatType,_floatType,_floatType});
-        Debug.Log("File read!");
-        return readData;
+public DataFrame LoadNumeric()
+{
+    System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo("en-US");
+    System.Threading.Thread.CurrentThread.CurrentCulture = ci;
+    System.Type _floatType = 0.0f.GetType();
+    DataFrame readData = DataFrame.LoadCsvFromString(dataAsset.ToString(), header:true, dataTypes: new System.Type[]{_floatType,_floatType,_floatType});
+    Debug.Log("File read!");
+    return readData;
 
-    }
+}
 
     public void InitializeExperimentData()
     {

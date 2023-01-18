@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028328, g: 0.22571328, b: 0.3069218, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -155,6 +155,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: VisualizationAndCharacter2DvsVRBoxedContainer
       objectReference: {fileID: 0}
+    - target: {fileID: 5496396447575031619, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496396447575031620, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5496396447575031623, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
         type: 3}
       propertyPath: m_EnableFly
@@ -183,6 +193,11 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 5834120745088371095, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
         type: 3}
+      propertyPath: ColorArray.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5834120745088371095, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
+        type: 3}
       propertyPath: ColorArray.Array.data[0].b
       value: 0.7058824
       objectReference: {fileID: 0}
@@ -194,6 +209,21 @@ PrefabInstance:
     - target: {fileID: 5834120745088371095, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
         type: 3}
       propertyPath: ColorArray.Array.data[0].r
+      value: 0.12156863
+      objectReference: {fileID: 0}
+    - target: {fileID: 5834120745088371095, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
+        type: 3}
+      propertyPath: ColorArray.Array.data[1].b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5834120745088371095, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
+        type: 3}
+      propertyPath: ColorArray.Array.data[1].g
+      value: 0.47058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5834120745088371095, guid: eb20698dc7bb8f64a8cce99dd99cbed6,
+        type: 3}
+      propertyPath: ColorArray.Array.data[1].r
       value: 0.12156863
       objectReference: {fileID: 0}
     - target: {fileID: 8329193328464480829, guid: eb20698dc7bb8f64a8cce99dd99cbed6,

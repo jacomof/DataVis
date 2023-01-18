@@ -64,6 +64,10 @@ public class PopulateElementsBarGrouped : MonoBehaviour
 
         var _barFloorMatrix = new VisualizationElementCell[_numCatValues1, _numCatValues2];
 
+        float yMax = (float) _data.Columns[2].Max();
+        if(MaxYValue < yMax)
+            MaxYValue = yMax;
+
         //------Construct groupings of points that will be connected by lines in the visualization----------
         
         var _groupingColumnName = _data.Columns[0].Name;
@@ -81,6 +85,7 @@ public class PopulateElementsBarGrouped : MonoBehaviour
         //All bars Y values are mapped to the range [0, Max Value]
         float _maxYValue = MaxYValue;
 
+        
         //Set Axis parameter for position calculation and enable quick access to it from outside the class
         AxisScale = new Vector3(_numCatValues1, _maxYValue, _numCatValues2);
         
@@ -105,7 +110,7 @@ public class PopulateElementsBarGrouped : MonoBehaviour
 
         foreach(var _group in _groupings){
 
-            float _groupUnit = (_groupSize-(2.0f*Margin))/((float)_group.Count());
+            float _groupUnit = (_groupSize-(2.0f*Margin))/((float)4.0f);
             //Vector3 _groupCenter = new Vector3(_groupSize/2.0f, 0, 0);
             float _barPos = (_groupUnit/2.0f) + _groupPos + Margin;
             Vector3 _groupLabelPos = new Vector3(_groupPos+(_groupSize/2.0f), 0.25f, -GroupLabelOffset);
@@ -157,7 +162,7 @@ public class PopulateElementsBarGrouped : MonoBehaviour
         VisualizationBehavior _visBehave = gameObject.GetComponent<VisualizationBehavior>();
         AxisParentBehavior _axisParentBehav = _visBehave._axis.GetComponent<AxisParentBehavior>();
         _axisParentBehav.IsXZNumeric = false;
-        _axisParentBehav.initializeLinesOnlyY(1.0f, 2);
+        _axisParentBehav.initializeLinesOnlyY(MaxYValue, 10);
 
     }
 }
