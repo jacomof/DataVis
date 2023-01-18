@@ -1,2 +1,7 @@
 # DataVis
-This is my bachelor's thesis code
+This is my bachelor's thesis code. It is the Unity project developed to implement and test the visualization techniques studied in the thesis.
+All of the relevant code is in Assets/Behaviors/
+The folder Assets/Data contains several example input Data Sets that can be used to test the techniques
+The folder Assets/Scenes/tests contains the experimental environment used to test the techniques
+The scene Assets/Scenes/MainScene contains the standard environment that can be used to visualize any of the non experimental technique variations
+The folder ExperimentData contains the input used in the experiment, with an extra column on the left that identifies the input. When used, this column should be removed
