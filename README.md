@@ -10,3 +10,5 @@ This is my bachelor's thesis code. It is the Unity project developed to implemen
 -The scene Assets/Scenes/MainScene contains the standard environment that can be used to visualize any of the non experimental technique variations
 
 -The folder ExperimentData contains the input used in the experiment, with an extra column on the left that identifies the input. When used, this column should be removed
+
+I do not claim ownership nor credit for the external tools utilized (tobii SDK and several Unity packages). Additionally, this project cannot be used for commercial purposes unless a commercial license is obtained from the relevant vendors.
