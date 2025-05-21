@@ -1,6 +1,5 @@
 # DataVis
-This is my bachelor's thesis code. It is the Unity project developed to implement and test the VR visualization techniques studied in the thesis.
-
+A comprehensive set of VR visualization techniques and perception tasks studied in my bachelor's thesis in the Universtitat Politècnica de Catalunya (UPC).
 
 - All of the relevant code is in Assets/Behaviors/
 
